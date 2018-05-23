@@ -30,12 +30,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:PESD1CAN
 LIBS:stn2120
+LIBS:switches
 LIBS:PF_APINER-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -807,4 +808,6 @@ Wire Wire Line
 	3250 5500 3300 5500
 Wire Wire Line
 	3300 5500 3300 5250
+Text Notes 5850 1600 0    60   ~ 0
+UART TX es 5v tolerant\nsacar 3.3V y pull-up?
 $EndSCHEMATC

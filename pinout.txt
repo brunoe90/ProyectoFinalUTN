@@ -1,0 +1,39 @@
+FOOTPRINT -> QFN
+
+//pines 13,14,15 estan cerca de pines del stn
+PIN XX STN_SLEEP	-> IN  STN 2 SLEEP MODE
+PIN XX STN_RESET	-> OUT STN RESET
+PIN XX STN_PWR_CTRL -> IN  INTERRUPCION MODO LOW POWER
+
+/*
+para las tiras de pines agregar 
+Vcc, Gnd
+(ISP JTAG I2C)
+PIN 4  RST
+(ISP JTAG)
+*/
+//PROGRAMACION ISP
+PIN 1  MOSI
+PIN 2  MISO
+PIN 3  SCK
+//BLUETOOTH
+PIN 9  USART0 Rx
+PIN 10 USART0 Tx
+//STN2120
+PIN 11 USART1 Rx
+PIN 12 USART1 Tx
+//I2C -> Expansion
+PIN 19 SCL
+PIN 20 SDA
+//PROGRAMACION JTAG
+PIN 21 TCK
+PIN 22 TMS
+PIN 23 TDO
+PIN 24 TDI
+
+/* PDF -> 15.2.6 -> Unconnected Pins
+Opciones
+1)Pines sin conectar poner el pull-up interno
+2)conectar a Vcc o Gnd con pull-up o pull-down
+Dejarlo directo a Vcc y Gnd consume mas. 
+*/

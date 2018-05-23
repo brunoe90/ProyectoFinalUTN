@@ -1,4 +1,4 @@
-update=Tue 15 May 2018 02:07:35 PM -03
+update=Wed 23 May 2018 12:56:30 PM -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=PESD1CAN
 LibName31=stn2120
+LibName32=switches
