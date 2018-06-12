@@ -366,33 +366,20 @@ Wire Wire Line
 Text Notes 2900 2200 0    60   ~ 0
 CADA UNO CERCA DE\nVDD Y AVDD
 $Comp
-L R R?
-U 1 1 5AFEF90D
-P 6300 2100
-F 0 "R?" V 6380 2100 50  0000 C CNN
-F 1 "1K" V 6300 2100 50  0000 C CNN
-F 2 "" V 6230 2100 50  0001 C CNN
-F 3 "" H 6300 2100 50  0001 C CNN
-	1    6300 2100
-	1    0    0    -1  
-$EndComp
-$Comp
 L +3.3V #PWR?
 U 1 1 5AFEF9F2
-P 6300 1850
-F 0 "#PWR?" H 6300 1700 50  0001 C CNN
-F 1 "+3.3V" H 6300 1990 50  0000 C CNN
-F 2 "" H 6300 1850 50  0001 C CNN
-F 3 "" H 6300 1850 50  0001 C CNN
-	1    6300 1850
+P 6500 1900
+F 0 "#PWR?" H 6500 1750 50  0001 C CNN
+F 1 "+3.3V" H 6500 2040 50  0000 C CNN
+F 2 "" H 6500 1900 50  0001 C CNN
+F 3 "" H 6500 1900 50  0001 C CNN
+	1    6500 1900
 	1    0    0    -1  
 $EndComp
 Text HLabel 6700 2450 2    60   Output ~ 0
 UART_STN_TX
 Text HLabel 6700 2550 2    60   Input ~ 0
 UART_STN_RX
-Wire Wire Line
-	6300 1850 6300 1950
 Wire Wire Line
 	6200 2450 6700 2450
 Wire Wire Line
@@ -515,8 +502,6 @@ $EndComp
 Wire Wire Line
 	4550 2500 4550 2450
 Wire Wire Line
-	4350 2450 4700 2450
-Wire Wire Line
 	4550 2800 4700 2800
 $Comp
 L R R?
@@ -531,7 +516,6 @@ F 3 "" H 4350 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4350 2500 4350 2450
-Connection ~ 4550 2450
 Wire Wire Line
 	4350 2800 4350 2900
 Wire Wire Line
@@ -693,9 +677,6 @@ F 3 "" H 6500 2100 50  0001 C CNN
 	1    6500 2100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 2250 6300 2450
-Connection ~ 6300 2450
 Text HLabel 6700 2700 2    60   Input ~ 0
 SLEEP
 Wire Wire Line
@@ -704,10 +685,7 @@ Wire Wire Line
 	6500 2250 6500 2700
 Connection ~ 6500 2700
 Wire Wire Line
-	6300 1900 6500 1900
-Wire Wire Line
 	6500 1900 6500 1950
-Connection ~ 6300 1900
 Text HLabel 6350 2800 2    60   Output ~ 0
 PWR_CTRL
 Wire Wire Line
@@ -810,4 +788,17 @@ Wire Wire Line
 	3300 5500 3300 5250
 Text Notes 5850 1600 0    60   ~ 0
 UART TX es 5v tolerant\nsacar 3.3V y pull-up?
+$Comp
+L +5V #PWR?
+U 1 1 5B06FB2A
+P 4350 2450
+F 0 "#PWR?" H 4350 2300 50  0001 C CNN
+F 1 "+5V" H 4350 2590 50  0000 C CNN
+F 2 "" H 4350 2450 50  0001 C CNN
+F 3 "" H 4350 2450 50  0001 C CNN
+	1    4350 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2450 4700 2450
 $EndSCHEMATC

@@ -62,7 +62,7 @@ Text HLabel 2000 1650 0    60   UnSpc ~ 0
 Text HLabel 2000 1800 0    60   UnSpc ~ 0
 3.3V
 Text Notes 1800 1450 0    60   ~ 0
-Speed Grades\n– 0 - 4MHz @ 1.8V - 5.5V -> NO\n– 0 - 10MHz @ 2.7V - 5.5V -> LOW POWER\n– 0 - 20MHz @ 4.5 - 5.5V -> SEGURA
+Speed Grades & Supply\n4MHz  @ 1.8V -> NO\n10MHz @ 3.3V -> LOW POWER\n20MHz @ 5V   -> SEGURA
 Text HLabel 7200 4450 2    60   Input ~ 0
 MASTER_BT_RX
 Text HLabel 7200 4550 2    60   Output ~ 0
@@ -162,7 +162,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1250 4300 1350
 Wire Wire Line
-	4300 1650 4300 1750
+	4300 1750 4300 1650
 Wire Wire Line
 	3250 1750 4500 1750
 Connection ~ 4300 1750
@@ -356,4 +356,6 @@ Wire Wire Line
 	6500 4850 7200 4850
 Wire Wire Line
 	6500 4950 7200 4950
+Text Notes 5850 1250 0    60   ~ 0
+Unconnected Pins -> 15.2.6.\na VCC o GND
 $EndSCHEMATC

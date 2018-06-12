@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -54,7 +54,7 @@ Text HLabel 2350 3650 0    60   BiDi ~ 0
 MS_CAN_HI
 Text HLabel 2350 3850 0    60   BiDi ~ 0
 MS_CAN_LO
-Text HLabel 5450 2700 0    60   BiDi ~ 0
+Text HLabel 5950 3100 2    60   BiDi ~ 0
 SW_CAN
 Text HLabel 4700 1950 2    60   Output ~ 0
 HS_CAN_TX_STN
@@ -173,24 +173,16 @@ Wire Wire Line
 Wire Wire Line
 	1700 2850 2000 2850
 Wire Wire Line
-	3350 2550 3400 2550
-Wire Wire Line
-	3400 2550 3450 2550
+	3350 2550 3450 2550
 Wire Wire Line
 	3400 2650 3400 2550
 Connection ~ 3400 2550
 Wire Wire Line
-	3400 3200 3400 3250
+	3400 3200 3400 3350
 Wire Wire Line
-	3400 3250 3400 3350
+	3350 1600 3350 1750
 Wire Wire Line
-	3350 1600 3350 1650
-Wire Wire Line
-	3350 1650 3350 1750
-Wire Wire Line
-	3400 4150 3450 4150
-Wire Wire Line
-	3450 4150 3500 4150
+	3400 4150 3500 4150
 Wire Wire Line
 	3450 4250 3450 4150
 Connection ~ 3450 4150
@@ -203,21 +195,13 @@ Wire Wire Line
 Wire Wire Line
 	2350 3850 2900 3850
 Wire Wire Line
-	3850 1950 4400 1950
+	3850 1950 4700 1950
 Wire Wire Line
-	4400 1950 4700 1950
+	3850 2050 4700 2050
 Wire Wire Line
-	3850 2050 4600 2050
+	3900 3550 4750 3550
 Wire Wire Line
-	4600 2050 4700 2050
-Wire Wire Line
-	3900 3550 4400 3550
-Wire Wire Line
-	4400 3550 4750 3550
-Wire Wire Line
-	3900 3650 4600 3650
-Wire Wire Line
-	4600 3650 4750 3650
+	3900 3650 4750 3650
 $Comp
 L +3.3V #PWR?
 U 1 1 5AFD09DE
@@ -369,9 +353,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 4600 4400 4700
 Wire Wire Line
-	4400 4700 4500 4700
-Wire Wire Line
-	4500 4700 4600 4700
+	4400 4700 4600 4700
 Wire Wire Line
 	4600 4700 4600 4600
 Connection ~ 4500 4700
@@ -382,9 +364,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 2900 4400 3000
 Wire Wire Line
-	4400 3000 4500 3000
-Wire Wire Line
-	4500 3000 4600 3000
+	4400 3000 4600 3000
 Wire Wire Line
 	4600 3000 4600 2900
 Connection ~ 4500 3000
