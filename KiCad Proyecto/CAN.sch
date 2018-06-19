@@ -166,42 +166,6 @@ F 3 "" H 3400 3200 50  0001 C CNN
 	1    3400 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1700 2750 1800 2750
-Wire Wire Line
-	1800 2750 1800 2700
-Wire Wire Line
-	1700 2850 2000 2850
-Wire Wire Line
-	3350 2550 3450 2550
-Wire Wire Line
-	3400 2650 3400 2550
-Connection ~ 3400 2550
-Wire Wire Line
-	3400 3200 3400 3350
-Wire Wire Line
-	3350 1600 3350 1750
-Wire Wire Line
-	3400 4150 3500 4150
-Wire Wire Line
-	3450 4250 3450 4150
-Connection ~ 3450 4150
-Wire Wire Line
-	2400 2050 2850 2050
-Wire Wire Line
-	2400 2250 2850 2250
-Wire Wire Line
-	2350 3650 2900 3650
-Wire Wire Line
-	2350 3850 2900 3850
-Wire Wire Line
-	3850 1950 4700 1950
-Wire Wire Line
-	3850 2050 4700 2050
-Wire Wire Line
-	3900 3550 4750 3550
-Wire Wire Line
-	3900 3650 4750 3650
 $Comp
 L +3.3V #PWR062
 U 1 1 5AFD09DE
@@ -213,8 +177,6 @@ F 3 "" H 4100 3850 50  0001 C CNN
 	1    4100 3850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 3850 4100 3850
 $Comp
 L +3.3V #PWR063
 U 1 1 5AFD0A66
@@ -226,10 +188,8 @@ F 3 "" H 4100 2250 50  0001 C CNN
 	1    4100 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3850 2250 4100 2250
 Text Notes 2950 2950 0    60   ~ 0
-REVIZAR de RUSIA PIN 8 DATASHEET
+REVIZAR de RUSIA PIN 8 DATASHEET\nSTBY esta conectado internamente a un PULL UP a VDD
 $Comp
 L R R18
 U 1 1 5AFD0A96
@@ -340,36 +300,6 @@ F 3 "" H 2650 3200 50  0001 C CNN
 	1    2650 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 3650 2500 4100
-Wire Wire Line
-	2700 4100 2700 3850
-Wire Wire Line
-	2500 4400 2500 4500
-Wire Wire Line
-	2700 4400 2700 4500
-Wire Wire Line
-	2500 4800 2500 4900
-Wire Wire Line
-	2500 4900 2700 4900
-Wire Wire Line
-	2700 4900 2700 4800
-Connection ~ 2600 4900
-Wire Wire Line
-	2550 2700 2550 2800
-Wire Wire Line
-	2750 2700 2750 2800
-Wire Wire Line
-	2550 3100 2550 3200
-Wire Wire Line
-	2550 3200 2750 3200
-Wire Wire Line
-	2750 3200 2750 3100
-Connection ~ 2650 3200
-Wire Wire Line
-	2550 2050 2550 2400
-Wire Wire Line
-	2750 2400 2750 2250
 $Comp
 L C C9
 U 1 1 5AFD1564
@@ -414,6 +344,76 @@ F 3 "" H 4000 3250 50  0001 C CNN
 	1    4000 3250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1700 2750 1800 2750
+Wire Wire Line
+	1800 2750 1800 2700
+Wire Wire Line
+	1700 2850 2000 2850
+Wire Wire Line
+	3350 2550 3450 2550
+Wire Wire Line
+	3400 2650 3400 2550
+Connection ~ 3400 2550
+Wire Wire Line
+	3400 3200 3400 3350
+Wire Wire Line
+	3350 1600 3350 1750
+Wire Wire Line
+	3400 4150 3500 4150
+Wire Wire Line
+	3450 4250 3450 4150
+Connection ~ 3450 4150
+Wire Wire Line
+	2400 2050 2850 2050
+Wire Wire Line
+	2400 2250 2850 2250
+Wire Wire Line
+	2350 3650 2900 3650
+Wire Wire Line
+	2350 3850 2900 3850
+Wire Wire Line
+	3850 1950 4700 1950
+Wire Wire Line
+	3850 2050 4700 2050
+Wire Wire Line
+	3900 3550 4750 3550
+Wire Wire Line
+	3900 3650 4750 3650
+Wire Wire Line
+	3900 3850 4100 3850
+Wire Wire Line
+	3850 2250 4100 2250
+Wire Wire Line
+	2500 3650 2500 4100
+Wire Wire Line
+	2700 4100 2700 3850
+Wire Wire Line
+	2500 4400 2500 4500
+Wire Wire Line
+	2700 4400 2700 4500
+Wire Wire Line
+	2500 4800 2500 4900
+Wire Wire Line
+	2500 4900 2700 4900
+Wire Wire Line
+	2700 4900 2700 4800
+Connection ~ 2600 4900
+Wire Wire Line
+	2550 2700 2550 2800
+Wire Wire Line
+	2750 2700 2750 2800
+Wire Wire Line
+	2550 3100 2550 3200
+Wire Wire Line
+	2550 3200 2750 3200
+Wire Wire Line
+	2750 3200 2750 3100
+Connection ~ 2650 3200
+Wire Wire Line
+	2550 2050 2550 2400
+Wire Wire Line
+	2750 2400 2750 2250
 Wire Wire Line
 	3550 3250 3400 3250
 Connection ~ 3400 3250
