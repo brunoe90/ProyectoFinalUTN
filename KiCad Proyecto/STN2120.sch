@@ -51,7 +51,7 @@ L stn2220 stn1
 U 1 1 5AFECB58
 P 5450 3450
 F 0 "stn1" H 5450 1700 60  0000 C CNN
-F 1 "stn2220" H 5450 4650 60  0000 C CNN
+F 1 "stn2120" H 5450 4650 60  0000 C CNN
 F 2 "" H 7700 2450 60  0001 C CNN
 F 3 "" H 7700 2450 60  0001 C CNN
 	1    5450 3450
@@ -217,9 +217,9 @@ Text HLabel 7950 4450 2    60   Output ~ 0
 SW_CAN_TX
 Text HLabel 7950 4550 2    60   Input ~ 0
 SW_CAN_RX
-Text HLabel 7950 4700 2    60   Output ~ 0
-SW_CAN_MODE0
 Text HLabel 7950 4800 2    60   Output ~ 0
+SW_CAN_MODE0
+Text HLabel 7950 4700 2    60   Output ~ 0
 SW_CAN_MODE1
 Text HLabel 6350 4900 2    60   Output ~ 0
 SW_CAN_LOAD
@@ -739,23 +739,10 @@ Wire Wire Line
 	3250 5500 3300 5500
 Wire Wire Line
 	3300 5500 3300 5250
-Text Notes 5850 1600 0    60   ~ 0
-UART TX es 5v tolerant\nsacar 3.3V y pull-up?
-$Comp
-L +5V #PWR091
-U 1 1 5B06FB2A
-P 4350 2450
-F 0 "#PWR091" H 4350 2300 50  0001 C CNN
-F 1 "+5V" H 4350 2590 50  0000 C CNN
-F 2 "" H 4350 2450 50  0001 C CNN
-F 3 "" H 4350 2450 50  0001 C CNN
-	1    4350 2450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6200 4550 7950 4550
 Wire Wire Line
-	4550 2450 4700 2450
+	4350 2450 4700 2450
 Connection ~ 4700 2450
 Text HLabel 1600 3650 0    60   UnSpc ~ 0
 3.3V
@@ -802,4 +789,5 @@ F 3 "" H 1850 3100 50  0001 C CNN
 	1    1850 3100
 	1    0    0    -1  
 $EndComp
+Connection ~ 4550 2450
 $EndSCHEMATC
