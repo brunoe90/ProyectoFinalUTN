@@ -1,0 +1,16 @@
+0)cambiar sch
+LM3940
+
+1)revizar los siguientes footprints que vinieron ya con las librerias
+PED1CAN
+2N7002
+3904
+MCP2562
+
+2) hacer o bajar footprints
+connector OBD-II
+PTVS15VP1UP
+PTS181230V020
+
+3)ojo a la hora de comprar distinto pitch
+LM339
