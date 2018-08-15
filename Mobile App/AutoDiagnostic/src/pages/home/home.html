@@ -1,0 +1,38 @@
+<ion-header >
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Bienvenido</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div>
+    <h3>Bienvenido!</h3>
+
+    <p>
+      Esta es una aplicación hecha por estudiantes de Ingeniería Electrónica de la UTN para conectarte con un auto a través del módulo Chizito.
+    </p>
+
+    <p>
+      Para esto se deben seguir los siguientes pasos:
+    </p>
+
+    <ul>
+      <li>0 - Conecte el Chizito</li>
+      <li>1 - Activar el Bluetooth en del dispositivo</li>
+      <li>2 - Ingresar a la barra de Navegación y ir a la opción Bluetooth</li>
+      <li>3 - Clickear en el botón de conectar y buscar el Dispositivo</li>
+    </ul>
+
+    <ion-item>
+      <ion-label>Conectar</ion-label>
+      <ion-select id="selectBT" disabled ="true" [(ngModel)]="selected" (click)="handlerConnection($event);">
+          <ion-option *ngFor="let item of connections" [value]="item">{{item.name}} : {{item.id}}</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <button  id="connectingButton" (click)="buttonClick($event);" class="example facebook">Conectar</button>
+  </div>
+</ion-content>
