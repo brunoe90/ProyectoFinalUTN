@@ -2,68 +2,61 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { MessageToast } from '../../providers/MessageToast';
 import { BluetoothSerial } from '@ionic-native/bluetooth-serial';
+import {ElementRef, ViewChild} from '@angular/core';
+
+
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html',
  providers: [MessageToast,BluetoothSerial]
 })
-export class HomePage {
-  connections:Array<{id: string, name: string, mac: string}>;
-  constructor(public navCtrl: NavController, public messageToast: MessageToast,private bluetoothSerial: BluetoothSerial) {
-    this.connections = [];
-    // for(var i = 0;i<10;i++){
-    //   this.connections.push({
-    //     id:"id" + i,
-    //     name:"nombre"+i,
-    //     mac: "00:00:00:0"+i
-    //   });
-    // }
+
+export class HomePage  {
+
+ //  @ViewChild([NOMBRE DEL ID #id en el HTML] ) [Variable] : ElementRef;
+  @ViewChild('connectingButton') btButton: ElementRef;
+  @ViewChild('connectionSuccess') imgSuccessBT: ElementRef;
+
+  constructor(public navCtrl: NavController, public messageToast: MessageToast,private bluetoothSerial: BluetoothSerial) {}
+
+  ionViewDidEnter(){
+    this.bluetoothSerial.isEnabled().then(this.enabledBT.bind(this),this.disbledBT.bind(this));
   }
+
   buttonClick(e){
-    debugger;
+    // this.bluetoothSerial.isConnected().then(this.successConnectedBT, this.failureConnectedBT);
+    this.bluetoothSerial.isEnabled().then(this.enabledBT.bind(this),this.disbledBT.bind(this));
   }
 
-
-  handlerConnection(e){
-    debugger;
-    e.stopPropagation();
-    console.log("Entre en showDevices");
-    // var promise =  new Promise(function(resolve) {
-    //     setTimeout(resolve, delay);
-    // });
-    // promise.then(this.successTest,this.failureTest);
-    this.bluetoothSerial.discoverUnpaired().then(this.successBluetooth.bind(this),this.failureBluetooth.bind(this));
-    console.log("Sali en showDevices");
+  enabledBT(e){
+    this.ConntectedBT(true);
   }
 
-  successTest(e){
-    debugger;
-  }
-  failureTest(e){
-    debugger;
-  }
-  showDevices(){
-    console.log("Entre en showDevices");
-    this.bluetoothSerial.discoverUnpaired().then(this.successBluetooth.bind(this),this.failureBluetooth.bind(this));
-    console.log("Sali en showDevices");
-  }
   disbledBT(e){
-    console.log("Entre en deshabilitado");
+    this.ConntectedBT(false);
     this.messageToast.showToastMessage("Habilitá el Bluetooth");
   }
-  successBluetooth(results){
-    console.log("Entre en Success");
-    results.forEach(function(device) {
-      this.connections.push({
-        id:device.id,
-        name:device.name,
-        mac: device.mac
-      });
-    },this);
-    console.log("Sali en Success");
+  ConntectedBT(yes){
+    if(yes){
+      this.btButton.nativeElement.style.display = "none";
+      this.imgSuccessBT.nativeElement.style.display = "block";
+    }else{
+      this.btButton.nativeElement.style.display = "block";
+      this.imgSuccessBT.nativeElement.style.display = "none";
+    }
   }
-  failureBluetooth(e){
+  successConnectedBT(result){
+    console.log("Entre en Success");
+    // results.forEach(function(device) {
+    //   this.connections.push({
+    //     id:device.id,
+    //     name:device.name,
+    //     mac: device.mac
+    //   });
+    // },this);
+  }
+  failureConnectedBT(e){
     console.log("Entre en error");
   }
 

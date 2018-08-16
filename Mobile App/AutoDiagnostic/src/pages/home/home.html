@@ -26,13 +26,7 @@
       <li>3 - Clickear en el botón de conectar y buscar el Dispositivo</li>
     </ul>
 
-    <ion-item>
-      <ion-label>Conectar</ion-label>
-      <ion-select id="selectBT" disabled ="true" [(ngModel)]="selected" (click)="handlerConnection($event);">
-          <ion-option *ngFor="let item of connections" [value]="item">{{item.name}} : {{item.id}}</ion-option>
-      </ion-select>
-    </ion-item>
-
-    <button  id="connectingButton" (click)="buttonClick($event);" class="example facebook">Conectar</button>
+    <button  #connectingButton (click)="buttonClick($event);" class="example facebook">Conectar</button>
+    <ion-img #connectionSuccess width="80" height="80" class="example transparent" src="assets/imgs/round_checked.png"></ion-img>
   </div>
 </ion-content>

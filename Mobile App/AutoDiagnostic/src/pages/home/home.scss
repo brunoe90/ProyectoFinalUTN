@@ -63,9 +63,15 @@ page-home {
   button.example:active:before {
   	top: -3px;
   }
-  toast{
+  .toast{
      backgroundColor:black;
      textColor: white;
      color: white;
+  }
+  .transparent{
+    background: transparent;
+  }
+  .notVisible{
+    display:none;
   }
 }
