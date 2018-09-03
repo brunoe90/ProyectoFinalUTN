@@ -1,0 +1,2 @@
+https://www.digikey.com/product-detail/en/espressif-systems/ESP32-WROOM-32D/1904-1023-2-ND/9381716
+https://hackaday.io/project/13483-esp32-kicad-library

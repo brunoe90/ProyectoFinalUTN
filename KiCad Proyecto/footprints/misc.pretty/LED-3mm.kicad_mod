@@ -1,0 +1,17 @@
+(module LED-3mm (layer F.Cu) (tedit 5AD0DDA8)
+  (fp_text reference DS1 (at 1.143 2.032 180) (layer F.SilkS)
+    (effects (font (size 0.7112 0.4572) (thickness 0.1143)))
+  )
+  (fp_text value LED (at 3.048 0 90) (layer F.Fab) hide
+    (effects (font (size 0.7112 0.4572) (thickness 0.1143)))
+  )
+  (fp_line (start 0 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0 1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.15))
+  (pad 2 smd rect (at 1.27 0) (size 2.54 1.016) (layers B.Cu B.Paste B.Mask))
+  (pad 1 smd rect (at 1.27 0) (size 2.54 1.016) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/footprints/misc.3dshapes/LED-3mm.wrl
+    (at (xyz 0.105 0 -0.08500000000000001))
+    (scale (xyz 0.39 0.39 0.39))
+    (rotate (xyz 0 90 0))
+  )
+)
