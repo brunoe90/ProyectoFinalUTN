@@ -166,7 +166,7 @@ Text Label 6850 3650 0    50   ~ 0
 UART2_RX
 Connection ~ 6550 3950
 Text Notes 7400 4050 0    50   ~ 0
-PAG 10\nGPIO0 -> 0: DOWNLOAD BOOT\nGPIO0 -> 1: SPI BOOT
+PAG 10\nGPIO 0 -> 0: DOWNLOAD BOOT\nGPIO 0 -> 1: SPI BOOT
 $Comp
 L GND #PWR0127
 U 1 1 5B87900D
@@ -312,7 +312,6 @@ NoConn ~ 5600 4450
 NoConn ~ 5700 4450
 NoConn ~ 5800 4450
 NoConn ~ 5900 4450
-NoConn ~ 6100 4450
 NoConn ~ 6550 3750
 NoConn ~ 6550 3450
 NoConn ~ 6550 3350
@@ -324,4 +323,9 @@ NoConn ~ 6550 3550
 NoConn ~ 6550 3650
 Text Notes 4400 1900 0    60   ~ 0
 Both ESP32-WROOM-32D and ESP32-WROOM-32U integrate a 4 MB of external SPI flash. The integrated SPI\nflash is connected to GPIO6, GPIO7, GPIO8, GPIO9, GPIO10 and GPIO11. These six pins cannot be used as\nregular GPIOs.
+Wire Wire Line
+	6000 4500 6100 4500
+Wire Wire Line
+	6100 4500 6100 4450
+Connection ~ 6000 4500
 $EndSCHEMATC

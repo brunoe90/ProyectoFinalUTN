@@ -1,4 +1,4 @@
-update=22/05/2015 07:44:53
+update=Tue 04 Sep 2018 10:54:17 AM -03
 version=1
 last_client=kicad
 [general]
@@ -29,5 +29,10 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=lib
 [eeschema/libraries]
+LibName1=lib/OBDII_IoT
+LibName2=lib/Connector
+LibName3=lib/ESP32-footprints-Shem-Lib
+LibName4=lib/ftdi
+LibName5=lib/STN2120
