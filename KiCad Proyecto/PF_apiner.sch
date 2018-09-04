@@ -1,6 +1,9 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:PF_apiner-cache
+LIBS:OBDII_IoT
+LIBS:Connector
+LIBS:ESP32-footprints-Shem-Lib
+LIBS:ftdi
+LIBS:STN2120
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -51,7 +54,7 @@ POWER\nSUPPLY
 Entry Wire Line
 	12150 9650 12250 9750
 $Comp
-L OBDII_IoT:GND #PWR01
+L GND #PWR01
 U 1 1 58F8F97A
 P 1550 4150
 F 0 "#PWR01" H 1550 3900 50  0001 C CNN
@@ -62,7 +65,7 @@ F 3 "" H 1550 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OBDII_IoT:CONN_2X16_OBDII J1
+L CONN_2X16_OBDII J1
 U 1 1 58F8F983
 P 1250 3350
 F 0 "J1" H 1350 2500 50  0000 C CNN
@@ -161,7 +164,7 @@ F23 "SW_CAN_MODE1" O L 5100 4150 40
 F24 "SW_CAN_LOAD" O L 5100 4250 40 
 $EndSheet
 $Comp
-L OBDII_IoT:VIN #PWR02
+L VIN #PWR02
 U 1 1 58F9B79D
 P 1550 2550
 F 0 "#PWR02" H -4850 540 20  0001 C CNN
@@ -377,7 +380,7 @@ $EndSheet
 Text Notes 6700 2250 0    50   ~ 0
 El UART0 va al USB, el resto hay que configurarlos
 $Comp
-L Connector:Conn_01x05 J2
+L Conn_01x05 J2
 U 1 1 5B87BBB6
 P 9200 2700
 F 0 "J2" H 9280 2742 50  0000 L CNN
@@ -388,7 +391,7 @@ F 3 "" H 9200 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OBDII_IoT:C C?
+L C C?
 U 1 1 5B8838EA
 P 10000 1800
 AR Path="/582F2211/5B8838EA" Ref="C?"  Part="1" 
@@ -405,7 +408,7 @@ F 7 "311-1336-1-ND" H 10000 1800 60  0001 C CNN "Digikey/Mouser"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L OBDII_IoT:VOLT_REG U?
+L VOLT_REG U?
 U 1 1 5B8838F5
 P 9550 1550
 AR Path="/582F2211/5B8838F5" Ref="U?"  Part="1" 
@@ -422,7 +425,7 @@ F 7 "AZ1117EH-3.3TRG1DICT-ND" H 9550 1550 60  0001 C CNN "Digikey/Mouser"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L OBDII_IoT:C C?
+L C C?
 U 1 1 5B883906
 P 9050 1800
 AR Path="/582F2211/5B883906" Ref="C?"  Part="1" 
@@ -439,7 +442,7 @@ F 7 "587-1231-1-ND" H 9050 1800 60  0001 C CNN "Digikey/Mouser"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L OBDII_IoT:+3.3V #PWR?
+L +3.3V #PWR?
 U 1 1 5B88390D
 P 8500 1450
 AR Path="/582F2211/5B88390D" Ref="#PWR?"  Part="1" 
@@ -452,7 +455,7 @@ F 3 "" H 1750 -3250 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L OBDII_IoT:GND #PWR?
+L GND #PWR?
 U 1 1 5B883913
 P 9550 2050
 AR Path="/582F2211/5B883913" Ref="#PWR?"  Part="1" 
@@ -465,7 +468,7 @@ F 3 "" H 9550 2050 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L OBDII_IoT:GND #PWR?
+L GND #PWR?
 U 1 1 5B883919
 P 10000 2050
 AR Path="/582F2211/5B883919" Ref="#PWR?"  Part="1" 
@@ -478,7 +481,7 @@ F 3 "" H 10000 2050 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L OBDII_IoT:GND #PWR?
+L GND #PWR?
 U 1 1 5B88391F
 P 9050 2050
 AR Path="/582F2211/5B88391F" Ref="#PWR?"  Part="1" 
@@ -505,7 +508,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 1550 9100 1550
 $Comp
-L OBDII_IoT:+5V_USB U12
+L +5V_USB U12
 U 1 1 5B88F65F
 P 8900 2400
 F 0 "U12" H 8900 2550 50  0001 C CNN
@@ -521,7 +524,7 @@ Wire Wire Line
 	8900 2500 9000 2500
 Connection ~ 9050 1550
 $Comp
-L OBDII_IoT:+5V #PWR?
+L +5V #PWR?
 U 1 1 5B8A5F5E
 P 10000 1450
 AR Path="/5B89C1C4/5B8A5F5E" Ref="#PWR?"  Part="1" 
@@ -538,7 +541,7 @@ Wire Wire Line
 Wire Wire Line
 	10650 1550 10650 1450
 $Comp
-L OBDII_IoT:+5V_USB U?
+L +5V_USB U?
 U 1 1 5B8A5F68
 P 10650 1450
 AR Path="/5B89C1C4/5B8A5F68" Ref="U?"  Part="1" 
@@ -556,7 +559,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 1550 8750 1550
 $Comp
-L OBDII_IoT:D_Schot D?
+L D_Schot D?
 U 1 1 5B8B67B7
 P 8850 1550
 AR Path="/5B89C1C4/5B8B67B7" Ref="D?"  Part="1" 
@@ -573,7 +576,7 @@ F 7 "MBR0520LT1GOSCT-ND" H 8850 1550 50  0001 C CNN "Digikey#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L OBDII_IoT:GND #PWR?
+L GND #PWR?
 U 1 1 5B8BA0D1
 P 8900 3050
 AR Path="/582F2211/5B8BA0D1" Ref="#PWR?"  Part="1" 
@@ -600,7 +603,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 2900 8250 2900
 $Comp
-L OBDII_IoT:D_Schot D?
+L D_Schot D?
 U 1 1 5B8CB262
 P 10350 1550
 AR Path="/5B89C1C4/5B8CB262" Ref="D?"  Part="1" 
