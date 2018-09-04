@@ -40,9 +40,11 @@ export class HomePage  {
   ConntectedBT(yes){
     if(yes){
       this.btButton.nativeElement.style.display = "none";
+      // this.imgSuccessBT._elementRef.nativeElement;
       this.imgSuccessBT.nativeElement.style.display = "block";
     }else{
       this.btButton.nativeElement.style.display = "block";
+      // this.imgSuccessBT._elementRef.nativeElement;
       this.imgSuccessBT.nativeElement.style.display = "none";
     }
   }

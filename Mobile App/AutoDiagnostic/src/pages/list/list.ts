@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { Constants } from '../../theme/constants';
 import { MessageToast } from '../../providers/MessageToast';
+import {ListSpeedPage} from '../listInfo/speed/listSpeed';
+import {ListCheckPage} from '../listInfo/check/listCheck';
 
 @Component({
   selector: 'page-list',
@@ -18,7 +20,7 @@ export class ListPage {
     this.selectedItem = navParams.get('item');
     // Let's populate this page with some filler content for funzies
     this.items = [];
-    for (let i = 1; i < constants.itemsTitles.length; i++) {
+    for (let i = 0; i < constants.itemsTitles.length; i++) {
       this.items.push({
         title: constants.itemsTitles[i],
         note: constants.itemsDesctriptions[i],
@@ -28,11 +30,20 @@ export class ListPage {
   }
 
   itemTapped(event, item) {
-    this.messageToast.showToastMessage(item.title);
+    //this.messageToast.showToastMessage(item.title);
     // That's right, we're pushing to ourselves!
-    // this.navCtrl.push(ListPage, {
-    //   item: item
-    // });
+    debugger;
+    switch(item.note){
+      case "1":
+        this.navCtrl.push(ListSpeedPage);
+        break;
+      case "2":
+        this.navCtrl.push(ListCheckPage);
+        break;
+      default:
+        this.messageToast.showToastMessage("Soon my friend...");
+        break;
+    }
   }
 
 }

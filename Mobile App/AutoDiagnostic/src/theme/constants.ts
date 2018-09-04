@@ -9,9 +9,9 @@ export class Constants {
 
   constructor() {
   // constructor(public toast: Toast) {
-    this.icons = ['compass', 'build',"git-branch","hammer","locate","outlet"];
-    this.itemsTitles = ['Velocidad','Mapa','Limpiavidrios','Codigo de Error','Navegación','Aceleración'];
-    this.itemsDesctriptions = ['Velocidad Desc','Mapa Desc','Limpiavidrios Desc','Codigo de Error Desc','Navegación Desc','Aceleración Desc'];
+    this.icons = ['compass', 'build',"hammer","locate"];
+    this.itemsTitles = ['Aceleración','Velocidad','Codigo de Error','Navegación'];
+    this.itemsDesctriptions = ["0","1","2","3"];
   }
 
 }
