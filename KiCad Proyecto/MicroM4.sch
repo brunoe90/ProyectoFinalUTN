@@ -297,8 +297,6 @@ $EndComp
 Wire Wire Line
 	4350 3400 4700 3400
 Wire Wire Line
-	4350 3500 4700 3500
-Wire Wire Line
 	4350 3600 4700 3600
 NoConn ~ 4700 3000
 NoConn ~ 4700 3100
@@ -328,4 +326,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 4500 6100 4450
 Connection ~ 6000 4500
+Wire Wire Line
+	4350 3500 4700 3500
 $EndSCHEMATC
