@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/luis/Desktop/Fusion_final/PF_apiner/PF_apiner.sch</source>
-    <date>Fri 31 Aug 2018 03:23:45 PM -03</date>
-    <tool>Eeschema 4.0.6</tool>
+    <source>C:\Users\bruno\OneDrive\Escritorio\PF\ProyectoFinalUTN\KiCad Proyecto\PF_apiner.sch</source>
+    <date>10-Sep-18 2:54:44 PM</date>
+    <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -131,13 +131,13 @@
         <field name="Fabricante">Yeahui</field>
         <field name="Nro. parte">YH1012</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:CONN_2X16_OBDII"/>
+      <libsource lib="OBDII_IoT" part="CONN_2X16_OBDII"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58F8F983</tstamp>
     </comp>
     <comp ref="J2">
       <value>Conn_01x05</value>
-      <libsource lib="PF_apiner-cache" part="Connector:Conn_01x05"/>
+      <libsource lib="Connector" part="Conn_01x05"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B87BBB6</tstamp>
     </comp>
@@ -150,7 +150,7 @@
         <field name="Nro. parte">CC0402KRX5R6BB104</field>
         <field name="Digikey/Mouser">311-1336-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B8838EA</tstamp>
     </comp>
@@ -163,7 +163,7 @@
         <field name="Nro. parte">AZ1117EH-3.3TRG1</field>
         <field name="Digikey/Mouser">AZ1117EH-3.3TRG1DICT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:VOLT_REG"/>
+      <libsource lib="OBDII_IoT" part="VOLT_REG"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B8838F5</tstamp>
     </comp>
@@ -176,19 +176,19 @@
         <field name="Nro. parte">JMK105BJ105KV-F</field>
         <field name="Digikey/Mouser">587-1231-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B883906</tstamp>
     </comp>
     <comp ref="U12">
       <value>+5V_USB</value>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:+5V_USB"/>
+      <libsource lib="OBDII_IoT" part="+5V_USB"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B88F65F</tstamp>
     </comp>
     <comp ref="U13">
       <value>+5V_USB</value>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:+5V_USB"/>
+      <libsource lib="OBDII_IoT" part="+5V_USB"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B8A5F68</tstamp>
     </comp>
@@ -200,7 +200,7 @@
         <field name="Manf#">MBR0520LT1G</field>
         <field name="Digikey#">MBR0520LT1GOSCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:D_Schot"/>
+      <libsource lib="OBDII_IoT" part="D_Schot"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B8B67B7</tstamp>
     </comp>
@@ -212,7 +212,7 @@
         <field name="Manf#">MBR0520LT1G</field>
         <field name="Digikey#">MBR0520LT1GOSCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:D_Schot"/>
+      <libsource lib="OBDII_IoT" part="D_Schot"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B8CB262</tstamp>
     </comp>
@@ -225,7 +225,7 @@
         <field name="Nro. parte">C1608C0G1E103J080AA</field>
         <field name="Digikey/Mouser">445-2664-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>5835BB57</tstamp>
     </comp>
@@ -238,7 +238,7 @@
         <field name="Nro. parte">C3216X5R1E476M160AC</field>
         <field name="Digikey/Mouser">445-8047-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>5835BBD5</tstamp>
     </comp>
@@ -251,7 +251,7 @@
         <field name="Nro. parte">SMF14A-TP</field>
         <field name="Digikey/Mouser">SMF14A-TPMSCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:TVS"/>
+      <libsource lib="OBDII_IoT" part="TVS"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>5835C003</tstamp>
     </comp>
@@ -264,7 +264,7 @@
         <field name="Nro. parte">SBR2U30P1-7</field>
         <field name="Digikey/Mouser">SBR2U30P1DICT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:D"/>
+      <libsource lib="PF_apiner-rescue" part="D-RESCUE-PF_apiner"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>5835C0B1</tstamp>
     </comp>
@@ -277,7 +277,7 @@
         <field name="Nro. parte">1206SFF200F/63-2</field>
         <field name="Digikey/Mouser">1206SFF200F/63-2CT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:FUSE"/>
+      <libsource lib="OBDII_IoT" part="FUSE"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>5835F7DA</tstamp>
     </comp>
@@ -290,7 +290,7 @@
         <field name="Nro. parte">TPS54202DDCT</field>
         <field name="Digikey/Mouser">296-44151-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:TPS54202"/>
+      <libsource lib="OBDII_IoT" part="TPS54202"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>5835C29D</tstamp>
     </comp>
@@ -303,7 +303,7 @@
         <field name="Nro. parte">SRN6045-100M</field>
         <field name="Digikey/Mouser">SRN6045-100MCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:L"/>
+      <libsource lib="PF_apiner-rescue" part="L-RESCUE-PF_apiner"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>5835C9FC</tstamp>
     </comp>
@@ -316,7 +316,7 @@
         <field name="Nro. parte">CC0402JRNPO9BN620</field>
         <field name="Digikey/Mouser">311-1674-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>5835CACB</tstamp>
     </comp>
@@ -329,7 +329,7 @@
         <field name="Nro. parte">CC0402KRX5R6BB104</field>
         <field name="Digikey/Mouser">311-1336-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>588025EB</tstamp>
     </comp>
@@ -342,7 +342,7 @@
         <field name="Nro. parte">JMK107BJ106MA-T</field>
         <field name="Digikey/Mouser">587-1256-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>589356C6</tstamp>
     </comp>
@@ -355,7 +355,7 @@
         <field name="Nro. parte">RC0402FR-07100KL</field>
         <field name="Digikey/Mouser">311-100KLRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>58A271C0</tstamp>
     </comp>
@@ -368,7 +368,7 @@
         <field name="Nro. parte">C3216X5R1E476M160AC</field>
         <field name="Digikey/Mouser">445-8047-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>58F7FBBA</tstamp>
     </comp>
@@ -381,7 +381,7 @@
         <field name="Nro. parte">C3216X5R1E476M160AC</field>
         <field name="Digikey/Mouser">445-8047-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>58F7FBFE</tstamp>
     </comp>
@@ -394,7 +394,7 @@
         <field name="Nro. parte">C3216X5R1E476M160AC</field>
         <field name="Digikey/Mouser">445-8047-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>58F7FC44</tstamp>
     </comp>
@@ -407,7 +407,7 @@
         <field name="Nro. parte">CC0402KRX5R6BB104</field>
         <field name="Digikey/Mouser">311-1336-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>58F80648</tstamp>
     </comp>
@@ -420,7 +420,7 @@
         <field name="Nro. parte">JMK107BJ106MA-T</field>
         <field name="Digikey/Mouser">587-1256-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>58F81C6B</tstamp>
     </comp>
@@ -433,7 +433,7 @@
         <field name="Nro. parte">AZ1117EH-3.3TRG1</field>
         <field name="Digikey/Mouser">AZ1117EH-3.3TRG1DICT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:VOLT_REG"/>
+      <libsource lib="OBDII_IoT" part="VOLT_REG"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>58F82CD2</tstamp>
     </comp>
@@ -446,7 +446,7 @@
         <field name="Nro. parte">JMK105BJ105KV-F</field>
         <field name="Digikey/Mouser">587-1231-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>58F85AE2</tstamp>
     </comp>
@@ -459,7 +459,7 @@
         <field name="Nro. parte">RC0402FR-0713K7L</field>
         <field name="Digikey/Mouser">311-13.7KLRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>58F89868</tstamp>
     </comp>
@@ -472,7 +472,7 @@
         <field name="Nro. parte">RC0402FR-07100KL</field>
         <field name="Digikey/Mouser">311-100KLRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/Power_CRTL/" tstamps="/582F2238/"/>
       <tstamp>58FA0F0C</tstamp>
     </comp>
@@ -485,7 +485,7 @@
         <field name="Nro. parte">RC0402FR-07100KL</field>
         <field name="Digikey/Mouser">311-100KLRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/Power_CRTL/" tstamps="/582F2238/"/>
       <tstamp>58FA1022</tstamp>
     </comp>
@@ -498,7 +498,7 @@
         <field name="Nro. parte">BSS314PE H6327</field>
         <field name="Digikey/Mouser">BSS314PE H6327CT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:MOS_P"/>
+      <libsource lib="OBDII_IoT" part="MOS_P"/>
       <sheetpath names="/Power_CRTL/" tstamps="/582F2238/"/>
       <tstamp>58FA2395</tstamp>
     </comp>
@@ -511,7 +511,7 @@
         <field name="Nro. parte">2N7002ET1G</field>
         <field name="Digikey/Mouser">2N7002ET1GOSCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:MOS_N"/>
+      <libsource lib="OBDII_IoT" part="MOS_N"/>
       <sheetpath names="/Power_CRTL/" tstamps="/582F2238/"/>
       <tstamp>58FA23A0</tstamp>
     </comp>
@@ -524,7 +524,7 @@
         <field name="Nro. parte">BSS314PE H6327</field>
         <field name="Digikey/Mouser">BSS314PE H6327CT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:MOS_P"/>
+      <libsource lib="OBDII_IoT" part="MOS_P"/>
       <sheetpath names="/Power_CRTL/" tstamps="/582F2238/"/>
       <tstamp>59009220</tstamp>
     </comp>
@@ -537,7 +537,7 @@
         <field name="Nro. parte">RC0402FR-0762KL</field>
         <field name="Digikey/Mouser">311-62.0KLRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/Voltage_Sense/" tstamps="/582F21C5/"/>
       <tstamp>582F3539</tstamp>
     </comp>
@@ -550,7 +550,7 @@
         <field name="Nro. parte">BAT54SLT1G</field>
         <field name="Digikey/Mouser">BAT54SLT1GOSCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:D_Schottky_BAT54SL"/>
+      <libsource lib="OBDII_IoT" part="D_Schottky_BAT54SL"/>
       <sheetpath names="/Voltage_Sense/" tstamps="/582F21C5/"/>
       <tstamp>583A9D5F</tstamp>
     </comp>
@@ -563,7 +563,7 @@
         <field name="Nro. parte">RC0402FR-0710KL</field>
         <field name="Digikey/Mouser">311-10.0KLRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/Voltage_Sense/" tstamps="/582F21C5/"/>
       <tstamp>583AB1A6</tstamp>
     </comp>
@@ -576,7 +576,7 @@
         <field name="Nro. parte">CC0402KRX5R6BB104</field>
         <field name="Digikey/Mouser">311-1336-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Voltage_Sense/" tstamps="/582F21C5/"/>
       <tstamp>58F8BB88</tstamp>
     </comp>
@@ -589,7 +589,7 @@
         <field name="Nro. parte">LM339PWR</field>
         <field name="Digikey/Mouser">296-6607-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:LM339"/>
+      <libsource lib="OBDII_IoT" part="LM339"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>58FAFC7B</tstamp>
     </comp>
@@ -602,7 +602,7 @@
         <field name="Nro. parte">ERJ-P06J511V</field>
         <field name="Digikey/Mouser">P510ADCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>58FB19FB</tstamp>
     </comp>
@@ -615,7 +615,7 @@
         <field name="Nro. parte">MMBT3904LT3G</field>
         <field name="Digikey/Mouser">MMBT3904LT3GOSCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:NPN"/>
+      <libsource lib="OBDII_IoT" part="NPN"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>58FB1A06</tstamp>
     </comp>
@@ -628,7 +628,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>58FB1A1C</tstamp>
     </comp>
@@ -641,7 +641,7 @@
         <field name="Nro. parte">BAT54SLT1G</field>
         <field name="Digikey/Mouser">BAT54SLT1GOSCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:D_Schottky_BAT54SL"/>
+      <libsource lib="OBDII_IoT" part="D_Schottky_BAT54SL"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>58FB2C23</tstamp>
     </comp>
@@ -654,7 +654,7 @@
         <field name="Nro. parte">RC0402JR-071KL</field>
         <field name="Digikey/Mouser">311-1.0KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>58FB45DB</tstamp>
     </comp>
@@ -667,7 +667,7 @@
         <field name="Nro. parte">ERJ-P06J511V</field>
         <field name="Digikey/Mouser">P510ADCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>58FB4DD5</tstamp>
     </comp>
@@ -680,7 +680,7 @@
         <field name="Nro. parte">MMBT3904LT3G</field>
         <field name="Digikey/Mouser">MMBT3904LT3GOSCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:NPN"/>
+      <libsource lib="OBDII_IoT" part="NPN"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>58FB4DDF</tstamp>
     </comp>
@@ -693,7 +693,7 @@
         <field name="Nro. parte">RC0402JR-071KL</field>
         <field name="Digikey/Mouser">311-1.0KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>58FB4DEF</tstamp>
     </comp>
@@ -706,7 +706,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>58FB557C</tstamp>
     </comp>
@@ -719,7 +719,7 @@
         <field name="Nro. parte">CC0603KRX7R8BB104</field>
         <field name="Digikey/Mouser">311-1341-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>58FB6CF6</tstamp>
     </comp>
@@ -732,7 +732,7 @@
         <field name="Nro. parte">CC0603KRX7R8BB104</field>
         <field name="Digikey/Mouser">311-1341-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>58FB71A2</tstamp>
     </comp>
@@ -745,7 +745,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>58FB7561</tstamp>
     </comp>
@@ -758,7 +758,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>58FBB473</tstamp>
     </comp>
@@ -771,7 +771,7 @@
         <field name="Nro. parte">BAT54SLT1G</field>
         <field name="Digikey/Mouser">BAT54SLT1GOSCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:D_Schottky_BAT54SL"/>
+      <libsource lib="OBDII_IoT" part="D_Schottky_BAT54SL"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>59003DD4</tstamp>
     </comp>
@@ -784,7 +784,7 @@
         <field name="Nro. parte">CC0603KRX7R8BB104</field>
         <field name="Digikey/Mouser">311-1341-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
       <tstamp>59003DDE</tstamp>
     </comp>
@@ -797,7 +797,7 @@
         <field name="Nro. parte">PESD1CAN-UX</field>
         <field name="Digikey/Mouser">568-10731-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:PESD1CAN"/>
+      <libsource lib="PF_apiner-rescue" part="PESD1CAN-RESCUE-PF_apiner"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>582F34D6</tstamp>
     </comp>
@@ -810,7 +810,7 @@
         <field name="Nro. parte">RC0402JR-07120RL</field>
         <field name="Digikey/Mouser">311-120JRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58B0A852</tstamp>
     </comp>
@@ -823,7 +823,7 @@
         <field name="Nro. parte">MCP25612FD-H/SL</field>
         <field name="Digikey/Mouser">MCP25612FD-H/SL-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:MCP25612FD"/>
+      <libsource lib="OBDII_IoT" part="MCP25612FD"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58EEA34D</tstamp>
     </comp>
@@ -836,7 +836,7 @@
         <field name="Nro. parte">TH8056KDC-AAA-008-RE</field>
         <field name="Digikey/Mouser">TH8056KDC-AAA-008-RETR-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:TH8056"/>
+      <libsource lib="OBDII_IoT" part="TH8056"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58F03C6E</tstamp>
     </comp>
@@ -849,7 +849,7 @@
         <field name="Nro. parte">PESD1CAN-UX</field>
         <field name="Digikey/Mouser">568-10731-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:PESD1CAN"/>
+      <libsource lib="PF_apiner-rescue" part="PESD1CAN-RESCUE-PF_apiner"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FD2706</tstamp>
     </comp>
@@ -862,7 +862,7 @@
         <field name="Nro. parte">RC0402JR-07100RL</field>
         <field name="Digikey/Mouser">311-100JRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FD347C</tstamp>
     </comp>
@@ -875,7 +875,7 @@
         <field name="Nro. parte">CC0402KRX7R9BB561</field>
         <field name="Digikey/Mouser">311-1029-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FD3B6F</tstamp>
     </comp>
@@ -888,7 +888,7 @@
         <field name="Nro. parte">RC0402JR-07100RL</field>
         <field name="Digikey/Mouser">311-100JRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FD3FA7</tstamp>
     </comp>
@@ -901,7 +901,7 @@
         <field name="Nro. parte">CC0402KRX7R9BB561</field>
         <field name="Digikey/Mouser">311-1029-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FD3FB1</tstamp>
     </comp>
@@ -914,7 +914,7 @@
         <field name="Nro. parte">PESD1CAN-UX</field>
         <field name="Digikey/Mouser">568-10731-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:PESD1CAN"/>
+      <libsource lib="PF_apiner-rescue" part="PESD1CAN-RESCUE-PF_apiner"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FD4234</tstamp>
     </comp>
@@ -927,7 +927,7 @@
         <field name="Nro. parte">RC0402JR-07100RL</field>
         <field name="Digikey/Mouser">311-100JRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FD4244</tstamp>
     </comp>
@@ -940,7 +940,7 @@
         <field name="Nro. parte">CC0402KRX7R9BB561</field>
         <field name="Digikey/Mouser">311-1029-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FD424E</tstamp>
     </comp>
@@ -953,7 +953,7 @@
         <field name="Nro. parte">RC0402JR-07100RL</field>
         <field name="Digikey/Mouser">311-100JRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FD4258</tstamp>
     </comp>
@@ -966,7 +966,7 @@
         <field name="Nro. parte">CC0402KRX7R9BB561</field>
         <field name="Digikey/Mouser">311-1029-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FD4262</tstamp>
     </comp>
@@ -979,7 +979,7 @@
         <field name="Nro. parte">RC0402JR-07120RL</field>
         <field name="Digikey/Mouser">311-120JRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FDA2D5</tstamp>
     </comp>
@@ -992,7 +992,7 @@
         <field name="Nro. parte">CC0402KRX5R6BB104</field>
         <field name="Digikey/Mouser">311-1336-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FDBFE9</tstamp>
     </comp>
@@ -1005,7 +1005,7 @@
         <field name="Nro. parte">CC0402KRX5R6BB104</field>
         <field name="Digikey/Mouser">311-1336-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FDC125</tstamp>
     </comp>
@@ -1018,7 +1018,7 @@
         <field name="Nro. parte">TMK212BBJ106KG-T</field>
         <field name="Digikey/Mouser">587-2985-6-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FE50CB</tstamp>
     </comp>
@@ -1031,7 +1031,7 @@
         <field name="Nro. parte">2N7002ET1G</field>
         <field name="Digikey/Mouser">2N7002ET1GOSCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:MOS_N"/>
+      <libsource lib="OBDII_IoT" part="MOS_N"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FE7544</tstamp>
     </comp>
@@ -1044,7 +1044,7 @@
         <field name="Nro. parte">RC0805FR-076K49L</field>
         <field name="Digikey/Mouser">311-6.49KCRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FE76BB</tstamp>
     </comp>
@@ -1057,7 +1057,7 @@
         <field name="Nro. parte">3521130RFT</field>
         <field name="Digikey/Mouser">A116011CT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FE7CFE</tstamp>
     </comp>
@@ -1070,7 +1070,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FEA340</tstamp>
     </comp>
@@ -1083,7 +1083,7 @@
         <field name="Nro. parte">GRM1555C1H151JA01D</field>
         <field name="Digikey/Mouser">490-3229-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FEA778</tstamp>
     </comp>
@@ -1096,7 +1096,7 @@
         <field name="Nro. parte">RC0402FR-071K5L</field>
         <field name="Digikey/Mouser">311-1.50KLRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FE8C9D</tstamp>
     </comp>
@@ -1109,7 +1109,7 @@
         <field name="Nro. parte">RC0402FR-07240RL</field>
         <field name="Digikey/Mouser">311-240LRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>582FD8FC</tstamp>
     </comp>
@@ -1122,7 +1122,7 @@
         <field name="Nro. parte">RC0402FR-07866RL</field>
         <field name="Digikey/Mouser">YAG3248CT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>582FDADA</tstamp>
     </comp>
@@ -1135,7 +1135,7 @@
         <field name="Nro. parte">RC0402FR-07374RL</field>
         <field name="Digikey/Mouser">YAG3137CT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>5832E14E</tstamp>
     </comp>
@@ -1148,7 +1148,7 @@
         <field name="Nro. parte">2N7002ET1G</field>
         <field name="Digikey/Mouser">2N7002ET1GOSCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:MOS_N"/>
+      <libsource lib="OBDII_IoT" part="MOS_N"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>58FF3421</tstamp>
     </comp>
@@ -1161,7 +1161,7 @@
         <field name="Nro. parte">CC0603KRX7R8BB104</field>
         <field name="Digikey/Mouser">311-1341-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>58FF9848</tstamp>
     </comp>
@@ -1174,7 +1174,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>58FFF46B</tstamp>
     </comp>
@@ -1187,7 +1187,7 @@
         <field name="Nro. parte">BAT54SLT1G</field>
         <field name="Digikey/Mouser">BAT54SLT1GOSCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:D_Schottky_BAT54SL"/>
+      <libsource lib="OBDII_IoT" part="D_Schottky_BAT54SL"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>58FFFF10</tstamp>
     </comp>
@@ -1200,7 +1200,7 @@
         <field name="Nro. parte">CC0603KRX7R8BB104</field>
         <field name="Digikey/Mouser">311-1341-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>58FFFF1B</tstamp>
     </comp>
@@ -1213,7 +1213,7 @@
         <field name="Nro. parte">BAT54SLT1G</field>
         <field name="Digikey/Mouser">BAT54SLT1GOSCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:D_Schottky_BAT54SL"/>
+      <libsource lib="OBDII_IoT" part="D_Schottky_BAT54SL"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>59002A9E</tstamp>
     </comp>
@@ -1226,7 +1226,7 @@
         <field name="Nro. parte">CC0603KRX7R8BB104</field>
         <field name="Digikey/Mouser">311-1341-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>59002AA8</tstamp>
     </comp>
@@ -1239,7 +1239,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>5900554A</tstamp>
     </comp>
@@ -1252,7 +1252,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>59006FE2</tstamp>
     </comp>
@@ -1265,7 +1265,7 @@
         <field name="Nro. parte">2N7002ET1G</field>
         <field name="Digikey/Mouser">2N7002ET1GOSCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:MOS_N"/>
+      <libsource lib="OBDII_IoT" part="MOS_N"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>59007FAD</tstamp>
     </comp>
@@ -1278,7 +1278,7 @@
         <field name="Nro. parte">BSS314PE H6327</field>
         <field name="Digikey/Mouser">BSS314PE H6327CT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:MOS_P"/>
+      <libsource lib="OBDII_IoT" part="MOS_P"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>5900CF77</tstamp>
     </comp>
@@ -1291,7 +1291,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>5900D39E</tstamp>
     </comp>
@@ -1304,7 +1304,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>5900D718</tstamp>
     </comp>
@@ -1317,7 +1317,7 @@
         <field name="Nro. parte">DB2J31000L</field>
         <field name="Digikey/Mouser">DB2J31000LCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:D_Schot"/>
+      <libsource lib="OBDII_IoT" part="D_Schot"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>5900E8B5</tstamp>
     </comp>
@@ -1330,7 +1330,7 @@
         <field name="Nro. parte">DB2J31000L</field>
         <field name="Digikey/Mouser">DB2J31000LCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:D_Schot"/>
+      <libsource lib="OBDII_IoT" part="D_Schot"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>5900EFC2</tstamp>
     </comp>
@@ -1343,7 +1343,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>5900F3D6</tstamp>
     </comp>
@@ -1356,7 +1356,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>5901172D</tstamp>
     </comp>
@@ -1369,7 +1369,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>59011805</tstamp>
     </comp>
@@ -1382,7 +1382,7 @@
         <field name="Nro. parte">RC0402JR-072K7L</field>
         <field name="Digikey/Mouser">311-2.7KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>590118B7</tstamp>
     </comp>
@@ -1395,7 +1395,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>590119B2</tstamp>
     </comp>
@@ -1408,7 +1408,7 @@
         <field name="Nro. parte">DB2J31000L</field>
         <field name="Digikey/Mouser">DB2J31000LCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:D_Schot"/>
+      <libsource lib="OBDII_IoT" part="D_Schot"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>590146A5</tstamp>
     </comp>
@@ -1421,7 +1421,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>590146AF</tstamp>
     </comp>
@@ -1434,7 +1434,7 @@
         <field name="Nro. parte">2N7002ET1G</field>
         <field name="Digikey/Mouser">2N7002ET1GOSCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:MOS_N"/>
+      <libsource lib="OBDII_IoT" part="MOS_N"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>590147AD</tstamp>
     </comp>
@@ -1447,7 +1447,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>59015277</tstamp>
     </comp>
@@ -1460,7 +1460,7 @@
         <field name="Nro. parte">LM317LCPK</field>
         <field name="Digikey/Mouser">296-26093-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:LM317LD"/>
+      <libsource lib="OBDII_IoT" part="LM317LD"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>58F8CA15</tstamp>
     </comp>
@@ -1473,7 +1473,7 @@
         <field name="Nro. parte">CC0603KRX7R8BB104</field>
         <field name="Digikey/Mouser">311-1341-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
       <tstamp>58FD532B</tstamp>
     </comp>
@@ -1485,7 +1485,7 @@
         <field name="Fabricante">OBD Solutions</field>
         <field name="Nro. parte">STN2120</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="STN2120:STN2120"/>
+      <libsource lib="STN2120" part="STN2120"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>58EDBBC5</tstamp>
     </comp>
@@ -1498,7 +1498,7 @@
         <field name="Nro. parte">7M-16.000MAHV-T</field>
         <field name="Digikey/Mouser">887-2555-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:XTAL-4"/>
+      <libsource lib="OBDII_IoT" part="XTAL-4"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>5903DC2F</tstamp>
     </comp>
@@ -1511,7 +1511,7 @@
         <field name="Nro. parte">GRM1555C1H160JA01D</field>
         <field name="Digikey/Mouser">490-5926-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>5903DF35</tstamp>
     </comp>
@@ -1524,7 +1524,7 @@
         <field name="Nro. parte">GRM1555C1H160JA01D</field>
         <field name="Digikey/Mouser">490-5926-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>5903E0C3</tstamp>
     </comp>
@@ -1537,7 +1537,7 @@
         <field name="Nro. parte">JMK107BJ106MA-T</field>
         <field name="Digikey/Mouser">587-1256-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>5904189F</tstamp>
     </comp>
@@ -1550,7 +1550,7 @@
         <field name="Nro. parte">RC0402JR-0710RL</field>
         <field name="Digikey/Mouser">311-10JRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>590439DA</tstamp>
     </comp>
@@ -1563,7 +1563,7 @@
         <field name="Nro. parte">JMK105BJ105KV-F</field>
         <field name="Digikey/Mouser">587-1231-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>59044C3A</tstamp>
     </comp>
@@ -1576,7 +1576,7 @@
         <field name="Nro. parte">RC0402FR-071K5L</field>
         <field name="Digikey/Mouser">311-1.50KLRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>59049DD7</tstamp>
     </comp>
@@ -1589,7 +1589,7 @@
         <field name="Nro. parte">RC0402FR-07100KL</field>
         <field name="Digikey/Mouser">311-100KLRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>5904A952</tstamp>
     </comp>
@@ -1602,7 +1602,7 @@
         <field name="Nro. parte">RC0402JR-071KL</field>
         <field name="Digikey/Mouser">311-1.0KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>5904B0AE</tstamp>
     </comp>
@@ -1615,7 +1615,7 @@
         <field name="Nro. parte">RC0402FR-07100KL</field>
         <field name="Digikey/Mouser">311-100KLRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>5904B9FE</tstamp>
     </comp>
@@ -1628,7 +1628,7 @@
         <field name="Nro. parte">RC0402JR-071KL</field>
         <field name="Digikey/Mouser">311-1.0KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>5904CEC6</tstamp>
     </comp>
@@ -1641,7 +1641,7 @@
         <field name="Nro. parte">RC0402FR-07100KL</field>
         <field name="Digikey/Mouser">311-100KLRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>58F97F7C</tstamp>
     </comp>
@@ -1654,7 +1654,7 @@
         <field name="Nro. parte">RC0402FR-07100KL</field>
         <field name="Digikey/Mouser">311-100KLRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>58F988CB</tstamp>
     </comp>
@@ -1667,7 +1667,7 @@
         <field name="Nro. parte">RC0402FR-07100KL</field>
         <field name="Digikey/Mouser">311-100KLRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>58F989BA</tstamp>
     </comp>
@@ -1680,7 +1680,7 @@
         <field name="Nro. parte">RC0402FR-071K5L</field>
         <field name="Digikey/Mouser">311-1.50KLRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>58F9E41D</tstamp>
     </comp>
@@ -1693,7 +1693,7 @@
         <field name="Nro. parte">JMK105BJ105KV-F</field>
         <field name="Digikey/Mouser">587-1231-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>58FA1876</tstamp>
     </comp>
@@ -1706,7 +1706,7 @@
         <field name="Nro. parte">JMK105BJ105KV-F</field>
         <field name="Digikey/Mouser">587-1231-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>58FA1951</tstamp>
     </comp>
@@ -1719,7 +1719,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>58FE6DAD</tstamp>
     </comp>
@@ -1732,7 +1732,7 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>58FE6FBE</tstamp>
     </comp>
@@ -1745,7 +1745,7 @@
         <field name="Manf#">ESP32-WROOM-32D</field>
         <field name="Digikey#">1904-1023-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="ESP32-footprints-Shem-Lib:ESP32-WROOM"/>
+      <libsource lib="ESP32-footprints-Shem-Lib" part="ESP32-WROOM"/>
       <sheetpath names="/MicroM4/" tstamps="/58A74A6E/"/>
       <tstamp>5B862489</tstamp>
     </comp>
@@ -1758,7 +1758,7 @@
         <field name="Nro. parte">CC0402KRX5R6BB104</field>
         <field name="Digikey/Mouser">311-1336-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/MicroM4/" tstamps="/58A74A6E/"/>
       <tstamp>5B8CBC06</tstamp>
     </comp>
@@ -1771,7 +1771,7 @@
         <field name="Nro. parte">CC0402KRX5R6BB104</field>
         <field name="Digikey/Mouser">311-1336-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/MicroM4/" tstamps="/58A74A6E/"/>
       <tstamp>5B8CBF7F</tstamp>
     </comp>
@@ -1784,7 +1784,7 @@
         <field name="Nro. parte">RC0402JR-071KL</field>
         <field name="Digikey/Mouser">311-1.0KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/MicroM4/" tstamps="/58A74A6E/"/>
       <tstamp>5B8D142E</tstamp>
     </comp>
@@ -1797,7 +1797,7 @@
         <field name="Nro. parte">JMK107BJ106MA-T</field>
         <field name="Digikey/Mouser">587-1256-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:C"/>
+      <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/MicroM4/" tstamps="/58A74A6E/"/>
       <tstamp>5B8D3E2F</tstamp>
     </comp>
@@ -1810,13 +1810,69 @@
         <field name="Nro. parte">RC0402JR-0710KL</field>
         <field name="Digikey/Mouser">311-10KJRCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-cache" part="OBDII_IoT:R"/>
+      <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/MicroM4/" tstamps="/58A74A6E/"/>
       <tstamp>5B8D4B64</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="PF_apiner-cache" part="Connector:Conn_01x05">
+    <libpart lib="OBDII_IoT" part="+5V_USB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">+5V_USB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V_USB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OBDII_IoT" part="C">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OBDII_IoT" part="CONN_2X16_OBDII">
+      <footprints>
+        <fp>Pin_Header_Straight_1X08</fp>
+        <fp>Pin_Header_Angled_1X08</fp>
+        <fp>Socket_Strip_Straight_1X08</fp>
+        <fp>Socket_Strip_Angled_1X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_2X16_OBDII</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OP1" type="passive"/>
+        <pin num="2" name="J1850_PWM+" type="passive"/>
+        <pin num="3" name="OP2" type="passive"/>
+        <pin num="4" name="CAR_GND" type="passive"/>
+        <pin num="5" name="SIG_GND" type="passive"/>
+        <pin num="6" name="ISO15765-4_CAN+" type="passive"/>
+        <pin num="7" name="ISO9141-2_K-LINE" type="passive"/>
+        <pin num="8" name="OP3" type="passive"/>
+        <pin num="9" name="OP4" type="input"/>
+        <pin num="10" name="J1850-PWM-" type="input"/>
+        <pin num="11" name="OP5" type="passive"/>
+        <pin num="12" name="OP6" type="passive"/>
+        <pin num="13" name="OP7" type="passive"/>
+        <pin num="14" name="ISO15765-R_CAN-" type="passive"/>
+        <pin num="15" name="ISO9141-S_L-LINE" type="passive"/>
+        <pin num="16" name="+12V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05">
       <footprints>
         <fp>Connector*:*_??x*mm*</fp>
         <fp>Connector*:*1x??x*mm*</fp>
@@ -1827,7 +1883,7 @@
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Connector:Conn_01x05</field>
+        <field name="Value">Conn_01x05</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -1837,10 +1893,55 @@
         <pin num="5" name="Pin_5" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="PF_apiner-cache" part="ESP32-footprints-Shem-Lib:ESP32-WROOM">
+    <libpart lib="PF_apiner-rescue" part="D-RESCUE-PF_apiner">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D-RESCUE-PF_apiner</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OBDII_IoT" part="D_Schot">
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schot</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OBDII_IoT" part="D_Schottky_BAT54SL">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_BAT54SL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="common" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-footprints-Shem-Lib" part="ESP32-WROOM">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">ESP32-footprints-Shem-Lib:ESP32-WROOM</field>
+        <field name="Value">ESP32-WROOM</field>
         <field name="Footprint">ESP32-footprints-Lib:ESP32-WROOM</field>
       </fields>
       <pins>
@@ -1885,135 +1986,36 @@
         <pin num="39" name="GND-PAD" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:+5V_USB">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">OBDII_IoT:+5V_USB</field>
-      </fields>
-      <pins>
-        <pin num="1" name="+5V_USB" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:C">
-      <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">OBDII_IoT:C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:CONN_2X16_OBDII">
-      <footprints>
-        <fp>Pin_Header_Straight_1X08</fp>
-        <fp>Pin_Header_Angled_1X08</fp>
-        <fp>Socket_Strip_Straight_1X08</fp>
-        <fp>Socket_Strip_Angled_1X08</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">OBDII_IoT:CONN_2X16_OBDII</field>
-      </fields>
-      <pins>
-        <pin num="1" name="OP1" type="passive"/>
-        <pin num="2" name="J1850_PWM+" type="passive"/>
-        <pin num="3" name="OP2" type="passive"/>
-        <pin num="4" name="CAR_GND" type="passive"/>
-        <pin num="5" name="SIG_GND" type="passive"/>
-        <pin num="6" name="ISO15765-4_CAN+" type="passive"/>
-        <pin num="7" name="ISO9141-2_K-LINE" type="passive"/>
-        <pin num="8" name="OP3" type="passive"/>
-        <pin num="9" name="OP4" type="input"/>
-        <pin num="10" name="J1850-PWM-" type="input"/>
-        <pin num="11" name="OP5" type="passive"/>
-        <pin num="12" name="OP6" type="passive"/>
-        <pin num="13" name="OP7" type="passive"/>
-        <pin num="14" name="ISO15765-R_CAN-" type="passive"/>
-        <pin num="15" name="ISO9141-S_L-LINE" type="passive"/>
-        <pin num="16" name="+12V" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:D">
-      <footprints>
-        <fp>Diode_*</fp>
-        <fp>D-Pak_TO252AA</fp>
-        <fp>*SingleDiode</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>*_Diode_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">OBDII_IoT:D</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:D_Schot">
-      <footprints>
-        <fp>Diode_*</fp>
-        <fp>D-Pak_TO252AA</fp>
-        <fp>*SingleDiode</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>*_Diode_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">OBDII_IoT:D_Schot</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:D_Schottky_BAT54SL">
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">OBDII_IoT:D_Schottky_BAT54SL</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
-        <pin num="3" name="common" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:FUSE">
+    <libpart lib="OBDII_IoT" part="FUSE">
       <fields>
         <field name="Reference">F</field>
-        <field name="Value">OBDII_IoT:FUSE</field>
+        <field name="Value">FUSE</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="input"/>
         <pin num="2" name="~" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:L">
+    <libpart lib="PF_apiner-rescue" part="L-RESCUE-PF_apiner">
       <footprints>
-        <fp>CP*</fp>
-        <fp>SM*</fp>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
       </footprints>
       <fields>
         <field name="Reference">L</field>
-        <field name="Value">OBDII_IoT:L</field>
+        <field name="Value">L-RESCUE-PF_apiner</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:LM317LD">
+    <libpart lib="OBDII_IoT" part="LM317LD">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">OBDII_IoT:LM317LD</field>
+        <field name="Value">LM317LD</field>
       </fields>
       <pins>
         <pin num="1" name="AJD" type="input"/>
@@ -2021,10 +2023,10 @@
         <pin num="3" name="IN" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:LM339">
+    <libpart lib="OBDII_IoT" part="LM339">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">OBDII_IoT:LM339</field>
+        <field name="Value">LM339</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="openCol"/>
@@ -2043,10 +2045,10 @@
         <pin num="14" name="~" type="openCol"/>
       </pins>
     </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:MCP25612FD">
+    <libpart lib="OBDII_IoT" part="MCP25612FD">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">OBDII_IoT:MCP25612FD</field>
+        <field name="Value">MCP25612FD</field>
       </fields>
       <pins>
         <pin num="1" name="TXD1" type="input"/>
@@ -2065,10 +2067,10 @@
         <pin num="14" name="STBY1" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:MOS_N">
+    <libpart lib="OBDII_IoT" part="MOS_N">
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">OBDII_IoT:MOS_N</field>
+        <field name="Value">MOS_N</field>
       </fields>
       <pins>
         <pin num="1" name="G" type="passive"/>
@@ -2076,10 +2078,10 @@
         <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:MOS_P">
+    <libpart lib="OBDII_IoT" part="MOS_P">
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">OBDII_IoT:MOS_P</field>
+        <field name="Value">MOS_P</field>
       </fields>
       <pins>
         <pin num="1" name="G" type="passive"/>
@@ -2087,10 +2089,10 @@
         <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:NPN">
+    <libpart lib="OBDII_IoT" part="NPN">
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">OBDII_IoT:NPN</field>
+        <field name="Value">NPN</field>
       </fields>
       <pins>
         <pin num="1" name="B" type="input"/>
@@ -2098,106 +2100,42 @@
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:PESD1CAN">
+    <libpart lib="PF_apiner-rescue" part="PESD1CAN-RESCUE-PF_apiner">
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">OBDII_IoT:PESD1CAN</field>
+        <field name="Reference">D</field>
+        <field name="Value">PESD1CAN-RESCUE-PF_apiner</field>
+        <field name="Footprint">SOT23-3</field>
+        <field name="Datasheet">NXP Semiconductors</field>
+        <field name="Field4">SOT-23 NXP Semiconductors</field>
+        <field name="Field5">None</field>
+        <field name="Field6">Unavailable</field>
+        <field name="Field7">PESD1CAN</field>
+        <field name="Field8">Sup/Pesd1can, Sot23</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:R">
+    <libpart lib="OBDII_IoT" part="R">
       <footprints>
         <fp>R_*</fp>
         <fp>Resistor_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">OBDII_IoT:R</field>
+        <field name="Value">R</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:TH8056">
+    <libpart lib="STN2120" part="STN2120">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">OBDII_IoT:TH8056</field>
-      </fields>
-      <pins>
-        <pin num="1" name="TXD" type="input"/>
-        <pin num="2" name="MODE0" type="input"/>
-        <pin num="3" name="MODE1" type="input"/>
-        <pin num="4" name="RXD" type="output"/>
-        <pin num="5" name="VBAT" type="power_in"/>
-        <pin num="6" name="LOAD" type="output"/>
-        <pin num="7" name="CANH" type="output"/>
-        <pin num="8" name="GND" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:TPS54202">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">OBDII_IoT:TPS54202</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="SW" type="output"/>
-        <pin num="3" name="VIN" type="power_in"/>
-        <pin num="4" name="VFB" type="input"/>
-        <pin num="5" name="EN" type="input"/>
-        <pin num="6" name="BOOT" type="output"/>
-      </pins>
-    </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:TVS">
-      <footprints>
-        <fp>D?</fp>
-        <fp>SO*</fp>
-        <fp>SM*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">OBDII_IoT:TVS</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:VOLT_REG">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">OBDII_IoT:VOLT_REG</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="OUT" type="output"/>
-        <pin num="3" name="IN" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="PF_apiner-cache" part="OBDII_IoT:XTAL-4">
-      <footprints>
-        <fp>Crystal_</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Y</field>
-        <field name="Value">OBDII_IoT:XTAL-4</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="PF_apiner-cache" part="STN2120:STN2120">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">STN2120:STN2120</field>
+        <field name="Value">STN2120</field>
       </fields>
       <pins>
         <pin num="1" name="GP28" type="BiDi"/>
@@ -2247,10 +2185,93 @@
         <pin num="45" name="PAD" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="OBDII_IoT" part="TH8056">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TH8056</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="MODE0" type="input"/>
+        <pin num="3" name="MODE1" type="input"/>
+        <pin num="4" name="RXD" type="output"/>
+        <pin num="5" name="VBAT" type="power_in"/>
+        <pin num="6" name="LOAD" type="output"/>
+        <pin num="7" name="CANH" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OBDII_IoT" part="TPS54202">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS54202</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SW" type="output"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="VFB" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="BOOT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="OBDII_IoT" part="TVS">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TVS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OBDII_IoT" part="VOLT_REG">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VOLT_REG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OBDII_IoT" part="XTAL-4">
+      <footprints>
+        <fp>Crystal_</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">XTAL-4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
-    <library logical="PF_apiner-cache">
-      <uri>/home/luis/Desktop/Fusion_final/PF_apiner/PF_apiner-cache.lib</uri>
+    <library logical="STN2120">
+      <uri>C:\Users\bruno\OneDrive\Escritorio\PF\ProyectoFinalUTN\KiCad Proyecto\lib\STN2120.lib</uri>
+    </library>
+    <library logical="ESP32-footprints-Shem-Lib">
+      <uri>C:\Users\bruno\OneDrive\Escritorio\PF\ProyectoFinalUTN\KiCad Proyecto\lib\ESP32-footprints-Shem-Lib.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Users\bruno\OneDrive\Escritorio\PF\ProyectoFinalUTN\KiCad Proyecto\lib\Connector.lib</uri>
+    </library>
+    <library logical="PF_apiner-rescue">
+      <uri>C:\Users\bruno\OneDrive\Escritorio\PF\ProyectoFinalUTN\KiCad Proyecto\PF_apiner-rescue.lib</uri>
+    </library>
+    <library logical="OBDII_IoT">
+      <uri>C:\Users\bruno\OneDrive\Escritorio\PF\ProyectoFinalUTN\KiCad Proyecto\lib\OBDII_IoT.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -2313,9 +2334,9 @@
       <node ref="J1" pin="8"/>
     </net>
     <net code="13" name="/MicroM4/UART0_TX">
+      <node ref="R53" pin="1"/>
       <node ref="J2" pin="2"/>
       <node ref="U14" pin="35"/>
-      <node ref="R53" pin="1"/>
     </net>
     <net code="14" name="/MicroM4/UART0_RX">
       <node ref="U14" pin="34"/>
@@ -2326,14 +2347,14 @@
       <node ref="Q7" pin="1"/>
     </net>
     <net code="16" name="/J1850_Transceiver/PWM_RX">
-      <node ref="U10" pin="23"/>
       <node ref="U3" pin="1"/>
       <node ref="R33" pin="1"/>
+      <node ref="U10" pin="23"/>
     </net>
     <net code="17" name="/J1850_Transceiver/VPW_RX">
       <node ref="U10" pin="22"/>
-      <node ref="U3" pin="13"/>
       <node ref="R39" pin="1"/>
+      <node ref="U3" pin="13"/>
     </net>
     <net code="18" name="/ISO_Transceiver/ISO_RX">
       <node ref="U10" pin="21"/>
@@ -2345,184 +2366,180 @@
       <node ref="R7" pin="1"/>
     </net>
     <net code="20" name="/ISO_Transceiver/ISO_L_TX">
-      <node ref="R13" pin="1"/>
       <node ref="U10" pin="44"/>
+      <node ref="R13" pin="1"/>
     </net>
     <net code="21" name="/CAN_Transceiver/HS_CAN_TX">
-      <node ref="R40" pin="2"/>
-      <node ref="U4" pin="1"/>
       <node ref="R41" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R40" pin="2"/>
       <node ref="U10" pin="8"/>
     </net>
     <net code="22" name="/CAN_Transceiver/HS_CAN_RX">
-      <node ref="R44" pin="1"/>
-      <node ref="U10" pin="10"/>
       <node ref="U4" pin="4"/>
       <node ref="R43" pin="2"/>
+      <node ref="R44" pin="1"/>
+      <node ref="U10" pin="10"/>
     </net>
     <net code="23" name="/CAN_Transceiver/MS_CAN_TX">
-      <node ref="U10" pin="9"/>
-      <node ref="R48" pin="2"/>
       <node ref="U4" pin="5"/>
+      <node ref="R48" pin="2"/>
+      <node ref="U10" pin="9"/>
     </net>
     <net code="24" name="/CAN_Transceiver/MS_CAN_RX">
       <node ref="U4" pin="8"/>
       <node ref="R47" pin="2"/>
       <node ref="U10" pin="11"/>
     </net>
-    <net code="25" name="+3.3V">
+    <net code="25" name="+3V3">
+      <node ref="R3" pin="1"/>
       <node ref="R48" pin="1"/>
-      <node ref="U10" pin="40"/>
       <node ref="R47" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R40" pin="1"/>
       <node ref="R42" pin="2"/>
       <node ref="R46" pin="1"/>
-      <node ref="D11" pin="2"/>
-      <node ref="R15" pin="2"/>
-      <node ref="R33" pin="2"/>
-      <node ref="R39" pin="2"/>
-      <node ref="R12" pin="2"/>
-      <node ref="U10" pin="28"/>
-      <node ref="R3" pin="1"/>
-      <node ref="C31" pin="2"/>
-      <node ref="C30" pin="2"/>
-      <node ref="D3" pin="2"/>
-      <node ref="U14" pin="2"/>
-      <node ref="R52" pin="2"/>
-      <node ref="C37" pin="1"/>
-      <node ref="C36" pin="1"/>
-      <node ref="R53" pin="2"/>
-      <node ref="R40" pin="1"/>
-      <node ref="U2" pin="2"/>
-      <node ref="R45" pin="1"/>
-      <node ref="C5" pin="1"/>
       <node ref="R43" pin="1"/>
+      <node ref="R45" pin="1"/>
+      <node ref="U10" pin="40"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R53" pin="2"/>
+      <node ref="R39" pin="2"/>
+      <node ref="C36" pin="1"/>
+      <node ref="R52" pin="2"/>
+      <node ref="U14" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C37" pin="1"/>
+      <node ref="R33" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U10" pin="28"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U2" pin="2"/>
     </net>
     <net code="26" name="+5V_USB">
-      <node ref="U12" pin="1"/>
-      <node ref="J2" pin="1"/>
       <node ref="U13" pin="1"/>
+      <node ref="U12" pin="1"/>
       <node ref="D12" pin="1"/>
+      <node ref="J2" pin="1"/>
     </net>
     <net code="27" name="Net-(C34-Pad1)">
-      <node ref="U11" pin="2"/>
       <node ref="C34" pin="1"/>
       <node ref="D11" pin="1"/>
+      <node ref="U11" pin="2"/>
     </net>
     <net code="28" name="GND">
-      <node ref="C19" pin="2"/>
-      <node ref="C21" pin="2"/>
-      <node ref="U6" pin="3"/>
-      <node ref="U7" pin="3"/>
-      <node ref="U5" pin="8"/>
-      <node ref="U14" pin="1"/>
-      <node ref="U14" pin="15"/>
-      <node ref="C36" pin="2"/>
-      <node ref="C28" pin="2"/>
-      <node ref="C34" pin="2"/>
-      <node ref="R18" pin="1"/>
-      <node ref="Q6" pin="2"/>
-      <node ref="C35" pin="2"/>
-      <node ref="U14" pin="25"/>
-      <node ref="J2" pin="5"/>
-      <node ref="U14" pin="14"/>
-      <node ref="U14" pin="23"/>
-      <node ref="U11" pin="1"/>
-      <node ref="R35" pin="1"/>
-      <node ref="J1" pin="4"/>
-      <node ref="J1" pin="5"/>
-      <node ref="D6" pin="1"/>
-      <node ref="R27" pin="1"/>
-      <node ref="Q7" pin="2"/>
-      <node ref="C25" pin="2"/>
       <node ref="C23" pin="2"/>
-      <node ref="C27" pin="2"/>
+      <node ref="R27" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C30" pin="1"/>
       <node ref="D9" pin="2"/>
-      <node ref="U14" pin="38"/>
-      <node ref="U14" pin="39"/>
-      <node ref="R28" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="C27" pin="2"/>
+      <node ref="R35" pin="1"/>
       <node ref="Q10" pin="2"/>
       <node ref="Q8" pin="2"/>
-      <node ref="C24" pin="2"/>
-      <node ref="C17" pin="1"/>
-      <node ref="C16" pin="1"/>
-      <node ref="U4" pin="14"/>
-      <node ref="U4" pin="11"/>
-      <node ref="C26" pin="2"/>
+      <node ref="R28" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="C35" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="U11" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="J2" pin="5"/>
       <node ref="U4" pin="6"/>
-      <node ref="D7" pin="1"/>
-      <node ref="U4" pin="2"/>
-      <node ref="C22" pin="2"/>
-      <node ref="U8" pin="3"/>
-      <node ref="C20" pin="2"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="14"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C17" pin="1"/>
       <node ref="C18" pin="2"/>
-      <node ref="U10" pin="20"/>
-      <node ref="U10" pin="6"/>
-      <node ref="U10" pin="3"/>
-      <node ref="U10" pin="2"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="U10" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C37" pin="2"/>
       <node ref="C6" pin="2"/>
-      <node ref="U10" pin="38"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C2" pin="2"/>
       <node ref="C11" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U14" pin="38"/>
+      <node ref="J1" pin="5"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U10" pin="39"/>
+      <node ref="U10" pin="29"/>
+      <node ref="U10" pin="38"/>
       <node ref="U10" pin="37"/>
       <node ref="C13" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C9" pin="2"/>
       <node ref="U10" pin="26"/>
       <node ref="U10" pin="16"/>
       <node ref="U10" pin="45"/>
-      <node ref="C38" pin="2"/>
-      <node ref="C7" pin="2"/>
       <node ref="Y1" pin="2"/>
-      <node ref="C37" pin="2"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="U10" pin="15"/>
-      <node ref="Y1" pin="4"/>
-      <node ref="U1" pin="1"/>
-      <node ref="C29" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C33" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="C32" pin="2"/>
-      <node ref="D4" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="C31" pin="1"/>
-      <node ref="Q5" pin="2"/>
-      <node ref="Q4" pin="2"/>
-      <node ref="C30" pin="1"/>
-      <node ref="R6" pin="2"/>
-      <node ref="U3" pin="12"/>
-      <node ref="C12" pin="2"/>
-      <node ref="U10" pin="39"/>
-      <node ref="C14" pin="2"/>
-      <node ref="U10" pin="29"/>
-      <node ref="R9" pin="1"/>
-      <node ref="D5" pin="1"/>
+      <node ref="U14" pin="39"/>
       <node ref="C15" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U3" pin="12"/>
+      <node ref="J1" pin="4"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="U14" pin="15"/>
+      <node ref="U14" pin="1"/>
+      <node ref="U14" pin="25"/>
+      <node ref="U14" pin="14"/>
+      <node ref="U14" pin="23"/>
+      <node ref="U10" pin="15"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U10" pin="1"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U10" pin="6"/>
+      <node ref="U10" pin="20"/>
     </net>
     <net code="29" name="/MicroM4/RESET">
       <node ref="R52" pin="1"/>
-      <node ref="U14" pin="3"/>
       <node ref="C38" pin="1"/>
+      <node ref="U14" pin="3"/>
       <node ref="J2" pin="4"/>
     </net>
     <net code="30" name="+5V">
-      <node ref="C10" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="D12" pin="2"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="L1" pin="2"/>
-      <node ref="R1" pin="1"/>
-      <node ref="U11" pin="3"/>
-      <node ref="C35" pin="1"/>
       <node ref="U2" pin="3"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="U11" pin="3"/>
+      <node ref="R51" pin="2"/>
       <node ref="C2" pin="1"/>
       <node ref="C11" pin="1"/>
-      <node ref="R51" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="D12" pin="2"/>
+      <node ref="R1" pin="1"/>
     </net>
     <net code="31" name="/J1850_Transceiver/J1850_BUS+_TX">
       <node ref="Q8" pin="1"/>
@@ -2530,43 +2547,41 @@
       <node ref="U10" pin="24"/>
     </net>
     <net code="32" name="/SW_CAN">
-      <node ref="R16" pin="2"/>
       <node ref="C21" pin="1"/>
       <node ref="U5" pin="7"/>
-      <node ref="U7" pin="2"/>
-      <node ref="U7" pin="1"/>
+      <node ref="R16" pin="2"/>
       <node ref="J1" pin="1"/>
       <node ref="R20" pin="2"/>
     </net>
     <net code="33" name="/J1850_BUS+">
-      <node ref="D6" pin="3"/>
-      <node ref="R30" pin="1"/>
       <node ref="R37" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="D6" pin="3"/>
       <node ref="R32" pin="2"/>
-      <node ref="J1" pin="2"/>
       <node ref="D8" pin="2"/>
+      <node ref="J1" pin="2"/>
     </net>
     <net code="34" name="/K-LINE">
-      <node ref="Q4" pin="3"/>
-      <node ref="D4" pin="3"/>
-      <node ref="R10" pin="1"/>
-      <node ref="J1" pin="7"/>
       <node ref="R11" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="D4" pin="3"/>
+      <node ref="J1" pin="7"/>
+      <node ref="Q4" pin="3"/>
     </net>
     <net code="35" name="/J1850_Transceiver/J1850_BUS-_TX">
-      <node ref="Q10" pin="1"/>
       <node ref="U10" pin="33"/>
       <node ref="R36" pin="1"/>
+      <node ref="Q10" pin="1"/>
     </net>
     <net code="36" name="Net-(J1-Pad9)">
       <node ref="J1" pin="9"/>
     </net>
     <net code="37" name="/J1850_BUS-">
-      <node ref="Q10" pin="3"/>
-      <node ref="R31" pin="1"/>
       <node ref="D7" pin="3"/>
-      <node ref="J1" pin="10"/>
+      <node ref="R31" pin="1"/>
       <node ref="R38" pin="1"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="J1" pin="10"/>
     </net>
     <net code="38" name="Net-(J1-Pad12)">
       <node ref="J1" pin="12"/>
@@ -2575,22 +2590,20 @@
       <node ref="J1" pin="13"/>
     </net>
     <net code="40" name="/L-LINE">
-      <node ref="R14" pin="1"/>
-      <node ref="J1" pin="15"/>
-      <node ref="D5" pin="3"/>
       <node ref="Q5" pin="3"/>
+      <node ref="R14" pin="1"/>
+      <node ref="D5" pin="3"/>
+      <node ref="J1" pin="15"/>
     </net>
     <net code="41" name="/MS_CAN_N">
-      <node ref="R24" pin="2"/>
-      <node ref="U4" pin="9"/>
-      <node ref="U8" pin="2"/>
       <node ref="R23" pin="2"/>
+      <node ref="U4" pin="9"/>
+      <node ref="R24" pin="2"/>
       <node ref="J1" pin="11"/>
     </net>
     <net code="42" name="/HS_CAN_N">
-      <node ref="R19" pin="2"/>
       <node ref="R21" pin="2"/>
-      <node ref="U6" pin="1"/>
+      <node ref="R19" pin="2"/>
       <node ref="U4" pin="12"/>
       <node ref="J1" pin="14"/>
     </net>
@@ -2598,283 +2611,313 @@
       <node ref="U4" pin="13"/>
       <node ref="J1" pin="6"/>
       <node ref="R17" pin="2"/>
-      <node ref="U6" pin="2"/>
       <node ref="R21" pin="1"/>
     </net>
     <net code="44" name="/MS_CAN_P">
-      <node ref="U4" pin="10"/>
       <node ref="J1" pin="3"/>
-      <node ref="R22" pin="2"/>
-      <node ref="U8" pin="1"/>
       <node ref="R23" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="U4" pin="10"/>
     </net>
     <net code="45" name="VIN">
-      <node ref="F1" pin="1"/>
-      <node ref="J1" pin="16"/>
       <node ref="C1" pin="1"/>
+      <node ref="J1" pin="16"/>
+      <node ref="F1" pin="1"/>
     </net>
     <net code="46" name="DLC_RAW">
-      <node ref="D2" pin="1"/>
-      <node ref="R5" pin="2"/>
       <node ref="F1" pin="2"/>
+      <node ref="R5" pin="2"/>
       <node ref="D1" pin="2"/>
     </net>
-    <net code="47" name="DLC">
-      <node ref="Q2" pin="2"/>
+    <net code="47" name="Net-(D2-Pad2)">
       <node ref="D2" pin="2"/>
+    </net>
+    <net code="48" name="DLC">
       <node ref="C13" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="C7" pin="1"/>
-      <node ref="C24" pin="1"/>
-      <node ref="D6" pin="2"/>
       <node ref="C18" pin="1"/>
-      <node ref="U1" pin="3"/>
-      <node ref="C14" pin="1"/>
-      <node ref="D5" pin="2"/>
-      <node ref="C6" pin="1"/>
-      <node ref="D4" pin="2"/>
-      <node ref="C9" pin="1"/>
-      <node ref="U5" pin="5"/>
-      <node ref="D7" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="Q2" pin="2"/>
       <node ref="C26" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U5" pin="5"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="D5" pin="2"/>
     </net>
-    <net code="48" name="Net-(C3-Pad2)">
-      <node ref="U1" pin="6"/>
+    <net code="49" name="Net-(C3-Pad2)">
       <node ref="C3" pin="2"/>
+      <node ref="U1" pin="6"/>
     </net>
-    <net code="49" name="Net-(C3-Pad1)">
+    <net code="50" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
       <node ref="U1" pin="2"/>
       <node ref="L1" pin="1"/>
-      <node ref="C3" pin="1"/>
     </net>
-    <net code="50" name="Net-(C8-Pad2)">
+    <net code="51" name="Net-(C8-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
       <node ref="C8" pin="2"/>
       <node ref="U1" pin="4"/>
-      <node ref="R1" pin="2"/>
-      <node ref="R2" pin="1"/>
     </net>
-    <net code="51" name="Net-(U1-Pad5)">
+    <net code="52" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="53" name="Net-(U1-Pad5)">
       <node ref="U1" pin="5"/>
     </net>
-    <net code="52" name="+5V_SW">
-      <node ref="R41" pin="2"/>
+    <net code="54" name="+5V_SW">
       <node ref="Q3" pin="3"/>
+      <node ref="R41" pin="2"/>
       <node ref="R44" pin="2"/>
+      <node ref="C17" pin="2"/>
       <node ref="R49" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U4" pin="3"/>
       <node ref="R50" pin="2"/>
       <node ref="R36" pin="2"/>
-      <node ref="D10" pin="1"/>
-      <node ref="U4" pin="3"/>
-      <node ref="U4" pin="7"/>
-      <node ref="C16" pin="2"/>
-      <node ref="C17" pin="2"/>
       <node ref="R34" pin="2"/>
+      <node ref="D10" pin="1"/>
     </net>
-    <net code="53" name="DLC_SW">
+    <net code="55" name="DLC_SW">
+      <node ref="C25" pin="1"/>
+      <node ref="U9" pin="3"/>
       <node ref="U3" pin="3"/>
       <node ref="R10" pin="2"/>
-      <node ref="R14" pin="2"/>
-      <node ref="U9" pin="3"/>
       <node ref="R8" pin="2"/>
-      <node ref="C25" pin="1"/>
       <node ref="C15" pin="1"/>
       <node ref="Q2" pin="3"/>
+      <node ref="R14" pin="2"/>
     </net>
-    <net code="54" name="Net-(Q1-Pad3)">
-      <node ref="R4" pin="2"/>
+    <net code="56" name="Net-(Q1-Pad3)">
       <node ref="Q2" pin="1"/>
+      <node ref="R4" pin="2"/>
       <node ref="Q3" pin="1"/>
       <node ref="Q1" pin="3"/>
     </net>
-    <net code="55" name="Net-(R8-Pad1)">
+    <net code="57" name="Net-(R8-Pad1)">
       <node ref="U3" pin="5"/>
       <node ref="R8" pin="1"/>
       <node ref="R9" pin="2"/>
     </net>
-    <net code="56" name="Net-(R11-Pad2)">
-      <node ref="R11" pin="2"/>
+    <net code="58" name="Net-(R11-Pad2)">
       <node ref="U3" pin="4"/>
+      <node ref="R11" pin="2"/>
     </net>
-    <net code="57" name="Net-(Q4-Pad1)">
+    <net code="59" name="Net-(Q4-Pad1)">
       <node ref="R7" pin="2"/>
       <node ref="Q4" pin="1"/>
     </net>
-    <net code="58" name="Net-(Q5-Pad1)">
-      <node ref="Q5" pin="1"/>
+    <net code="60" name="Net-(Q5-Pad1)">
       <node ref="R13" pin="2"/>
+      <node ref="Q5" pin="1"/>
     </net>
-    <net code="59" name="Net-(C23-Pad1)">
-      <node ref="R24" pin="1"/>
+    <net code="61" name="Net-(C23-Pad1)">
       <node ref="C23" pin="1"/>
+      <node ref="R24" pin="1"/>
     </net>
-    <net code="60" name="Net-(C19-Pad1)">
+    <net code="62" name="Net-(C19-Pad1)">
       <node ref="C19" pin="1"/>
       <node ref="R17" pin="1"/>
     </net>
-    <net code="61" name="Net-(C20-Pad1)">
-      <node ref="C20" pin="1"/>
+    <net code="63" name="Net-(C20-Pad1)">
       <node ref="R19" pin="1"/>
+      <node ref="C20" pin="1"/>
     </net>
-    <net code="62" name="Net-(C22-Pad1)">
-      <node ref="C22" pin="1"/>
+    <net code="64" name="Net-(C22-Pad1)">
       <node ref="R22" pin="1"/>
+      <node ref="C22" pin="1"/>
     </net>
-    <net code="63" name="Net-(R16-Pad1)">
+    <net code="65" name="Net-(R16-Pad1)">
       <node ref="U5" pin="6"/>
       <node ref="R16" pin="1"/>
     </net>
-    <net code="64" name="Net-(Q6-Pad3)">
+    <net code="66" name="Net-(Q6-Pad3)">
       <node ref="R20" pin="1"/>
       <node ref="Q6" pin="3"/>
     </net>
-    <net code="65" name="Net-(D8-Pad1)">
+    <net code="67" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="68" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="69" name="Net-(U7-Pad3)">
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="70" name="Net-(U6-Pad1)">
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="71" name="Net-(U6-Pad2)">
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="72" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="73" name="Net-(U8-Pad1)">
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="74" name="Net-(U8-Pad2)">
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="75" name="Net-(U8-Pad3)">
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="76" name="Net-(D8-Pad1)">
       <node ref="D8" pin="1"/>
       <node ref="Q9" pin="3"/>
     </net>
-    <net code="66" name="V_J1850">
-      <node ref="R25" pin="2"/>
+    <net code="77" name="V_J1850">
       <node ref="Q9" pin="2"/>
-      <node ref="C27" pin="1"/>
       <node ref="U9" pin="2"/>
+      <node ref="R25" pin="2"/>
       <node ref="R29" pin="2"/>
+      <node ref="C27" pin="1"/>
     </net>
-    <net code="67" name="Net-(Q8-Pad3)">
+    <net code="78" name="Net-(Q8-Pad3)">
       <node ref="Q9" pin="1"/>
       <node ref="R29" pin="1"/>
       <node ref="Q8" pin="3"/>
     </net>
-    <net code="68" name="Net-(D9-Pad1)">
-      <node ref="D9" pin="1"/>
+    <net code="79" name="Net-(D9-Pad1)">
       <node ref="R32" pin="1"/>
+      <node ref="D9" pin="1"/>
     </net>
-    <net code="69" name="Net-(D10-Pad2)">
+    <net code="80" name="Net-(D10-Pad2)">
       <node ref="R38" pin="2"/>
       <node ref="D10" pin="2"/>
     </net>
-    <net code="70" name="Net-(R37-Pad2)">
-      <node ref="R37" pin="2"/>
+    <net code="81" name="Net-(R37-Pad2)">
       <node ref="U3" pin="11"/>
+      <node ref="R37" pin="2"/>
     </net>
-    <net code="71" name="Net-(R34-Pad1)">
+    <net code="82" name="Net-(R34-Pad1)">
+      <node ref="R34" pin="1"/>
       <node ref="R35" pin="2"/>
       <node ref="U3" pin="10"/>
-      <node ref="R34" pin="1"/>
     </net>
-    <net code="72" name="Net-(R25-Pad1)">
-      <node ref="U9" pin="1"/>
+    <net code="83" name="Net-(R25-Pad1)">
       <node ref="R25" pin="1"/>
+      <node ref="U9" pin="1"/>
       <node ref="R26" pin="2"/>
     </net>
-    <net code="73" name="Net-(Q7-Pad3)">
+    <net code="84" name="Net-(Q7-Pad3)">
       <node ref="Q7" pin="3"/>
       <node ref="R27" pin="2"/>
       <node ref="R26" pin="1"/>
     </net>
-    <net code="74" name="Net-(R30-Pad2)">
-      <node ref="U3" pin="7"/>
+    <net code="85" name="Net-(R30-Pad2)">
       <node ref="R30" pin="2"/>
+      <node ref="U3" pin="7"/>
     </net>
-    <net code="75" name="Net-(R31-Pad2)">
-      <node ref="U3" pin="6"/>
+    <net code="86" name="Net-(R31-Pad2)">
       <node ref="R31" pin="2"/>
+      <node ref="U3" pin="6"/>
     </net>
-    <net code="76" name="Net-(C29-Pad2)">
-      <node ref="C29" pin="2"/>
+    <net code="87" name="Net-(C29-Pad2)">
       <node ref="U10" pin="7"/>
+      <node ref="C29" pin="2"/>
     </net>
-    <net code="77" name="Net-(C28-Pad1)">
-      <node ref="R45" pin="2"/>
+    <net code="88" name="Net-(C28-Pad1)">
       <node ref="U10" pin="17"/>
       <node ref="C28" pin="1"/>
+      <node ref="R45" pin="2"/>
     </net>
-    <net code="78" name="Net-(U10-Pad13)">
+    <net code="89" name="Net-(U10-Pad13)">
       <node ref="U10" pin="13"/>
     </net>
-    <net code="79" name="Net-(U10-Pad14)">
+    <net code="90" name="Net-(U10-Pad14)">
       <node ref="U10" pin="14"/>
     </net>
-    <net code="80" name="Net-(R46-Pad2)">
-      <node ref="R46" pin="2"/>
+    <net code="91" name="Net-(R46-Pad2)">
       <node ref="U10" pin="12"/>
+      <node ref="R46" pin="2"/>
     </net>
-    <net code="81" name="Net-(C33-Pad1)">
+    <net code="92" name="Net-(C33-Pad1)">
       <node ref="C33" pin="1"/>
       <node ref="Y1" pin="3"/>
       <node ref="U10" pin="30"/>
     </net>
-    <net code="82" name="Net-(C32-Pad1)">
-      <node ref="C32" pin="1"/>
-      <node ref="Y1" pin="1"/>
+    <net code="93" name="Net-(C32-Pad1)">
       <node ref="U10" pin="31"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="C32" pin="1"/>
     </net>
-    <net code="85" name="Net-(U14-Pad29)">
+    <net code="96" name="Net-(U14-Pad29)">
       <node ref="U14" pin="29"/>
     </net>
-    <net code="86" name="Net-(U14-Pad13)">
+    <net code="97" name="Net-(U14-Pad13)">
       <node ref="U14" pin="13"/>
     </net>
-    <net code="87" name="Net-(U14-Pad16)">
+    <net code="98" name="Net-(U14-Pad16)">
       <node ref="U14" pin="16"/>
     </net>
-    <net code="88" name="Net-(U14-Pad19)">
+    <net code="99" name="Net-(U14-Pad19)">
       <node ref="U14" pin="19"/>
     </net>
-    <net code="89" name="Net-(U14-Pad20)">
+    <net code="100" name="Net-(U14-Pad20)">
       <node ref="U14" pin="20"/>
     </net>
-    <net code="90" name="Net-(U14-Pad21)">
+    <net code="101" name="Net-(U14-Pad21)">
       <node ref="U14" pin="21"/>
     </net>
-    <net code="91" name="Net-(U14-Pad22)">
+    <net code="102" name="Net-(U14-Pad22)">
       <node ref="U14" pin="22"/>
     </net>
-    <net code="92" name="Net-(U14-Pad24)">
+    <net code="103" name="Net-(U14-Pad24)">
       <node ref="U14" pin="24"/>
     </net>
-    <net code="93" name="Net-(U14-Pad26)">
+    <net code="104" name="Net-(U14-Pad26)">
       <node ref="U14" pin="26"/>
     </net>
-    <net code="94" name="Net-(U14-Pad12)">
+    <net code="105" name="Net-(U14-Pad12)">
       <node ref="U14" pin="12"/>
     </net>
-    <net code="95" name="Net-(U14-Pad30)">
+    <net code="106" name="Net-(U14-Pad30)">
       <node ref="U14" pin="30"/>
     </net>
-    <net code="96" name="Net-(U14-Pad31)">
+    <net code="107" name="Net-(U14-Pad31)">
       <node ref="U14" pin="31"/>
     </net>
-    <net code="97" name="Net-(U14-Pad33)">
+    <net code="108" name="Net-(U14-Pad33)">
       <node ref="U14" pin="33"/>
     </net>
-    <net code="98" name="Net-(U14-Pad36)">
+    <net code="109" name="Net-(U14-Pad36)">
       <node ref="U14" pin="36"/>
     </net>
-    <net code="99" name="Net-(U14-Pad37)">
+    <net code="110" name="Net-(U14-Pad37)">
       <node ref="U14" pin="37"/>
     </net>
-    <net code="100" name="Net-(U14-Pad28)">
+    <net code="111" name="Net-(U14-Pad28)">
       <node ref="U14" pin="28"/>
     </net>
-    <net code="101" name="Net-(U14-Pad27)">
+    <net code="112" name="Net-(U14-Pad27)">
       <node ref="U14" pin="27"/>
     </net>
-    <net code="102" name="Net-(U14-Pad11)">
+    <net code="113" name="Net-(U14-Pad11)">
       <node ref="U14" pin="11"/>
     </net>
-    <net code="103" name="Net-(U14-Pad7)">
+    <net code="114" name="Net-(U14-Pad7)">
       <node ref="U14" pin="7"/>
     </net>
-    <net code="104" name="Net-(U14-Pad6)">
+    <net code="115" name="Net-(U14-Pad6)">
       <node ref="U14" pin="6"/>
     </net>
-    <net code="105" name="Net-(U14-Pad5)">
+    <net code="116" name="Net-(U14-Pad5)">
       <node ref="U14" pin="5"/>
     </net>
-    <net code="106" name="Net-(U14-Pad4)">
+    <net code="117" name="Net-(U14-Pad4)">
       <node ref="U14" pin="4"/>
     </net>
-    <net code="107" name="Net-(U14-Pad32)">
+    <net code="118" name="Net-(U14-Pad32)">
       <node ref="U14" pin="32"/>
     </net>
   </nets>
