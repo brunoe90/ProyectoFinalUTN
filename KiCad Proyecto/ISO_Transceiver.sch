@@ -4,6 +4,7 @@ LIBS:Connector
 LIBS:ESP32-footprints-Shem-Lib
 LIBS:ftdi
 LIBS:STN2120
+LIBS:PF_apiner-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
