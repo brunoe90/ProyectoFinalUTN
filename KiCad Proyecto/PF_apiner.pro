@@ -1,5 +1,6 @@
 version=1
 last_client=kicad
+update=Fri 14 Sep 2018 10:17:52 AM -03
 [general]
 version=1
 RootSch=
@@ -28,19 +29,11 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=lib
+LibDir=
 [eeschema/libraries]
-<<<<<<< HEAD
-LibName1=PF_apiner-rescue
-LibName2=lib/Connector
-LibName3=lib/ESP32-footprints-Shem-Lib
-LibName4=lib/ftdi
-LibName5=lib/OBDII_IoT
-LibName6=lib/STN2120
-=======
-LibName1=lib/OBDII_IoT
-LibName2=lib/Connector
-LibName3=lib/ESP32-footprints-Shem-Lib
-LibName4=lib/ftdi
+LibName1=lib/Connector
+LibName2=lib/ESP32-footprints-Shem-Lib
+LibName3=lib/ftdi
+LibName4=lib/OBDII_IoT
 LibName5=lib/STN2120
 
