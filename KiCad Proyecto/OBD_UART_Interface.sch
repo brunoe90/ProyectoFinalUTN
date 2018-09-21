@@ -804,4 +804,6 @@ F 3 "" H 7950 2900 60  0000 C CNN
 	1    7950 2900
 	1    0    0    -1  
 $EndComp
+Text Notes 2500 2950 0    60   ~ 0
+revizar footprint
 $EndSCHEMATC
