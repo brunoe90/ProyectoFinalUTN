@@ -1,8 +1,8 @@
 EESchema Schematic File Version 2
-LIBS:OBDII_IoT
 LIBS:Connector
 LIBS:ESP32-footprints-Shem-Lib
 LIBS:ftdi
+LIBS:OBDII_IoT
 LIBS:STN2120
 LIBS:PF_apiner-cache
 EELAYER 25 0
@@ -634,6 +634,4 @@ Wire Wire Line
 Wire Wire Line
 	4050 2900 4300 2900
 Connection ~ 4300 2900
-Text Notes 5350 3300 0    50   ~ 0
-poner schotky de proteccion por el USB?\nen 5V y 3.3V
 $EndSCHEMATC

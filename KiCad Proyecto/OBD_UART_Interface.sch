@@ -1,8 +1,8 @@
 EESchema Schematic File Version 2
-LIBS:OBDII_IoT
 LIBS:Connector
 LIBS:ESP32-footprints-Shem-Lib
 LIBS:ftdi
+LIBS:OBDII_IoT
 LIBS:STN2120
 LIBS:PF_apiner-cache
 EELAYER 25 0
@@ -355,7 +355,7 @@ L R R42
 U 1 1 5904CEC6
 P 2850 3350
 F 0 "R42" V 2930 3350 50  0000 C CNN
-F 1 "1K" V 2850 3350 50  0000 C CNN
+F 1 "10K" V 2850 3350 50  0000 C CNN
 F 2 "chip_rlc:r_0402" V 2780 3350 50  0001 C CNN
 F 3 "" H 2850 3350 50  0000 C CNN
 F 4 "Yageo" H 2850 3350 60  0001 C CNN "Fabricante"
@@ -804,4 +804,6 @@ F 3 "" H 7950 2900 60  0000 C CNN
 	1    7950 2900
 	1    0    0    -1  
 $EndComp
+Text Notes 2500 2950 0    60   ~ 0
+revizar footprint
 $EndSCHEMATC

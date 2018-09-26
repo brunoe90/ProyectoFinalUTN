@@ -1,8 +1,8 @@
 EESchema Schematic File Version 2
-LIBS:OBDII_IoT
 LIBS:Connector
 LIBS:ESP32-footprints-Shem-Lib
 LIBS:ftdi
+LIBS:OBDII_IoT
 LIBS:STN2120
 LIBS:PF_apiner-cache
 EELAYER 25 0
@@ -652,4 +652,19 @@ F 3 "" H 9050 4200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9050 4200 9050 4450
+Text Notes 5100 1100 0    60   ~ 0
+Agrandar D1 y cambiar fusible
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 5BA598FF
+P 9350 2200
+F 0 "#FLG?" H 9350 2295 50  0001 C CNN
+F 1 "PWR_FLAG" H 9350 2380 40  0000 C CNN
+F 2 "" H 9350 2200 50  0000 C CNN
+F 3 "" H 9350 2200 50  0000 C CNN
+	1    9350 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 2400 9350 2200
 $EndSCHEMATC
