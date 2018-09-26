@@ -12,7 +12,7 @@ export class MessageToast {
     showToastMessage(message){
       var options = {
       message:message,
-      duration:1000,
+      duration:2000,
       position:'bottom',
       styling:{
          backgroundColor: '#665B4F',

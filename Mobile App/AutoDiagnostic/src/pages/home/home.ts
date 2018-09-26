@@ -4,7 +4,8 @@ import { MessageToast } from '../../providers/MessageToast';
 import { BluetoothSerial } from '@ionic-native/bluetooth-serial';
 import {ElementRef, ViewChild} from '@angular/core';
 
-
+// con esta linea te corre el console log en la consola de la poronga de OS que estes corriendo
+// ionic cordova run android -l -c -s --bug
 
 @Component({
   selector: 'page-home',
@@ -17,49 +18,55 @@ export class HomePage  {
  //  @ViewChild([NOMBRE DEL ID #id en el HTML] ) [Variable] : ElementRef;
   @ViewChild('connectingButton') btButton: ElementRef;
   @ViewChild('connectionSuccess') imgSuccessBT: ElementRef;
+  @ViewChild('toggleButton') toggleButton: ElementRef;
+  booleanV:boolean;
 
-  constructor(public navCtrl: NavController, public messageToast: MessageToast,private bluetoothSerial: BluetoothSerial) {}
+  constructor(public navCtrl: NavController, public messageToast: MessageToast,private bluetoothSerial: BluetoothSerial) {
+    this.booleanV = true;
+  }
 
   ionViewDidEnter(){
     this.bluetoothSerial.isEnabled().then(this.enabledBT.bind(this),this.disbledBT.bind(this));
   }
 
   buttonClick(e){
-    // this.bluetoothSerial.isConnected().then(this.successConnectedBT, this.failureConnectedBT);
     this.bluetoothSerial.isEnabled().then(this.enabledBT.bind(this),this.disbledBT.bind(this));
   }
-
-  enabledBT(e){
-    this.ConntectedBT(true);
-  }
-
-  disbledBT(e){
-    this.ConntectedBT(false);
-    this.messageToast.showToastMessage("Habilitá el Bluetooth");
-  }
-  ConntectedBT(yes){
-    if(yes){
-      this.btButton.nativeElement.style.display = "none";
-      // this.imgSuccessBT._elementRef.nativeElement;
-      this.imgSuccessBT.nativeElement.style.display = "block";
-    }else{
-      this.btButton.nativeElement.style.display = "block";
-      // this.imgSuccessBT._elementRef.nativeElement;
-      this.imgSuccessBT.nativeElement.style.display = "none";
+  onToggleClick(e){
+    if(this.booleanV==true){
+      this.bluetoothSerial.write("1").then(this.success.bind(this), this.error.bind(this));
+      this.booleanV = false;
+    }
+    else{
+      this.bluetoothSerial.write("0").then(this.success.bind(this), this.error.bind(this));
+      this.booleanV = true;
     }
   }
-  successConnectedBT(result){
-    console.log("Entre en Success");
-    // results.forEach(function(device) {
-    //   this.connections.push({
-    //     id:device.id,
-    //     name:device.name,
-    //     mac: device.mac
-    //   });
-    // },this);
+  enabledBT(e){
+    this.bluetoothSerial.list().then(this.onDeviceList.bind(this), this.failureConnectedBT.bind(this));
+  }
+  onDeviceList(devices) {
+      var t = this;
+      // remove existing devices
+      devices.forEach(function(device) {
+        console.log("Dispositivos:" + device.id + device.name);
+        if(device.name == "?"){
+            t.bluetoothSerial.connect(device.address).subscribe(t.successConnectedBT.bind(t),t.failureConnectedBT.bind(t));
+        }
+      });
+  }
+  disbledBT(e){
+    this.messageToast.showToastMessage("Habilitá el Bluetooth gil");
+  }
+  successConnectedBT(){
+    this.messageToast.showToastMessage("Coneccion satisfactoria");
   }
   failureConnectedBT(e){
-    console.log("Entre en error");
+    this.messageToast.showToastMessage("Coneccion Erronea");
+  }
+  success(e){
+  }
+  error(e){
   }
 
 }
