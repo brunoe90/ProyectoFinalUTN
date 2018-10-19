@@ -135,10 +135,10 @@ F 0 "U1" H 4350 4100 60  0000 C CNN
 F 1 "TPS54202" H 4500 3500 60  0000 C CNN
 F 2 "to-sod-sot:SOT-23-6" H 4500 4200 60  0001 C CNN
 F 3 "" H 4500 4200 60  0000 C CNN
-F 4 "Texas Instruments" H 4500 3800 60  0001 C CNN "Manf"
-F 5 "Buck Switching Regulator IC Positive Adjustable 0.596V 1 Output 2A SOT-23-6 Thin, TSOT-23-6" H 4500 3800 60  0001 C CNN "Desc"
+F 4 "Buck Switching Regulator IC Positive Adjustable 0.596V 1 Output 2A SOT-23-6 Thin, TSOT-23-6" H 4500 3800 60  0001 C CNN "Desc"
+F 5 "Texas Instruments" H 4500 3800 60  0001 C CNN "Manf"
 F 6 "TPS54202DDCT" H 4500 3800 60  0001 C CNN "Manf#"
-F 7 "296-44151-1-ND" H 4500 3800 60  0001 C CNN "Manf#"
+F 7 "296-44396-1-ND" H 4500 3800 60  0001 C CNN "Digikey#"
 	1    4500 3800
 	1    0    0    -1  
 $EndComp
@@ -634,4 +634,6 @@ Wire Wire Line
 Wire Wire Line
 	4050 2900 4300 2900
 Connection ~ 4300 2900
+Text Notes 5200 3300 0    60   ~ 0
+poner infinitas vias\ndata tps #21
 $EndSCHEMATC

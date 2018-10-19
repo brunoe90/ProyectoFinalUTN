@@ -926,4 +926,6 @@ Wire Wire Line
 	4150 2150 4150 2000
 Wire Wire Line
 	4150 1650 4150 1700
+Text Notes 2950 1250 0    60   ~ 0
+revizar este footprint
 $EndSCHEMATC

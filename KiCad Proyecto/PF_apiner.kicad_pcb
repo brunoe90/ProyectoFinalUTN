@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
-    (links 331)
-    (no_connects 215)
-    (area 0 0 0 0)
+    (links 0)
+    (no_connects 325)
+    (area 44.979199 16.249199 173.020801 192.199)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 5)
     (tracks 0)
     (zones 0)
-    (modules 132)
+    (modules 136)
     (nets 107)
   )
 
@@ -16,13 +16,9 @@
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
-    (32 B.Adhes user)
     (33 F.Adhes user)
-    (34 B.Paste user)
     (35 F.Paste user)
-    (36 B.SilkS user)
     (37 F.SilkS user)
-    (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
@@ -30,14 +26,14 @@
     (43 Eco2.User user)
     (44 Edge.Cuts user)
     (45 Margin user)
-    (46 B.CrtYd user)
     (47 F.CrtYd user)
-    (48 B.Fab user)
     (49 F.Fab user)
   )
 
   (setup
     (last_trace_width 0.1524)
+    (user_trace_width 0.1524)
+    (user_trace_width 0.25)
     (trace_clearance 0.15)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -314,18 +310,18 @@
   )
 
   (module chip_rlc:c_0603 (layer F.Cu) (tedit 56DDD8FB) (tstamp 5BC8A521)
-    (at 120.75 145.25)
+    (at 87.25 38.75 180)
     (path /582F2211/5835BB57)
-    (fp_text reference C1 (at 0 -1) (layer F.SilkS)
+    (fp_text reference C1 (at 0 -1 180) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
-    (fp_text value 10nF (at 0 -1) (layer F.Fab) hide
+    (fp_text value 10nF (at 0 -1 180) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
     (fp_line (start 0 -0.425) (end 0 0.425) (layer F.SilkS) (width 0.1016))
-    (pad 1 smd rect (at -0.75 0) (size 0.8 0.9) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.75 0 180) (size 0.8 0.9) (layers F.Cu F.Paste F.Mask)
       (net 1 VIN))
-    (pad 2 smd rect (at 0.75 0) (size 0.8 0.9) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.75 0 180) (size 0.8 0.9) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (model footprints/chip_rlc.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
@@ -335,7 +331,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A527)
-    (at 119 140)
+    (at 100.25 52.5)
     (path /582F2211/58F80648)
     (fp_text reference C2 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -356,18 +352,18 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A52D)
-    (at 124 139.25)
+    (at 87.25 55.25 270)
     (path /582F2211/588025EB)
-    (fp_text reference C3 (at 0 -0.8) (layer F.SilkS)
+    (fp_text reference C3 (at 0 -0.8 270) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
-    (fp_text value 0.1uF (at 0 -0.8) (layer F.Fab) hide
+    (fp_text value 0.1uF (at 0 -0.8 270) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
     (fp_line (start 0 -0.25) (end 0 0.25) (layer F.SilkS) (width 0.1016))
-    (pad 1 smd rect (at -0.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.5 0 270) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(C3-Pad1)"))
-    (pad 2 smd rect (at 0.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.5 0 270) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
       (net 5 "Net-(C3-Pad2)"))
     (model footprints/chip_rlc.3dshapes/c_0402.wrl
       (at (xyz 0 0 0))
@@ -377,18 +373,18 @@
   )
 
   (module chip_rlc:c_1206 (layer F.Cu) (tedit 56DDDFF4) (tstamp 5BC8A533)
-    (at 119.25 122)
+    (at 80.844666 51.5 180)
     (path /582F2211/5835BBD5)
-    (fp_text reference C4 (at 0 -1.4) (layer F.SilkS)
+    (fp_text reference C4 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
-    (fp_text value 47uF (at 0 -1.4) (layer F.Fab) hide
+    (fp_text value 47uF (at 0 -1.4 180) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
     (fp_line (start 0 -0.8) (end 0 0.8) (layer F.SilkS) (width 0.1016))
-    (pad 1 smd rect (at -1.5 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.5 0 180) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
       (net 6 DLC))
-    (pad 2 smd rect (at 1.5 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.5 0 180) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (model footprints/chip_rlc.3dshapes/c_1206.wrl
       (at (xyz 0 0 0))
@@ -398,7 +394,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A539)
-    (at 89.5 132.25)
+    (at 86.75 100)
     (path /582F2211/58F85AE2)
     (fp_text reference C5 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -419,18 +415,18 @@
   )
 
   (module chip_rlc:c_1206 (layer F.Cu) (tedit 56DDDFF4) (tstamp 5BC8A53F)
-    (at 83.25 131.75)
+    (at 80.844666 49 180)
     (path /582F2211/58F7FBBA)
-    (fp_text reference C6 (at 0 -1.4) (layer F.SilkS)
+    (fp_text reference C6 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
-    (fp_text value 47uF (at 0 -1.4) (layer F.Fab) hide
+    (fp_text value 47uF (at 0 -1.4 180) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
     (fp_line (start 0 -0.8) (end 0 0.8) (layer F.SilkS) (width 0.1016))
-    (pad 1 smd rect (at -1.5 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.5 0 180) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
       (net 6 DLC))
-    (pad 2 smd rect (at 1.5 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.5 0 180) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (model footprints/chip_rlc.3dshapes/c_1206.wrl
       (at (xyz 0 0 0))
@@ -440,18 +436,18 @@
   )
 
   (module chip_rlc:c_1206 (layer F.Cu) (tedit 56DDDFF4) (tstamp 5BC8A545)
-    (at 110.5 123)
+    (at 80.844666 56.5 180)
     (path /582F2211/58F7FBFE)
-    (fp_text reference C7 (at 0 -1.4) (layer F.SilkS)
+    (fp_text reference C7 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
-    (fp_text value 47uF (at 0 -1.4) (layer F.Fab) hide
+    (fp_text value 47uF (at 0 -1.4 180) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
     (fp_line (start 0 -0.8) (end 0 0.8) (layer F.SilkS) (width 0.1016))
-    (pad 1 smd rect (at -1.5 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.5 0 180) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
       (net 6 DLC))
-    (pad 2 smd rect (at 1.5 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.5 0 180) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (model footprints/chip_rlc.3dshapes/c_1206.wrl
       (at (xyz 0 0 0))
@@ -461,18 +457,18 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A54B)
-    (at 99.75 125.25)
+    (at 87 57.25 180)
     (path /582F2211/5835CACB)
-    (fp_text reference C8 (at 0 -0.8) (layer F.SilkS)
+    (fp_text reference C8 (at 0 -0.8 180) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
-    (fp_text value 62pF (at 0 -0.8) (layer F.Fab) hide
+    (fp_text value 62pF (at 0 -0.8 180) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
     (fp_line (start 0 -0.25) (end 0 0.25) (layer F.SilkS) (width 0.1016))
-    (pad 1 smd rect (at -0.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.5 0 180) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (pad 2 smd rect (at 0.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.5 0 180) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
       (net 8 "Net-(C8-Pad2)"))
     (model footprints/chip_rlc.3dshapes/c_0402.wrl
       (at (xyz 0 0 0))
@@ -482,18 +478,18 @@
   )
 
   (module chip_rlc:c_1206 (layer F.Cu) (tedit 56DDDFF4) (tstamp 5BC8A551)
-    (at 98 121.75)
+    (at 80.844666 54 180)
     (path /582F2211/58F7FC44)
-    (fp_text reference C9 (at 0 -1.4) (layer F.SilkS)
+    (fp_text reference C9 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
-    (fp_text value 47uF (at 0 -1.4) (layer F.Fab) hide
+    (fp_text value 47uF (at 0 -1.4 180) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
     (fp_line (start 0 -0.8) (end 0 0.8) (layer F.SilkS) (width 0.1016))
-    (pad 1 smd rect (at -1.5 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.5 0 180) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
       (net 6 DLC))
-    (pad 2 smd rect (at 1.5 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 1.5 0 180) (size 1 1.8) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (model footprints/chip_rlc.3dshapes/c_1206.wrl
       (at (xyz 0 0 0))
@@ -503,18 +499,18 @@
   )
 
   (module chip_rlc:c_0603 (layer F.Cu) (tedit 56DDD8FB) (tstamp 5BC8A557)
-    (at 115.25 116.25)
+    (at 77 66 270)
     (path /582F2211/589356C6)
-    (fp_text reference C10 (at 0 -1) (layer F.SilkS)
+    (fp_text reference C10 (at 0 -1 270) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
-    (fp_text value 10uF (at 0 -1) (layer F.Fab) hide
+    (fp_text value 10uF (at 0 -1 270) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
     (fp_line (start 0 -0.425) (end 0 0.425) (layer F.SilkS) (width 0.1016))
-    (pad 1 smd rect (at -0.75 0) (size 0.8 0.9) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.75 0 270) (size 0.8 0.9) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (pad 2 smd rect (at 0.75 0) (size 0.8 0.9) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.9) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (model footprints/chip_rlc.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
@@ -524,18 +520,18 @@
   )
 
   (module chip_rlc:c_0603 (layer F.Cu) (tedit 56DDD8FB) (tstamp 5BC8A55D)
-    (at 91.25 125.25)
+    (at 79 66 270)
     (path /582F2211/58F81C6B)
-    (fp_text reference C11 (at 0 -1) (layer F.SilkS)
+    (fp_text reference C11 (at 0 -1 270) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
-    (fp_text value 10uF (at 0 -1) (layer F.Fab) hide
+    (fp_text value 10uF (at 0 -1 270) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
     (fp_line (start 0 -0.425) (end 0 0.425) (layer F.SilkS) (width 0.1016))
-    (pad 1 smd rect (at -0.75 0) (size 0.8 0.9) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.75 0 270) (size 0.8 0.9) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (pad 2 smd rect (at 0.75 0) (size 0.8 0.9) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.75 0 270) (size 0.8 0.9) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (model footprints/chip_rlc.3dshapes/c_0603.wrl
       (at (xyz 0 0 0))
@@ -545,7 +541,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A563)
-    (at 125.75 150.75)
+    (at 123 118.5)
     (path /582F21C5/58F8BB88)
     (fp_text reference C12 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -566,7 +562,7 @@
   )
 
   (module chip_rlc:c_0603 (layer F.Cu) (tedit 56DDD8FB) (tstamp 5BC8A569)
-    (at 126.5 64.75)
+    (at 147 66.5)
     (path /582F225F/58FB6CF6)
     (fp_text reference C13 (at 0 -1) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -587,7 +583,7 @@
   )
 
   (module chip_rlc:c_0603 (layer F.Cu) (tedit 56DDD8FB) (tstamp 5BC8A56F)
-    (at 126.5 62.25)
+    (at 147 64)
     (path /582F225F/59003DDE)
     (fp_text reference C14 (at 0 -1) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -608,7 +604,7 @@
   )
 
   (module chip_rlc:c_0603 (layer F.Cu) (tedit 56DDD8FB) (tstamp 5BC8A575)
-    (at 129.75 54.5)
+    (at 150.25 56.25)
     (path /582F225F/58FB71A2)
     (fp_text reference C15 (at 0 -1) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -629,7 +625,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A57B)
-    (at 67.75 113.5)
+    (at 66.25 109.75)
     (path /582F23A6/58FDBFE9)
     (fp_text reference C16 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -650,7 +646,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A581)
-    (at 133.5 139)
+    (at 130.75 106.75)
     (path /582F23A6/58FDC125)
     (fp_text reference C17 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -671,7 +667,7 @@
   )
 
   (module chip_rlc:c_0805 (layer F.Cu) (tedit 56DDDAF8) (tstamp 5BC8A587)
-    (at 62.675 102.75)
+    (at 61.175 99)
     (path /582F23A6/58FE50CB)
     (fp_text reference C18 (at 0 -1.2) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -692,7 +688,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A58D)
-    (at 81.25 68)
+    (at 74.25 82.75)
     (path /582F23A6/58FD3B6F)
     (fp_text reference C19 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -713,7 +709,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A593)
-    (at 81 70.75)
+    (at 74 85.5)
     (path /582F23A6/58FD3FB1)
     (fp_text reference C20 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -734,7 +730,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A599)
-    (at 71.25 113.25)
+    (at 69.75 109.5)
     (path /582F23A6/58FEA778)
     (fp_text reference C21 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -755,7 +751,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A59F)
-    (at 76.75 65.75)
+    (at 69.75 80.5)
     (path /582F23A6/58FD424E)
     (fp_text reference C22 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -776,7 +772,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A5A5)
-    (at 76 53.25)
+    (at 69 68)
     (path /582F23A6/58FD4262)
     (fp_text reference C23 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -797,7 +793,7 @@
   )
 
   (module chip_rlc:c_0603 (layer F.Cu) (tedit 56DDD8FB) (tstamp 5BC8A5AB)
-    (at 131 43.25)
+    (at 151.5 45)
     (path /582F23CD/58FFFF1B)
     (fp_text reference C24 (at 0 -1) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -818,7 +814,7 @@
   )
 
   (module chip_rlc:c_0603 (layer F.Cu) (tedit 56DDD8FB) (tstamp 5BC8A5B1)
-    (at 136.75 47.75)
+    (at 157.25 49.5)
     (path /582F23CD/58FF9848)
     (fp_text reference C25 (at 0 -1) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -839,7 +835,7 @@
   )
 
   (module chip_rlc:c_0603 (layer F.Cu) (tedit 56DDD8FB) (tstamp 5BC8A5B7)
-    (at 71 116.25)
+    (at 69.5 112.5)
     (path /582F23CD/59002AA8)
     (fp_text reference C26 (at 0 -1) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -860,7 +856,7 @@
   )
 
   (module chip_rlc:c_0603 (layer F.Cu) (tedit 56DDD8FB) (tstamp 5BC8A5BD)
-    (at 131.25 45.75)
+    (at 151.75 47.5)
     (path /582F23CD/58FD532B)
     (fp_text reference C27 (at 0 -1) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -881,7 +877,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A5C3)
-    (at 86 158.75)
+    (at 83.25 126.5)
     (path /58340E0B/59044C3A)
     (fp_text reference C28 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -902,7 +898,7 @@
   )
 
   (module chip_rlc:c_0603 (layer F.Cu) (tedit 56DDD8FB) (tstamp 5BC8A5C9)
-    (at 125.25 155.75)
+    (at 122.5 123.5)
     (path /58340E0B/5904189F)
     (fp_text reference C29 (at 0 -1) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -923,7 +919,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A5CF)
-    (at 55 154.25)
+    (at 52.25 122)
     (path /58340E0B/58FA1876)
     (fp_text reference C30 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -944,7 +940,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A5D5)
-    (at 55 156.25)
+    (at 52.25 124)
     (path /58340E0B/58FA1951)
     (fp_text reference C31 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -1007,7 +1003,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A5E7)
-    (at 69.25 170)
+    (at 66.5 137.75)
     (path /5B883906)
     (fp_text reference C34 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -1028,7 +1024,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A5ED)
-    (at 66 171.75)
+    (at 63.25 139.5)
     (path /5B8838EA)
     (fp_text reference C35 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -1049,7 +1045,7 @@
   )
 
   (module chip_rlc:c_0603 (layer F.Cu) (tedit 56DDD8FB) (tstamp 5BC8A5F3)
-    (at 66 152)
+    (at 63.25 119.75)
     (path /58A74A6E/5B8D3E2F)
     (fp_text reference C36 (at 0 -1) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -1070,7 +1066,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A5F9)
-    (at 49.5 165)
+    (at 46.75 132.75)
     (path /58A74A6E/5B8CBC06)
     (fp_text reference C37 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -1091,7 +1087,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A5FF)
-    (at 49.25 162.75)
+    (at 46.5 130.5)
     (path /58A74A6E/5B8CBF7F)
     (fp_text reference C38 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -1112,7 +1108,7 @@
   )
 
   (module to-sod-sot:SOD-123 (layer F.Cu) (tedit 56EB082E) (tstamp 5BC8A605)
-    (at 76.925 49.25)
+    (at 86.325 48.5)
     (path /582F2211/5835C003)
     (fp_text reference D1 (at 0 -1.35) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -1141,12 +1137,12 @@
   )
 
   (module to-sod-sot:POWERDI-123 (layer F.Cu) (tedit 58F7938A) (tstamp 5BC8A60B)
-    (at 68.4 50.5)
+    (at 86.35 50.5 180)
     (path /582F2211/5835C0B1)
-    (fp_text reference D2 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference D2 (at 0 -1.5 180) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
-    (fp_text value SBR2U30P1 (at 0 -1.5) (layer F.Fab) hide
+    (fp_text value SBR2U30P1 (at 0 -1.5 180) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
     (fp_line (start -1.35 0.965) (end 1.35 0.965) (layer F.SilkS) (width 0.1016))
@@ -1161,9 +1157,9 @@
     (fp_line (start 0.8 0.8) (end 0.8 0.965) (layer F.SilkS) (width 0.1016))
     (fp_line (start -1.35 -0.965) (end -1.35 -0.8) (layer F.SilkS) (width 0.1016))
     (fp_line (start -1.35 0.965) (end -1.35 0.8) (layer F.SilkS) (width 0.1016))
-    (pad 1 smd rect (at -1.525 0) (size 1.05 1.5) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.525 0 180) (size 1.05 1.5) (layers F.Cu F.Paste F.Mask)
       (net 23 DLC_RAW))
-    (pad 2 smd rect (at 0.85 0) (size 2.4 1.5) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.85 0 180) (size 2.4 1.5) (layers F.Cu F.Paste F.Mask)
       (net 6 DLC))
     (model footprints/to-sod-sot.3dshapes/SOD-123.wrl
       (at (xyz 0 0 0))
@@ -1204,7 +1200,7 @@
   )
 
   (module to-sod-sot:SOT-23 (layer F.Cu) (tedit 56E9A380) (tstamp 5BC8A619)
-    (at 120.5 56.75)
+    (at 141.75 54.75)
     (descr SOT23)
     (path /582F225F/58FB2C23)
     (fp_text reference D4 (at 0 -2) (layer F.SilkS)
@@ -1235,7 +1231,7 @@
   )
 
   (module to-sod-sot:SOT-23 (layer F.Cu) (tedit 56E9A380) (tstamp 5BC8A620)
-    (at 124 56.75)
+    (at 145.25 54.75)
     (descr SOT23)
     (path /582F225F/59003DD4)
     (fp_text reference D5 (at 0 -2) (layer F.SilkS)
@@ -1266,7 +1262,7 @@
   )
 
   (module to-sod-sot:SOT-23 (layer F.Cu) (tedit 56E9A380) (tstamp 5BC8A627)
-    (at 138.25 67.75)
+    (at 158.75 69.5)
     (descr SOT23)
     (path /582F23CD/58FFFF10)
     (fp_text reference D6 (at 0 -2) (layer F.SilkS)
@@ -1297,7 +1293,7 @@
   )
 
   (module to-sod-sot:SOT-23 (layer F.Cu) (tedit 56E9A380) (tstamp 5BC8A62E)
-    (at 134.5 67.25)
+    (at 155 69)
     (descr SOT23)
     (path /582F23CD/59002A9E)
     (fp_text reference D7 (at 0 -2) (layer F.SilkS)
@@ -1328,7 +1324,7 @@
   )
 
   (module to-sod-sot:SOD-323 (layer F.Cu) (tedit 56EB089B) (tstamp 5BC8A634)
-    (at 143.445 48.75)
+    (at 163.945 50.5)
     (path /582F23CD/5900E8B5)
     (fp_text reference D8 (at 0 -1.27) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -1355,7 +1351,7 @@
   )
 
   (module to-sod-sot:SOD-323 (layer F.Cu) (tedit 56EB089B) (tstamp 5BC8A63A)
-    (at 128.945 57.75)
+    (at 149.445 59.5)
     (path /582F23CD/5900EFC2)
     (fp_text reference D9 (at 0 -1.27) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -1382,7 +1378,7 @@
   )
 
   (module to-sod-sot:SOD-323 (layer F.Cu) (tedit 56EB089B) (tstamp 5BC8A640)
-    (at 56.5 145.25)
+    (at 53.75 113)
     (path /582F23CD/590146A5)
     (fp_text reference D10 (at 0 -1.27) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -1409,7 +1405,7 @@
   )
 
   (module to-sod-sot:SOD-123 (layer F.Cu) (tedit 56EB082E) (tstamp 5BC8A646)
-    (at 71.325 167)
+    (at 68.575 134.75)
     (path /5B8B67B7)
     (fp_text reference D11 (at 0 -1.35) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -1438,7 +1434,7 @@
   )
 
   (module to-sod-sot:SOD-123 (layer F.Cu) (tedit 56EB082E) (tstamp 5BC8A64C)
-    (at 68.675 164.5)
+    (at 65.925 132.25)
     (path /5B8CB262)
     (fp_text reference D12 (at 0 -1.35) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -1467,14 +1463,14 @@
   )
 
   (module misc:ptc_1210 (layer F.Cu) (tedit 5706BE1A) (tstamp 5BC8A652)
-    (at 84.25 46.5)
+    (at 90.5 45.75 90)
     (descr "PTC Resettable Fuse, 1210")
     (tags "ptc, fuse")
     (path /582F2211/5835F7DA)
-    (fp_text reference F1 (at 0.1 -2.1) (layer F.SilkS)
+    (fp_text reference F1 (at 0.1 -2.1 90) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
-    (fp_text value 2A (at 0 0) (layer F.Fab) hide
+    (fp_text value 2A (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
     (fp_line (start 1.715 1.4) (end 1.715 1.38) (layer F.SilkS) (width 0.1016))
@@ -1483,9 +1479,9 @@
     (fp_line (start 1.715 -1.38) (end 1.715 -1.4) (layer F.SilkS) (width 0.1016))
     (fp_line (start -1.715 1.4) (end 1.715 1.4) (layer F.SilkS) (width 0.1016))
     (fp_line (start 1.715 -1.4) (end -1.715 -1.4) (layer F.SilkS) (width 0.1016))
-    (pad 1 smd rect (at 1.5 0) (size 1 2.6) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at 1.5 0 90) (size 1 2.6) (layers F.Cu F.Paste F.Mask)
       (net 1 VIN))
-    (pad 2 smd rect (at -1.5 0) (size 1 2.6) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at -1.5 0 90) (size 1 2.6) (layers F.Cu F.Paste F.Mask)
       (net 23 DLC_RAW))
     (model footprints/misc.3dshapes/ptc_1210.wrl
       (at (xyz 0 0 0))
@@ -1495,7 +1491,7 @@
   )
 
   (module conn:YH1012 (layer F.Cu) (tedit 59109EC0) (tstamp 5BC8A666)
-    (at 104.75 40.75)
+    (at 105 40)
     (path /58F8F983)
     (fp_text reference J1 (at 0 3.7) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -1553,19 +1549,19 @@
   )
 
   (module inductor:SRN6045 (layer F.Cu) (tedit 572CE6E8) (tstamp 5BC8A66C)
-    (at 65.85 69)
+    (at 91.5 55.15 270)
     (path /582F2211/5835C9FC)
-    (fp_text reference L1 (at 0 -3.55) (layer F.SilkS)
+    (fp_text reference L1 (at 0 -3.55 270) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
-    (fp_text value 10uH (at 0 0) (layer F.Fab) hide
+    (fp_text value 10uH (at 0 0 270) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
     (fp_line (start 1.1 3) (end -1.1 3) (layer F.SilkS) (width 0.1016))
     (fp_line (start -1.1 -3) (end 1.1 -3) (layer F.SilkS) (width 0.1016))
-    (pad 1 smd rect (at -2.15 0) (size 2 6) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -2.15 0 270) (size 2 6) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(C3-Pad1)"))
-    (pad 2 smd rect (at 2.15 0) (size 2 6) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 2.15 0 270) (size 2 6) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
     (model ${KIPRJMOD}/footprints/inductor.3dshapes/SRN6045.wrl
       (at (xyz 0 0 0))
@@ -1668,7 +1664,7 @@
   )
 
   (module to-sod-sot:SOT-23 (layer F.Cu) (tedit 56E9A380) (tstamp 5BC8A688)
-    (at 121.5 63.25)
+    (at 142.75 61.25)
     (descr SOT23)
     (path /582F225F/58FB1A06)
     (fp_text reference Q4 (at 0 -2) (layer F.SilkS)
@@ -1699,7 +1695,7 @@
   )
 
   (module to-sod-sot:SOT-23 (layer F.Cu) (tedit 56E9A380) (tstamp 5BC8A68F)
-    (at 76.5 109.75)
+    (at 75 106)
     (descr SOT23)
     (path /582F225F/58FB4DDF)
     (fp_text reference Q5 (at 0 -2) (layer F.SilkS)
@@ -1730,7 +1726,7 @@
   )
 
   (module to-sod-sot:SOT-23 (layer F.Cu) (tedit 56E9A380) (tstamp 5BC8A696)
-    (at 67 102.75)
+    (at 65.5 99)
     (descr SOT23)
     (path /582F23A6/58FE7544)
     (fp_text reference Q6 (at 0 -2) (layer F.SilkS)
@@ -1761,7 +1757,7 @@
   )
 
   (module to-sod-sot:SOT-23 (layer F.Cu) (tedit 56E9A380) (tstamp 5BC8A69D)
-    (at 130.75 48.5)
+    (at 151.25 50.25)
     (descr SOT23)
     (path /582F23CD/58FF3421)
     (fp_text reference Q7 (at 0 -2) (layer F.SilkS)
@@ -1792,7 +1788,7 @@
   )
 
   (module to-sod-sot:SOT-23 (layer F.Cu) (tedit 56E9A380) (tstamp 5BC8A6A4)
-    (at 137.25 61.25)
+    (at 157.75 63)
     (descr SOT23)
     (path /582F23CD/59007FAD)
     (fp_text reference Q8 (at 0 -2) (layer F.SilkS)
@@ -1823,7 +1819,7 @@
   )
 
   (module to-sod-sot:SOT-23 (layer F.Cu) (tedit 56E9A380) (tstamp 5BC8A6AB)
-    (at 143.25 60.25)
+    (at 163.75 62)
     (descr SOT23)
     (path /582F23CD/5900CF77)
     (fp_text reference Q9 (at 0 -2) (layer F.SilkS)
@@ -1854,7 +1850,7 @@
   )
 
   (module to-sod-sot:SOT-23 (layer F.Cu) (tedit 56E9A380) (tstamp 5BC8A6B2)
-    (at 131 62.25)
+    (at 151.5 64)
     (descr SOT23)
     (path /582F23CD/590147AD)
     (fp_text reference Q10 (at 0 -2) (layer F.SilkS)
@@ -1885,12 +1881,12 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A6B8)
-    (at 49.5 127.25)
+    (at 87 58.5 180)
     (path /582F2211/58A271C0)
-    (fp_text reference R1 (at 0 -0.8) (layer F.SilkS)
+    (fp_text reference R1 (at 0 -0.8 180) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
-    (fp_text value 100k (at 0 -0.9) (layer F.Fab) hide
+    (fp_text value 100k (at 0 -0.9 180) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
     (fp_line (start 0.82 0.32) (end 0.2 0.32) (layer F.SilkS) (width 0.1016))
@@ -1899,9 +1895,9 @@
     (fp_line (start -0.82 0.32) (end -0.2 0.32) (layer F.SilkS) (width 0.1016))
     (fp_line (start -0.82 -0.32) (end -0.82 0.32) (layer F.SilkS) (width 0.1016))
     (fp_line (start -0.2 -0.32) (end -0.82 -0.32) (layer F.SilkS) (width 0.1016))
-    (pad 1 smd rect (at -0.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.5 0 180) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
-    (pad 2 smd rect (at 0.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.5 0 180) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
       (net 8 "Net-(C8-Pad2)"))
     (model footprints/chip_rlc.3dshapes/r_0402.wrl
       (at (xyz 0 0 0))
@@ -1911,12 +1907,12 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A6BE)
-    (at 49.75 129.5)
+    (at 85.25 58 90)
     (path /582F2211/58F89868)
-    (fp_text reference R2 (at 0 -0.8) (layer F.SilkS)
+    (fp_text reference R2 (at 0 -0.8 90) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
-    (fp_text value 13,7k (at 0 -0.9) (layer F.Fab) hide
+    (fp_text value 13,7k (at 0 -0.9 90) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
     (fp_line (start 0.82 0.32) (end 0.2 0.32) (layer F.SilkS) (width 0.1016))
@@ -1925,9 +1921,9 @@
     (fp_line (start -0.82 0.32) (end -0.2 0.32) (layer F.SilkS) (width 0.1016))
     (fp_line (start -0.82 -0.32) (end -0.82 0.32) (layer F.SilkS) (width 0.1016))
     (fp_line (start -0.2 -0.32) (end -0.82 -0.32) (layer F.SilkS) (width 0.1016))
-    (pad 1 smd rect (at -0.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.5 0 90) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
       (net 8 "Net-(C8-Pad2)"))
-    (pad 2 smd rect (at 0.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.5 0 90) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (model footprints/chip_rlc.3dshapes/r_0402.wrl
       (at (xyz 0 0 0))
@@ -2015,7 +2011,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A6D6)
-    (at 49.25 134)
+    (at 46.5 101.75)
     (path /582F21C5/583AB1A6)
     (fp_text reference R6 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2041,7 +2037,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A6DC)
-    (at 117.25 66)
+    (at 138.5 64)
     (path /582F225F/58FB45DB)
     (fp_text reference R7 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2067,7 +2063,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A6E2)
-    (at 115.75 56.75)
+    (at 137 54.75)
     (path /582F225F/58FB1A1C)
     (fp_text reference R8 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2093,7 +2089,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A6E8)
-    (at 115.75 58.25)
+    (at 137 56.25)
     (path /582F225F/58FB7561)
     (fp_text reference R9 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2119,7 +2115,7 @@
   )
 
   (module chip_rlc:r_0805 (layer F.Cu) (tedit 56DDDD9B) (tstamp 5BC8A6EE)
-    (at 114 63)
+    (at 135.25 61)
     (path /582F225F/58FB19FB)
     (fp_text reference R10 (at 0 -1.3) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2145,7 +2141,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A6F4)
-    (at 123.75 47.25)
+    (at 145 45.25)
     (path /582F225F/58FB557C)
     (fp_text reference R11 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2171,7 +2167,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A6FA)
-    (at 52.25 127.5)
+    (at 49.5 95.25)
     (path /582F225F/58FBB473)
     (fp_text reference R12 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2197,7 +2193,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A700)
-    (at 46 127.25)
+    (at 43.25 95)
     (path /582F225F/58FB4DEF)
     (fp_text reference R13 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2249,7 +2245,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A70C)
-    (at 63.5 99.5)
+    (at 62 95.75)
     (path /582F23A6/58FE8C9D)
     (fp_text reference R15 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2275,7 +2271,7 @@
   )
 
   (module chip_rlc:r_0805 (layer F.Cu) (tedit 56DDDD9B) (tstamp 5BC8A712)
-    (at 75.175 113.5)
+    (at 73.675 109.75)
     (path /582F23A6/58FE76BB)
     (fp_text reference R16 (at 0 -1.3) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2301,7 +2297,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A718)
-    (at 83 66)
+    (at 76 80.75)
     (path /582F23A6/58FD347C)
     (fp_text reference R17 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2327,7 +2323,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A71E)
-    (at 72.5 102.5)
+    (at 71 98.75)
     (path /582F23A6/58FEA340)
     (fp_text reference R18 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2353,7 +2349,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A724)
-    (at 89.75 65.5)
+    (at 82.75 80.25)
     (path /582F23A6/58FD3FA7)
     (fp_text reference R19 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2379,7 +2375,7 @@
   )
 
   (module chip_rlc:r_2512 (layer F.Cu) (tedit 58FB76EB) (tstamp 5BC8A72A)
-    (at 63.5 109.25 90)
+    (at 62 105.5 90)
     (descr "Resistor SMD 2512, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 2512")
     (path /582F23A6/58FE7CFE)
@@ -2404,7 +2400,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A730)
-    (at 82.75 51)
+    (at 76.5 68.75)
     (path /582F23A6/58B0A852)
     (fp_text reference R21 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2425,7 +2421,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A736)
-    (at 79.25 63)
+    (at 72.25 77.75)
     (path /582F23A6/58FD4244)
     (fp_text reference R22 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2451,7 +2447,7 @@
   )
 
   (module chip_rlc:c_0402 (layer F.Cu) (tedit 56DDD793) (tstamp 5BC8A73C)
-    (at 81.25 55.75)
+    (at 74.25 70.5)
     (path /582F23A6/58FDA2D5)
     (fp_text reference R23 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2472,7 +2468,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A742)
-    (at 76.25 56.25)
+    (at 69.25 71)
     (path /582F23A6/58FD4258)
     (fp_text reference R24 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2498,7 +2494,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A748)
-    (at 136.25 44.75)
+    (at 156.75 46.5)
     (path /582F23CD/582FD8FC)
     (fp_text reference R25 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2524,7 +2520,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A74E)
-    (at 132.25 52.25)
+    (at 152.75 54)
     (path /582F23CD/582FDADA)
     (fp_text reference R26 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2550,7 +2546,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A754)
-    (at 132 56.25)
+    (at 152.5 58)
     (path /582F23CD/5832E14E)
     (fp_text reference R27 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2576,7 +2572,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A75A)
-    (at 97.7511 131.5036)
+    (at 95.0011 99.2536)
     (path /582F23CD/5900D39E)
     (fp_text reference R28 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2602,7 +2598,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A760)
-    (at 97.7511 131.5036)
+    (at 95.0011 99.2536)
     (path /582F23CD/5900D718)
     (fp_text reference R29 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2628,7 +2624,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A766)
-    (at 147 48.75)
+    (at 167.5 50.5)
     (path /582F23CD/58FFF46B)
     (fp_text reference R30 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2654,7 +2650,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A76C)
-    (at 147 46.25)
+    (at 167.5 48)
     (path /582F23CD/5900554A)
     (fp_text reference R31 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2680,7 +2676,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A772)
-    (at 147 51)
+    (at 167.5 52.75)
     (path /582F23CD/5900F3D6)
     (fp_text reference R32 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2706,7 +2702,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A778)
-    (at 151.5 68)
+    (at 172 69.75)
     (path /582F23CD/59006FE2)
     (fp_text reference R33 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2732,7 +2728,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A77E)
-    (at 145.5 57.75)
+    (at 166 59.5)
     (path /582F23CD/590118B7)
     (fp_text reference R34 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2758,7 +2754,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A784)
-    (at 147.75 57.75)
+    (at 168.25 59.5)
     (path /582F23CD/59011805)
     (fp_text reference R35 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2784,7 +2780,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A78A)
-    (at 144.5 65.75)
+    (at 165 67.5)
     (path /582F23CD/59015277)
     (fp_text reference R36 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2810,7 +2806,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A790)
-    (at 147.75 60)
+    (at 168.25 61.75)
     (path /582F23CD/590119B2)
     (fp_text reference R37 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2836,7 +2832,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A796)
-    (at 147 52.75)
+    (at 167.5 54.5)
     (path /582F23CD/590146AF)
     (fp_text reference R38 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2862,7 +2858,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A79C)
-    (at 97.7511 131.5036)
+    (at 95.0011 99.2536)
     (path /582F23CD/5901172D)
     (fp_text reference R39 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2888,7 +2884,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A7A2)
-    (at 97.7511 131.5036)
+    (at 95.0011 99.2536)
     (path /58340E0B/5904B9FE)
     (fp_text reference R40 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2914,7 +2910,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A7A8)
-    (at 97.7511 131.5036)
+    (at 95.0011 99.2536)
     (path /58340E0B/5904B0AE)
     (fp_text reference R41 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2940,7 +2936,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A7AE)
-    (at 97.7511 131.5036)
+    (at 95.0011 99.2536)
     (path /58340E0B/5904CEC6)
     (fp_text reference R42 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2966,7 +2962,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A7B4)
-    (at 97.7511 131.5036)
+    (at 95.0011 99.2536)
     (path /58340E0B/5904A952)
     (fp_text reference R43 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -2992,7 +2988,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A7BA)
-    (at 97.7511 131.5036)
+    (at 95.0011 99.2536)
     (path /58340E0B/59049DD7)
     (fp_text reference R44 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -3018,7 +3014,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A7C0)
-    (at 97.7511 131.5036)
+    (at 95.0011 99.2536)
     (path /58340E0B/590439DA)
     (fp_text reference R45 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -3200,7 +3196,7 @@
   )
 
   (module chip_rlc:r_0402 (layer F.Cu) (tedit 56DDD80E) (tstamp 5BC8A7EA)
-    (at 97.7511 131.5036)
+    (at 95.0011 99.2536)
     (path /58A74A6E/5B8D4B64)
     (fp_text reference R52 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -3226,7 +3222,7 @@
   )
 
   (module chip_rlc:l_0402 (layer F.Cu) (tedit 56DDD87B) (tstamp 5BC8A7F0)
-    (at 97.7511 131.5036)
+    (at 95.0011 99.2536)
     (path /58A74A6E/5B9C04A8)
     (fp_text reference R53 (at 0 -0.9) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -3248,7 +3244,7 @@
   )
 
   (module misc:TACT_SMD_4.5X4.5 (layer F.Cu) (tedit 56FED611) (tstamp 5BC8A7F8)
-    (at 75.75 183.25)
+    (at 73 151)
     (path /58A74A6E/5B9C0668)
     (fp_text reference SW1 (at 0 -2.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -3276,7 +3272,7 @@
   )
 
   (module misc:TACT_SMD_4.5X4.5 (layer F.Cu) (tedit 56FED611) (tstamp 5BC8A800)
-    (at 75.5 177.5)
+    (at 72.75 145.25)
     (path /58A74A6E/5B9C003A)
     (fp_text reference SW2 (at 0 -2.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -3304,13 +3300,13 @@
   )
 
   (module to-sod-sot:SOT-23-6 (layer F.Cu) (tedit 56E9A25A) (tstamp 5BC8A80A)
-    (at 73.95 68.35)
+    (at 85 54.4 180)
     (descr SOT-23-5)
     (path /582F2211/5835C29D)
-    (fp_text reference U1 (at 0 -2.6) (layer F.SilkS)
+    (fp_text reference U1 (at 0 -2.6 180) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1143)))
     )
-    (fp_text value TPS54202 (at 0 0) (layer F.Fab) hide
+    (fp_text value TPS54202 (at 0 0 180) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1143)))
     )
     (fp_circle (center -1.5 1.4) (end -1.5 1.45) (layer F.SilkS) (width 0.1016))
@@ -3320,17 +3316,17 @@
     (fp_line (start 1.55 0.9) (end 1.35 0.9) (layer F.SilkS) (width 0.1016))
     (fp_line (start 1.55 -0.9) (end 1.55 0.9) (layer F.SilkS) (width 0.1016))
     (fp_line (start -1.55 0.9) (end -1.55 -0.9) (layer F.SilkS) (width 0.1016))
-    (pad 1 smd rect (at -0.95 1.4) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.95 1.4 180) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (pad 3 smd rect (at 0.95 1.4) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask)
+    (pad 3 smd rect (at 0.95 1.4 180) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask)
       (net 6 DLC))
-    (pad 2 smd rect (at 0 1.4) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0 1.4 180) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(C3-Pad1)"))
-    (pad 4 smd rect (at 0.95 -1.4) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask)
+    (pad 4 smd rect (at 0.95 -1.4 180) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask)
       (net 8 "Net-(C8-Pad2)"))
-    (pad 6 smd rect (at -0.95 -1.4) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask)
+    (pad 6 smd rect (at -0.95 -1.4 180) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask)
       (net 5 "Net-(C3-Pad2)"))
-    (pad 5 smd rect (at 0 -1.4) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask)
+    (pad 5 smd rect (at 0 -1.4 180) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask)
       (net 76 "Net-(U1-Pad5)"))
     (model footprints/to-sod-sot.3dshapes/SOT-23-6.wrl
       (at (xyz 0 0 0))
@@ -3340,25 +3336,25 @@
   )
 
   (module to-sod-sot:SOT-223 (layer F.Cu) (tedit 58F7A719) (tstamp 5BC8A812)
-    (at 70.25 59.25)
+    (at 85 70.9 180)
     (path /582F2211/58F82CD2)
-    (fp_text reference U2 (at 0 -0.8) (layer F.SilkS)
+    (fp_text reference U2 (at 0 -0.8 180) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
-    (fp_text value AZ1117EH-3.3TRG1 (at 0 -0.8) (layer F.Fab) hide
+    (fp_text value AZ1117EH-3.3TRG1 (at 0 -0.8 180) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
     )
     (fp_line (start -3.25 -1.75) (end -3.25 1.75) (layer F.SilkS) (width 0.1016))
     (fp_line (start 3.25 -1.75) (end -3.25 -1.75) (layer F.SilkS) (width 0.1016))
     (fp_line (start 3.25 -1.75) (end 3.25 1.75) (layer F.SilkS) (width 0.1016))
     (fp_line (start 3.25 1.75) (end -3.25 1.75) (layer F.SilkS) (width 0.1016))
-    (pad 2 smd rect (at 0 -3.1) (size 3.5 2.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0 -3.1 180) (size 3.5 2.2) (layers F.Cu F.Paste F.Mask)
       (net 7 +3.3V))
-    (pad 1 smd rect (at -2.3 3.1) (size 1.2 2.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -2.3 3.1 180) (size 1.2 2.2) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (pad 2 smd rect (at 0 3.1) (size 1.2 2.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0 3.1 180) (size 1.2 2.2) (layers F.Cu F.Paste F.Mask)
       (net 7 +3.3V))
-    (pad 3 smd rect (at 2.3 3.1) (size 1.2 2.2) (layers F.Cu F.Paste F.Mask)
+    (pad 3 smd rect (at 2.3 3.1 180) (size 1.2 2.2) (layers F.Cu F.Paste F.Mask)
       (net 3 +5V))
     (model ${KIPRJMOD}/footprints/to-sod-sot.3dshapes/SOT-223.wrl
       (at (xyz 0 0 0))
@@ -3368,7 +3364,7 @@
   )
 
   (module soic-sop-tssop:TSSOP-14_4.4x5mm_Pitch0.65mm (layer F.Cu) (tedit 58F8FA20) (tstamp 5BC8A824)
-    (at 138.75 54.25)
+    (at 159.25 56)
     (descr "14-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (path /582F225F/58FAFC7B)
@@ -3415,7 +3411,7 @@
   )
 
   (module soic-sop-tssop:SOIC-14 (layer F.Cu) (tedit 5846B560) (tstamp 5BC8A836)
-    (at 88.75 59)
+    (at 114.5 54.5)
     (path /582F23A6/58EEA34D)
     (fp_text reference U4 (at 0.635 -4) (layer F.Fab) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -3467,7 +3463,7 @@
   )
 
   (module soic-sop-tssop:SOIC-8 (layer F.Cu) (tedit 56F2C032) (tstamp 5BC8A842)
-    (at 70 108.5)
+    (at 68.55 105.115)
     (descr SO-8)
     (path /582F23A6/58F03C6E)
     (fp_text reference U5 (at 0 -3.1) (layer F.Fab) hide
@@ -3507,7 +3503,7 @@
   )
 
   (module to-sod-sot:SC-70 (layer F.Cu) (tedit 56EAC4B3) (tstamp 5BC8A849)
-    (at 86.75 69.6)
+    (at 79.75 84.35)
     (path /582F23A6/582F34D6)
     (fp_text reference U6 (at 0 -2) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -3561,7 +3557,7 @@
   )
 
   (module to-sod-sot:SC-70 (layer F.Cu) (tedit 56EAC4B3) (tstamp 5BC8A857)
-    (at 80.75 59.1)
+    (at 73.75 73.85)
     (path /582F23A6/58FD4234)
     (fp_text reference U8 (at 0 -2) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -3588,7 +3584,7 @@
   )
 
   (module to-sod-sot:SOT-89-3 (layer F.Cu) (tedit 58F91C26) (tstamp 5BC8A85F)
-    (at 141.75 43.8875)
+    (at 162.25 45.6375)
     (descr SOT89)
     (path /582F23CD/58F8CA15)
     (fp_text reference U9 (at 0 -4.7) (layer F.SilkS)
@@ -3772,7 +3768,7 @@
   )
 
   (module to-sod-sot:SOT-223 (layer F.Cu) (tedit 58F7A719) (tstamp 5BC8A8A7)
-    (at 79 164.35)
+    (at 76.25 132.1)
     (path /5B8838F5)
     (fp_text reference U11 (at 0 -0.8) (layer F.SilkS)
       (effects (font (size 0.7112 0.4572) (thickness 0.1016)))
@@ -3800,7 +3796,7 @@
   )
 
   (module ESP32-footprints-Lib:ESP32-WROOM (layer F.Cu) (tedit 57D08EA8) (tstamp 5BC8A8D2)
-    (at 95.7 176.95)
+    (at 92.95 144.7)
     (path /58A74A6E/5B862489)
     (fp_text reference U14 (at -11.557 9.017) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3933,7 +3929,7 @@
   )
 
   (module conn:PIN_ARRAY_5x1_1.27_SMD (layer F.Cu) (tedit 5BC8AA4C) (tstamp 5BC8CB38)
-    (at 62.5 181.5)
+    (at 59.75 149.25)
     (descr "1.27 mm pitch vertical smt pin header")
     (path /5BCA1F49)
     (fp_text reference J2 (at 0 0.5) (layer F.SilkS)
@@ -3962,5 +3958,87 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (module misc:MountingHole_3mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5BCA0F1B)
+    (at 125 44)
+    (descr "Mounting Hole 3mm, no annular")
+    (tags "mounting hole 3mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -4) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3mm (at 0 4) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 3.25 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+  )
+
+  (module misc:MountingHole_3mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5BCA0F5F)
+    (at 49.75 42.5)
+    (descr "Mounting Hole 3mm, no annular")
+    (tags "mounting hole 3mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -4) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3mm (at 0 4) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 3.25 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+  )
+
+  (module misc:MountingHole_3mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5BCA0F67)
+    (at 35.25 42.5)
+    (descr "Mounting Hole 3mm, no annular")
+    (tags "mounting hole 3mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -4) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3mm (at 0 4) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 3.25 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+  )
+
+  (module misc:MountingHole_3mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5BCA0F6F)
+    (at 84.75 43.75)
+    (descr "Mounting Hole 3mm, no annular")
+    (tags "mounting hole 3mm no annular")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -4) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3mm (at 0 4) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 3.25 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+  )
+
+  (gr_line (start 132.5 45) (end 132.5 65.5) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 77.5 45) (end 77.5 62.5) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 125 37) (end 132.5 45) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 85 37) (end 77.5 45) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 85 37) (end 125 37) (layer Edge.Cuts) (width 0.15))
 
 )

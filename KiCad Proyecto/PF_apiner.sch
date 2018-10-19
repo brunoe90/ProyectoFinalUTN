@@ -638,4 +638,6 @@ F 7 "952-3609-ND" H 9550 2700 60  0001 C CNN "Digikey#"
 	1    0    0    -1  
 $EndComp
 Connection ~ 9350 2400
+Text Notes 5400 1350 0    60   ~ 0
+agrandar d1
 $EndSCHEMATC
