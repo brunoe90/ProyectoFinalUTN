@@ -640,4 +640,6 @@ $EndComp
 Connection ~ 9350 2400
 Text Notes 5400 1350 0    60   ~ 0
 agrandar d1
+Text Notes 4900 2200 0    60   ~ 0
+Revizar footprint Y1 -> osc stn\ngirar footprint 45 grados para que \neste a la misma dist las vias???
 $EndSCHEMATC

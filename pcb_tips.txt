@@ -1,0 +1,13 @@
+primero que nada puto el que lee
+
+PCB -> 4 layers componentes arriba y abajo
+	TOP: ALIM + ESP32
+	BOT: STN
+
+Layers
+1)VCC
+2)señales
+3)GND
+4)señales
+
+
