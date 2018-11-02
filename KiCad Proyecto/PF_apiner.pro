@@ -1,29 +1,10 @@
 version=1
 last_client=kicad
-update=Fri 14 Sep 2018 10:17:52 AM -03
+update=jue 01 nov 2018 21:29:57 -03
 [general]
 version=1
 RootSch=
 BoardNm=
-[pcbnew]
-version=1
-LastNetListRead=
-UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
-PcbTextSizeV=1.500000000000
-PcbTextSizeH=1.500000000000
-PcbTextThickness=0.300000000000
-ModuleTextSizeV=1.000000000000
-ModuleTextSizeH=1.000000000000
-ModuleTextSizeThickness=0.150000000000
-SolderMaskClearance=0.000000000000
-SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.200000000000
-BoardOutlineThickness=0.100000000000
-ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
@@ -36,4 +17,23 @@ LibName2=lib/ESP32-footprints-Shem-Lib
 LibName3=lib/ftdi
 LibName4=lib/OBDII_IoT
 LibName5=lib/STN2120
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=PF_apiner.net
+PadDrill=0.762
+PadDrillOvalY=0.762
+PadSizeH=1.524
+PadSizeV=1.524
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0.2
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.15
 
