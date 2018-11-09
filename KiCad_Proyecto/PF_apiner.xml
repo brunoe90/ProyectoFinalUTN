@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\bruno\OneDrive\Escritorio\PF\ProyectoFinalUTN\KiCad Proyecto\PF_apiner.sch</source>
-    <date>10-Sep-18 2:54:44 PM</date>
-    <tool>Eeschema 4.0.7</tool>
+    <source>/home/luis/gits/ProyectoFinalUTN/KiCad_Proyecto/PF_apiner.sch</source>
+    <date>Tue 06 Nov 2018 12:19:46 PM -03</date>
+    <tool>Eeschema 4.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -127,85 +127,30 @@
       <value>OBDII Header</value>
       <footprint>conn:YH1012</footprint>
       <fields>
-        <field name="Descripcion">OBDII male 90° connector</field>
-        <field name="Fabricante">Yeahui</field>
-        <field name="Nro. parte">YH1012</field>
+        <field name="Desc">OBDII male 90° connector</field>
+        <field name="Manf">Yeahui</field>
+        <field name="Manf#">YH1012</field>
       </fields>
       <libsource lib="OBDII_IoT" part="CONN_2X16_OBDII"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58F8F983</tstamp>
     </comp>
-    <comp ref="J2">
-      <value>Conn_01x05</value>
-      <libsource lib="Connector" part="Conn_01x05"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B87BBB6</tstamp>
-    </comp>
     <comp ref="C35">
       <value>0.1uF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 0.1UF 10V X5R 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0402KRX5R6BB104</field>
-        <field name="Digikey/Mouser">311-1336-1-ND</field>
+        <field name="Desc">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0402KRX5R6BB104</field>
+        <field name="Digikey#">311-1336-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B8838EA</tstamp>
     </comp>
-    <comp ref="U11">
-      <value>AZ1117EH-3.3TRG1</value>
-      <footprint>to-sod-sot:SOT-223</footprint>
-      <fields>
-        <field name="Descripcion">IC REG LDO 3.3V 1A SOT223</field>
-        <field name="Fabricante">Diodes Incorporated</field>
-        <field name="Nro. parte">AZ1117EH-3.3TRG1</field>
-        <field name="Digikey/Mouser">AZ1117EH-3.3TRG1DICT-ND</field>
-      </fields>
-      <libsource lib="OBDII_IoT" part="VOLT_REG"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B8838F5</tstamp>
-    </comp>
-    <comp ref="C34">
-      <value>1uF</value>
-      <footprint>chip_rlc:c_0402</footprint>
-      <fields>
-        <field name="Descripcion">CAP CER 1UF 6.3V X5R 0402</field>
-        <field name="Fabricante">Taiyo Yuden</field>
-        <field name="Nro. parte">JMK105BJ105KV-F</field>
-        <field name="Digikey/Mouser">587-1231-1-ND</field>
-      </fields>
-      <libsource lib="OBDII_IoT" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B883906</tstamp>
-    </comp>
-    <comp ref="U12">
-      <value>+5V_USB</value>
-      <libsource lib="OBDII_IoT" part="+5V_USB"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B88F65F</tstamp>
-    </comp>
-    <comp ref="U13">
-      <value>+5V_USB</value>
-      <libsource lib="OBDII_IoT" part="+5V_USB"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B8A5F68</tstamp>
-    </comp>
-    <comp ref="D11">
-      <value>MBR0520</value>
-      <fields>
-        <field name="Desc">DIODE SCHOTTKY 20V 500MA SOD123</field>
-        <field name="Manf">ON Semiconductor</field>
-        <field name="Manf#">MBR0520LT1G</field>
-        <field name="Digikey#">MBR0520LT1GOSCT-ND</field>
-      </fields>
-      <libsource lib="OBDII_IoT" part="D_Schot"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B8B67B7</tstamp>
-    </comp>
     <comp ref="D12">
       <value>MBR0520</value>
+      <footprint>to-sod-sot:SOD-123</footprint>
       <fields>
         <field name="Desc">DIODE SCHOTTKY 20V 500MA SOD123</field>
         <field name="Manf">ON Semiconductor</field>
@@ -216,14 +161,59 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B8CB262</tstamp>
     </comp>
+    <comp ref="J2">
+      <value>Conn_01x05</value>
+      <footprint>conn:PIN_ARRAY_5x1_1.27_SMD</footprint>
+      <fields>
+        <field name="Desc">CONN HDR 1.27MM SMT AU 5POS</field>
+        <field name="Manf">Harwin Inc.</field>
+        <field name="Manf#">M50-3630542</field>
+        <field name="Digikey#">952-3609-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCA1F49</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>PCB_HOLE</value>
+      <footprint>misc:MountingHole_3mm</footprint>
+      <datasheet>PCB HOLE</datasheet>
+      <libsource lib="OBDII_IoT" part="PCB_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BDBC2D4</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>PCB_HOLE</value>
+      <footprint>misc:MountingHole_3mm</footprint>
+      <datasheet>PCB HOLE</datasheet>
+      <libsource lib="OBDII_IoT" part="PCB_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BDBD6A0</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>PCB_HOLE</value>
+      <footprint>misc:MountingHole_3mm</footprint>
+      <datasheet>PCB HOLE</datasheet>
+      <libsource lib="OBDII_IoT" part="PCB_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BDBD82A</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>PCB_HOLE</value>
+      <footprint>misc:MountingHole_3mm</footprint>
+      <datasheet>PCB HOLE</datasheet>
+      <libsource lib="OBDII_IoT" part="PCB_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BDBD9BA</tstamp>
+    </comp>
     <comp ref="C1">
       <value>10nF</value>
       <footprint>chip_rlc:c_0603</footprint>
       <fields>
-        <field name="Fabricante">TDK Corporation</field>
-        <field name="Descripcion">CAP CER 10000PF 25V C0G 0603</field>
-        <field name="Nro. parte">C1608C0G1E103J080AA</field>
-        <field name="Digikey/Mouser">445-2664-1-ND</field>
+        <field name="Manf">TDK Corporation</field>
+        <field name="Desc">CAP CER 10000PF 25V C0G 0603</field>
+        <field name="Manf#">C1608C0G1E103J080AA</field>
+        <field name="Manf#">445-2664-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -233,10 +223,10 @@
       <value>47uF</value>
       <footprint>chip_rlc:c_1206</footprint>
       <fields>
-        <field name="Fabricante">TDK Corporation</field>
-        <field name="Descripcion">47µF ±20% 25V Ceramic Capacitor X5R 1206 (3216 Metric)</field>
-        <field name="Nro. parte">C3216X5R1E476M160AC</field>
-        <field name="Digikey/Mouser">445-8047-1-ND</field>
+        <field name="Manf">TDK Corporation</field>
+        <field name="Desc">47µF ±20% 25V Ceramic Capacitor X5R 1206 (3216 Metric)</field>
+        <field name="Manf#">C3216X5R1E476M160AC</field>
+        <field name="Manf#">445-8047-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -246,10 +236,10 @@
       <value>RLCAMP0531T9</value>
       <footprint>to-sod-sot:SOD-123</footprint>
       <fields>
-        <field name="Fabricante">Micro Commercial Co</field>
-        <field name="Descripcion">TVS DIODE 14VWM 23.2VC SOD-123FL</field>
-        <field name="Nro. parte">SMF14A-TP</field>
-        <field name="Digikey/Mouser">SMF14A-TPMSCT-ND</field>
+        <field name="Manf">Micro Commercial Co</field>
+        <field name="Desc">TVS DIODE 14VWM 23.2VC SOD-123FL</field>
+        <field name="Manf#">SMF14A-TP</field>
+        <field name="Manf#">SMF14A-TPMSCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="TVS"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -259,12 +249,12 @@
       <value>SBR2U30P1</value>
       <footprint>to-sod-sot:POWERDI-123</footprint>
       <fields>
-        <field name="Descripcion">DIODE SBR 30V 2A POWERDI123</field>
-        <field name="Fabricante">Diodes Incorporated</field>
-        <field name="Nro. parte">SBR2U30P1-7</field>
-        <field name="Digikey/Mouser">SBR2U30P1DICT-ND</field>
+        <field name="Desc">DIODE SBR 30V 2A POWERDI123</field>
+        <field name="Manf">Diodes Incorporated</field>
+        <field name="Manf#">SBR2U30P1-7</field>
+        <field name="Manf#">SBR2U30P1DICT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-rescue" part="D-RESCUE-PF_apiner"/>
+      <libsource lib="OBDII_IoT" part="D"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>5835C0B1</tstamp>
     </comp>
@@ -272,10 +262,10 @@
       <value>2A</value>
       <footprint>misc:ptc_1210</footprint>
       <fields>
-        <field name="Descripcion">FUSE BOARD MOUNT 2A 63VDC 1206</field>
-        <field name="Fabricante">Littelfuse</field>
-        <field name="Nro. parte">1206SFF200F/63-2</field>
-        <field name="Digikey/Mouser">1206SFF200F/63-2CT-ND</field>
+        <field name="Desc">FUSE BOARD MNT 2A 63VAC/VDC 1206</field>
+        <field name="Manf">Littelfuse Inc.</field>
+        <field name="Manf#">0468002.NR</field>
+        <field name="Digikey#">F2570CT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="FUSE"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -285,10 +275,10 @@
       <value>TPS54202</value>
       <footprint>to-sod-sot:SOT-23-6</footprint>
       <fields>
-        <field name="Fabricante">Texas Instruments</field>
-        <field name="Descripcion">Buck Switching Regulator IC Positive Adjustable 0.596V 1 Output 2A SOT-23-6 Thin, TSOT-23-6</field>
-        <field name="Nro. parte">TPS54202DDCT</field>
-        <field name="Digikey/Mouser">296-44151-1-ND</field>
+        <field name="Desc">Buck Switching Regulator IC Positive Adjustable 0.596V 1 Output 2A SOT-23-6 Thin, TSOT-23-6</field>
+        <field name="Manf">Texas Instruments</field>
+        <field name="Manf#">TPS54202DDCT</field>
+        <field name="Digikey#">296-44396-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="TPS54202"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -298,12 +288,12 @@
       <value>10uH</value>
       <footprint>inductor:SRN6045</footprint>
       <fields>
-        <field name="Fabricante">Bourns Inc</field>
-        <field name="Descripcion">10µH Shielded Wirewound Inductor 2.5A 58.6 mOhm Max Nonstandard</field>
-        <field name="Nro. parte">SRN6045-100M</field>
-        <field name="Digikey/Mouser">SRN6045-100MCT-ND</field>
+        <field name="Manf">Bourns Inc</field>
+        <field name="Desc">10µH Shielded Wirewound Inductor 2.5A 58.6 mOhm Max Nonstandard</field>
+        <field name="Manf#">SRN6045-100M</field>
+        <field name="Manf#">SRN6045-100MCT-ND</field>
       </fields>
-      <libsource lib="PF_apiner-rescue" part="L-RESCUE-PF_apiner"/>
+      <libsource lib="OBDII_IoT" part="L"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
       <tstamp>5835C9FC</tstamp>
     </comp>
@@ -311,10 +301,10 @@
       <value>62pF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 62PF 50V C0G/NPO 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0402JRNPO9BN620</field>
-        <field name="Digikey/Mouser">311-1674-1-ND</field>
+        <field name="Desc">CAP CER 62PF 50V C0G/NPO 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0402JRNPO9BN620</field>
+        <field name="Manf#">311-1674-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -324,10 +314,10 @@
       <value>0.1uF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 0.1UF 10V X5R 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0402KRX5R6BB104</field>
-        <field name="Digikey/Mouser">311-1336-1-ND</field>
+        <field name="Desc">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0402KRX5R6BB104</field>
+        <field name="Manf#">311-1336-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -337,10 +327,10 @@
       <value>10uF</value>
       <footprint>chip_rlc:c_0603</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 10UF 6.3V X5R 0603</field>
-        <field name="Fabricante">Taiyo Yuden</field>
-        <field name="Nro. parte">JMK107BJ106MA-T</field>
-        <field name="Digikey/Mouser">587-1256-1-ND</field>
+        <field name="Desc">CAP CER 10UF 6.3V X5R 0603</field>
+        <field name="Manf">Taiyo Yuden</field>
+        <field name="Manf#">JMK107BJ106MA-T</field>
+        <field name="Manf#">587-1256-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -350,10 +340,10 @@
       <value>100k</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 100K OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402FR-07100KL</field>
-        <field name="Digikey/Mouser">311-100KLRCT-ND</field>
+        <field name="Desc">RES SMD 100K OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402FR-07100KL</field>
+        <field name="Manf#">311-100KLRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -363,10 +353,10 @@
       <value>47uF</value>
       <footprint>chip_rlc:c_1206</footprint>
       <fields>
-        <field name="Fabricante">TDK Corporation</field>
-        <field name="Descripcion">47µF ±20% 25V Ceramic Capacitor X5R 1206 (3216 Metric)</field>
-        <field name="Nro. parte">C3216X5R1E476M160AC</field>
-        <field name="Digikey/Mouser">445-8047-1-ND</field>
+        <field name="Manf">TDK Corporation</field>
+        <field name="Desc">47µF ±20% 25V Ceramic Capacitor X5R 1206 (3216 Metric)</field>
+        <field name="Manf#">C3216X5R1E476M160AC</field>
+        <field name="Manf#">445-8047-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -376,10 +366,10 @@
       <value>47uF</value>
       <footprint>chip_rlc:c_1206</footprint>
       <fields>
-        <field name="Fabricante">TDK Corporation</field>
-        <field name="Descripcion">47µF ±20% 25V Ceramic Capacitor X5R 1206 (3216 Metric)</field>
-        <field name="Nro. parte">C3216X5R1E476M160AC</field>
-        <field name="Digikey/Mouser">445-8047-1-ND</field>
+        <field name="Manf">TDK Corporation</field>
+        <field name="Desc">47µF ±20% 25V Ceramic Capacitor X5R 1206 (3216 Metric)</field>
+        <field name="Manf#">C3216X5R1E476M160AC</field>
+        <field name="Manf#">445-8047-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -389,10 +379,10 @@
       <value>47uF</value>
       <footprint>chip_rlc:c_1206</footprint>
       <fields>
-        <field name="Fabricante">TDK Corporation</field>
-        <field name="Descripcion">47µF ±20% 25V Ceramic Capacitor X5R 1206 (3216 Metric)</field>
-        <field name="Nro. parte">C3216X5R1E476M160AC</field>
-        <field name="Digikey/Mouser">445-8047-1-ND</field>
+        <field name="Manf">TDK Corporation</field>
+        <field name="Desc">47µF ±20% 25V Ceramic Capacitor X5R 1206 (3216 Metric)</field>
+        <field name="Manf#">C3216X5R1E476M160AC</field>
+        <field name="Manf#">445-8047-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -402,10 +392,10 @@
       <value>0.1uF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 0.1UF 10V X5R 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0402KRX5R6BB104</field>
-        <field name="Digikey/Mouser">311-1336-1-ND</field>
+        <field name="Desc">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0402KRX5R6BB104</field>
+        <field name="Manf#">311-1336-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -415,10 +405,10 @@
       <value>10uF</value>
       <footprint>chip_rlc:c_0603</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 10UF 6.3V X5R 0603</field>
-        <field name="Fabricante">Taiyo Yuden</field>
-        <field name="Nro. parte">JMK107BJ106MA-T</field>
-        <field name="Digikey/Mouser">587-1256-1-ND</field>
+        <field name="Desc">CAP CER 10UF 6.3V X5R 0603</field>
+        <field name="Manf">Taiyo Yuden</field>
+        <field name="Manf#">JMK107BJ106MA-T</field>
+        <field name="Manf#">587-1256-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -428,10 +418,10 @@
       <value>AZ1117EH-3.3TRG1</value>
       <footprint>to-sod-sot:SOT-223</footprint>
       <fields>
-        <field name="Descripcion">IC REG LDO 3.3V 1A SOT223</field>
-        <field name="Fabricante">Diodes Incorporated</field>
-        <field name="Nro. parte">AZ1117EH-3.3TRG1</field>
-        <field name="Digikey/Mouser">AZ1117EH-3.3TRG1DICT-ND</field>
+        <field name="Desc">IC REG LDO 3.3V 1A SOT223</field>
+        <field name="Manf">Diodes Incorporated</field>
+        <field name="Manf#">AZ1117EH-3.3TRG1</field>
+        <field name="Manf#">AZ1117EH-3.3TRG1DICT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="VOLT_REG"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -441,10 +431,10 @@
       <value>1uF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 1UF 6.3V X5R 0402</field>
-        <field name="Fabricante">Taiyo Yuden</field>
-        <field name="Nro. parte">JMK105BJ105KV-F</field>
-        <field name="Digikey/Mouser">587-1231-1-ND</field>
+        <field name="Desc">CAP CER 1UF 6.3V X5R 0402</field>
+        <field name="Manf">Taiyo Yuden</field>
+        <field name="Manf#">JMK105BJ105KV-F</field>
+        <field name="Manf#">587-1231-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -454,10 +444,10 @@
       <value>13,7k</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 13.7K OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402FR-0713K7L</field>
-        <field name="Digikey/Mouser">311-13.7KLRCT-ND</field>
+        <field name="Desc">RES SMD 13.7K OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402FR-0713K7L</field>
+        <field name="Manf#">311-13.7KLRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/Power_Supplies/" tstamps="/582F2211/"/>
@@ -467,10 +457,10 @@
       <value>100k</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 100K OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402FR-07100KL</field>
-        <field name="Digikey/Mouser">311-100KLRCT-ND</field>
+        <field name="Desc">RES SMD 100K OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402FR-07100KL</field>
+        <field name="Digikey#">311-100KLRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/Power_CRTL/" tstamps="/582F2238/"/>
@@ -480,10 +470,10 @@
       <value>100k</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 100K OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402FR-07100KL</field>
-        <field name="Digikey/Mouser">311-100KLRCT-ND</field>
+        <field name="Desc">RES SMD 100K OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402FR-07100KL</field>
+        <field name="Digikey#">311-100KLRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/Power_CRTL/" tstamps="/582F2238/"/>
@@ -493,10 +483,10 @@
       <value>BSS314PE</value>
       <footprint>to-sod-sot:SOT-23</footprint>
       <fields>
-        <field name="Descripcion">MOSFET P-CH 30V 1.5A SOT23</field>
-        <field name="Fabricante">Infineon</field>
-        <field name="Nro. parte">BSS314PE H6327</field>
-        <field name="Digikey/Mouser">BSS314PE H6327CT-ND</field>
+        <field name="Desc">MOSFET P-CH 30V 1.5A SOT23</field>
+        <field name="Manf">Infineon</field>
+        <field name="Manf#">BSS314PE H6327</field>
+        <field name="Digikey#">BSS314PE H6327CT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="MOS_P"/>
       <sheetpath names="/Power_CRTL/" tstamps="/582F2238/"/>
@@ -506,10 +496,10 @@
       <value>2N7002</value>
       <footprint>to-sod-sot:SOT-23</footprint>
       <fields>
-        <field name="Descripcion">MOSFET N-CH 60V 260MA SOT-23</field>
-        <field name="Fabricante">ON Semiconductor</field>
-        <field name="Nro. parte">2N7002ET1G</field>
-        <field name="Digikey/Mouser">2N7002ET1GOSCT-ND</field>
+        <field name="Desc">MOSFET N-CH 60V 260MA SOT-23</field>
+        <field name="Manf">ON Semiconductor</field>
+        <field name="Manf#">2N7002ET1G</field>
+        <field name="Digikey#">2N7002ET1GOSCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="MOS_N"/>
       <sheetpath names="/Power_CRTL/" tstamps="/582F2238/"/>
@@ -519,10 +509,10 @@
       <value>BSS314PE</value>
       <footprint>to-sod-sot:SOT-23</footprint>
       <fields>
-        <field name="Descripcion">MOSFET P-CH 30V 1.5A SOT23</field>
-        <field name="Fabricante">Infineon</field>
-        <field name="Nro. parte">BSS314PE H6327</field>
-        <field name="Digikey/Mouser">BSS314PE H6327CT-ND</field>
+        <field name="Desc">MOSFET P-CH 30V 1.5A SOT23</field>
+        <field name="Manf">Infineon</field>
+        <field name="Manf#">BSS314PE H6327</field>
+        <field name="Digikey#">BSS314PE H6327CT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="MOS_P"/>
       <sheetpath names="/Power_CRTL/" tstamps="/582F2238/"/>
@@ -532,10 +522,10 @@
       <value>62k 1%</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 62K OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402FR-0762KL</field>
-        <field name="Digikey/Mouser">311-62.0KLRCT-ND</field>
+        <field name="Desc">RES SMD 62K OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402FR-0762KL</field>
+        <field name="Digikey#">311-62.0KLRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/Voltage_Sense/" tstamps="/582F21C5/"/>
@@ -545,10 +535,10 @@
       <value>BAT54SL</value>
       <footprint>to-sod-sot:SOT-23</footprint>
       <fields>
-        <field name="Descripcion">Diode Array 1 Pair Series Connection Schottky 30V 200mA (DC) Surface Mount TO-236-3, SC-59, SOT-23-3</field>
-        <field name="Fabricante">ON Semiconductor</field>
-        <field name="Nro. parte">BAT54SLT1G</field>
-        <field name="Digikey/Mouser">BAT54SLT1GOSCT-ND</field>
+        <field name="Desc">Diode Array 1 Pair Series Connection Schottky 30V 200mA (DC) Surface Mount TO-236-3, SC-59, SOT-23-3</field>
+        <field name="Manf">ON Semiconductor</field>
+        <field name="Manf#">BAT54SLT1G</field>
+        <field name="Digikey#">BAT54SLT1GOSCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="D_Schottky_BAT54SL"/>
       <sheetpath names="/Voltage_Sense/" tstamps="/582F21C5/"/>
@@ -558,10 +548,10 @@
       <value>10K 1%</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 10K OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yaego</field>
-        <field name="Nro. parte">RC0402FR-0710KL</field>
-        <field name="Digikey/Mouser">311-10.0KLRCT-ND</field>
+        <field name="Desc">RES SMD 10K OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yaego</field>
+        <field name="Manf#">RC0402FR-0710KL</field>
+        <field name="Digikey#">311-10.0KLRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/Voltage_Sense/" tstamps="/582F21C5/"/>
@@ -571,10 +561,10 @@
       <value>0.1uF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 0.1UF 10V X5R 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0402KRX5R6BB104</field>
-        <field name="Digikey/Mouser">311-1336-1-ND</field>
+        <field name="Desc">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0402KRX5R6BB104</field>
+        <field name="Digikey#">311-1336-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/Voltage_Sense/" tstamps="/582F21C5/"/>
@@ -584,10 +574,10 @@
       <value>LM339</value>
       <footprint>soic-sop-tssop:TSSOP-14_4.4x5mm_Pitch0.65mm</footprint>
       <fields>
-        <field name="Descripcion">IC QUAD DIFF COMPARATOR 14-TSSOP</field>
-        <field name="Fabricante">Texas Instruments</field>
-        <field name="Nro. parte">LM339PWR</field>
-        <field name="Digikey/Mouser">296-6607-1-ND</field>
+        <field name="Desc">IC QUAD DIFF COMPARATOR 14-TSSOP</field>
+        <field name="Manf">Texas Instruments</field>
+        <field name="Manf#">LM339PWR</field>
+        <field name="Digikey#">296-6607-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="LM339"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -597,10 +587,10 @@
       <value>510 0.5W</value>
       <footprint>chip_rlc:r_0805</footprint>
       <fields>
-        <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Descripcion">RES SMD 510 OHM 5% 1/2W 0805</field>
-        <field name="Nro. parte">ERJ-P06J511V</field>
-        <field name="Digikey/Mouser">P510ADCT-ND</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Desc">RES SMD 510 OHM 5% 1/2W 0805</field>
+        <field name="Manf#">ERJ-P06J511V</field>
+        <field name="Digikey#">P510ADCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -610,10 +600,10 @@
       <value>MMBT3904</value>
       <footprint>to-sod-sot:SOT-23</footprint>
       <fields>
-        <field name="Descripcion">TRANS NPN 40V 0.2A SOT23</field>
-        <field name="Fabricante">ON Semiconductor</field>
-        <field name="Nro. parte">MMBT3904LT3G</field>
-        <field name="Digikey/Mouser">MMBT3904LT3GOSCT-ND</field>
+        <field name="Desc">TRANS NPN 40V 0.2A SOT23</field>
+        <field name="Manf">ON Semiconductor</field>
+        <field name="Manf#">MMBT3904LT3G</field>
+        <field name="Digikey#">MMBT3904LT3GOSCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="NPN"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -623,10 +613,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -636,10 +626,10 @@
       <value>BAT54SL</value>
       <footprint>to-sod-sot:SOT-23</footprint>
       <fields>
-        <field name="Descripcion">Diode Array 1 Pair Series Connection Schottky 30V 200mA (DC) Surface Mount TO-236-3, SC-59, SOT-23-3</field>
-        <field name="Fabricante">ON Semiconductor</field>
-        <field name="Nro. parte">BAT54SLT1G</field>
-        <field name="Digikey/Mouser">BAT54SLT1GOSCT-ND</field>
+        <field name="Desc">Diode Array 1 Pair Series Connection Schottky 30V 200mA (DC) Surface Mount TO-236-3, SC-59, SOT-23-3</field>
+        <field name="Manf">ON Semiconductor</field>
+        <field name="Manf#">BAT54SLT1G</field>
+        <field name="Digikey#">BAT54SLT1GOSCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="D_Schottky_BAT54SL"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -649,10 +639,10 @@
       <value>1K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 1K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-071KL</field>
-        <field name="Digikey/Mouser">311-1.0KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 1K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-071KL</field>
+        <field name="Digikey#">311-1.0KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -662,10 +652,10 @@
       <value>510 0.5W</value>
       <footprint>chip_rlc:r_0805</footprint>
       <fields>
-        <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Descripcion">RES SMD 510 OHM 5% 1/2W 0805</field>
-        <field name="Nro. parte">ERJ-P06J511V</field>
-        <field name="Digikey/Mouser">P510ADCT-ND</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Desc">RES SMD 510 OHM 5% 1/2W 0805</field>
+        <field name="Manf#">ERJ-P06J511V</field>
+        <field name="Digikey#">P510ADCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -675,10 +665,10 @@
       <value>MMBT3904</value>
       <footprint>to-sod-sot:SOT-23</footprint>
       <fields>
-        <field name="Descripcion">TRANS NPN 40V 0.2A SOT23</field>
-        <field name="Fabricante">ON Semiconductor</field>
-        <field name="Nro. parte">MMBT3904LT3G</field>
-        <field name="Digikey/Mouser">MMBT3904LT3GOSCT-ND</field>
+        <field name="Desc">TRANS NPN 40V 0.2A SOT23</field>
+        <field name="Manf">ON Semiconductor</field>
+        <field name="Manf#">MMBT3904LT3G</field>
+        <field name="Digikey#">MMBT3904LT3GOSCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="NPN"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -688,10 +678,10 @@
       <value>1K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 1K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-071KL</field>
-        <field name="Digikey/Mouser">311-1.0KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 1K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-071KL</field>
+        <field name="Digikey#">311-1.0KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -701,10 +691,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -714,10 +704,10 @@
       <value>0.1uF x 25V</value>
       <footprint>chip_rlc:c_0603</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 0.1UF 25V X7R 0603</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0603KRX7R8BB104</field>
-        <field name="Digikey/Mouser">311-1341-1-ND</field>
+        <field name="Desc">CAP CER 0.1UF 25V X7R 0603</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0603KRX7R8BB104</field>
+        <field name="Digikey#">311-1341-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -727,10 +717,10 @@
       <value>0.1uF x 25V</value>
       <footprint>chip_rlc:c_0603</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 0.1UF 25V X7R 0603</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0603KRX7R8BB104</field>
-        <field name="Digikey/Mouser">311-1341-1-ND</field>
+        <field name="Desc">CAP CER 0.1UF 25V X7R 0603</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0603KRX7R8BB104</field>
+        <field name="Digikey#">311-1341-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -740,10 +730,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -753,10 +743,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -766,10 +756,10 @@
       <value>BAT54SL</value>
       <footprint>to-sod-sot:SOT-23</footprint>
       <fields>
-        <field name="Descripcion">Diode Array 1 Pair Series Connection Schottky 30V 200mA (DC) Surface Mount TO-236-3, SC-59, SOT-23-3</field>
-        <field name="Fabricante">ON Semiconductor</field>
-        <field name="Nro. parte">BAT54SLT1G</field>
-        <field name="Digikey/Mouser">BAT54SLT1GOSCT-ND</field>
+        <field name="Desc">Diode Array 1 Pair Series Connection Schottky 30V 200mA (DC) Surface Mount TO-236-3, SC-59, SOT-23-3</field>
+        <field name="Manf">ON Semiconductor</field>
+        <field name="Manf#">BAT54SLT1G</field>
+        <field name="Digikey#">BAT54SLT1GOSCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="D_Schottky_BAT54SL"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -779,10 +769,10 @@
       <value>0.1uF x 25V</value>
       <footprint>chip_rlc:c_0603</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 0.1UF 25V X7R 0603</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0603KRX7R8BB104</field>
-        <field name="Digikey/Mouser">311-1341-1-ND</field>
+        <field name="Desc">CAP CER 0.1UF 25V X7R 0603</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0603KRX7R8BB104</field>
+        <field name="Digikey#">311-1341-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/ISO_Transceiver/" tstamps="/582F225F/"/>
@@ -792,12 +782,12 @@
       <value>PESD1CAN</value>
       <footprint>to-sod-sot:SC-70</footprint>
       <fields>
-        <field name="Fabricante">NXP USA Inc</field>
-        <field name="Descripcion">TVS DIODE 24VWM 50VC SC70</field>
-        <field name="Nro. parte">PESD1CAN-UX</field>
-        <field name="Digikey/Mouser">568-10731-1-ND</field>
+        <field name="Manf">NXP USA Inc</field>
+        <field name="Desc">TVS DIODE 24VWM 50VC SC70</field>
+        <field name="Manf#">PESD1CAN-UX</field>
+        <field name="Digikey#">568-10731-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-rescue" part="PESD1CAN-RESCUE-PF_apiner"/>
+      <libsource lib="OBDII_IoT" part="PESD1CAN"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>582F34D6</tstamp>
     </comp>
@@ -805,10 +795,10 @@
       <value>DNP</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 120 OHM 5% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402JR-07120RL</field>
-        <field name="Digikey/Mouser">311-120JRCT-ND</field>
+        <field name="Desc">RES SMD 120 OHM 5% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402JR-07120RL</field>
+        <field name="Digikey#">311-120JRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -818,10 +808,10 @@
       <value>MCP25612FD</value>
       <footprint>soic-sop-tssop:SOIC-14</footprint>
       <fields>
-        <field name="Descripcion">IC TRANSCEIVER CAN HI-SPD 14SOIC</field>
-        <field name="Fabricante">Microchip</field>
-        <field name="Nro. parte">MCP25612FD-H/SL</field>
-        <field name="Digikey/Mouser">MCP25612FD-H/SL-ND</field>
+        <field name="Desc">IC TRANSCEIVER CAN HI-SPD 14SOIC</field>
+        <field name="Manf">Microchip</field>
+        <field name="Manf#">MCP25612FD-H/SL</field>
+        <field name="Digikey#">MCP25612FD-H/SL-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="MCP25612FD"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -831,10 +821,10 @@
       <value>TH8056</value>
       <footprint>soic-sop-tssop:SOIC-8</footprint>
       <fields>
-        <field name="Descripcion">IC TXRX CAN 8SOIC</field>
-        <field name="Fabricante">Melexis</field>
-        <field name="Nro. parte">TH8056KDC-AAA-008-RE</field>
-        <field name="Digikey/Mouser">TH8056KDC-AAA-008-RETR-ND</field>
+        <field name="Desc">IC TXRX CAN 8SOIC</field>
+        <field name="Manf">Melexis</field>
+        <field name="Manf#">TH8056KDC-AAA-008-RE</field>
+        <field name="Digikey#">TH8056KDC-AAA-008-RETR-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="TH8056"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -844,12 +834,12 @@
       <value>PESD1CAN</value>
       <footprint>to-sod-sot:SC-70</footprint>
       <fields>
-        <field name="Fabricante">NXP USA Inc</field>
-        <field name="Descripcion">TVS DIODE 24VWM 50VC SC70</field>
-        <field name="Nro. parte">PESD1CAN-UX</field>
-        <field name="Digikey/Mouser">568-10731-1-ND</field>
+        <field name="Manf">NXP USA Inc</field>
+        <field name="Desc">TVS DIODE 24VWM 50VC SC70</field>
+        <field name="Manf#">PESD1CAN-UX</field>
+        <field name="Digikey#">568-10731-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-rescue" part="PESD1CAN-RESCUE-PF_apiner"/>
+      <libsource lib="OBDII_IoT" part="PESD1CAN"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FD2706</tstamp>
     </comp>
@@ -857,10 +847,10 @@
       <value>100</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 100 OHM 5% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402JR-07100RL</field>
-        <field name="Digikey/Mouser">311-100JRCT-ND</field>
+        <field name="Desc">RES SMD 100 OHM 5% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402JR-07100RL</field>
+        <field name="Digikey#">311-100JRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -870,10 +860,10 @@
       <value>560 pF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 560PF 50V X7R 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0402KRX7R9BB561</field>
-        <field name="Digikey/Mouser">311-1029-1-ND</field>
+        <field name="Desc">CAP CER 560PF 50V X7R 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0402KRX7R9BB561</field>
+        <field name="Digikey#">311-1029-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -883,10 +873,10 @@
       <value>100</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 100 OHM 5% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402JR-07100RL</field>
-        <field name="Digikey/Mouser">311-100JRCT-ND</field>
+        <field name="Desc">RES SMD 100 OHM 5% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402JR-07100RL</field>
+        <field name="Digikey#">311-100JRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -896,10 +886,10 @@
       <value>560 pF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 560PF 50V X7R 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0402KRX7R9BB561</field>
-        <field name="Digikey/Mouser">311-1029-1-ND</field>
+        <field name="Desc">CAP CER 560PF 50V X7R 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0402KRX7R9BB561</field>
+        <field name="Digikey#">311-1029-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -909,12 +899,12 @@
       <value>PESD1CAN</value>
       <footprint>to-sod-sot:SC-70</footprint>
       <fields>
-        <field name="Fabricante">NXP USA Inc</field>
-        <field name="Descripcion">TVS DIODE 24VWM 50VC SC70</field>
-        <field name="Nro. parte">PESD1CAN-UX</field>
-        <field name="Digikey/Mouser">568-10731-1-ND</field>
+        <field name="Manf">NXP USA Inc</field>
+        <field name="Desc">TVS DIODE 24VWM 50VC SC70</field>
+        <field name="Manf#">PESD1CAN-UX</field>
+        <field name="Digikey#">568-10731-1-ND</field>
       </fields>
-      <libsource lib="PF_apiner-rescue" part="PESD1CAN-RESCUE-PF_apiner"/>
+      <libsource lib="OBDII_IoT" part="PESD1CAN"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
       <tstamp>58FD4234</tstamp>
     </comp>
@@ -922,10 +912,10 @@
       <value>100</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 100 OHM 5% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402JR-07100RL</field>
-        <field name="Digikey/Mouser">311-100JRCT-ND</field>
+        <field name="Desc">RES SMD 100 OHM 5% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402JR-07100RL</field>
+        <field name="Digikey#">311-100JRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -935,10 +925,10 @@
       <value>560 pF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 560PF 50V X7R 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0402KRX7R9BB561</field>
-        <field name="Digikey/Mouser">311-1029-1-ND</field>
+        <field name="Desc">CAP CER 560PF 50V X7R 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0402KRX7R9BB561</field>
+        <field name="Digikey#">311-1029-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -948,10 +938,10 @@
       <value>100</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 100 OHM 5% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402JR-07100RL</field>
-        <field name="Digikey/Mouser">311-100JRCT-ND</field>
+        <field name="Desc">RES SMD 100 OHM 5% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402JR-07100RL</field>
+        <field name="Digikey#">311-100JRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -961,10 +951,10 @@
       <value>560 pF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 560PF 50V X7R 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0402KRX7R9BB561</field>
-        <field name="Digikey/Mouser">311-1029-1-ND</field>
+        <field name="Desc">CAP CER 560PF 50V X7R 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0402KRX7R9BB561</field>
+        <field name="Digikey#">311-1029-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -974,10 +964,10 @@
       <value>DNP</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 120 OHM 5% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402JR-07120RL</field>
-        <field name="Digikey/Mouser">311-120JRCT-ND</field>
+        <field name="Desc">RES SMD 120 OHM 5% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402JR-07120RL</field>
+        <field name="Digikey#">311-120JRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -987,10 +977,10 @@
       <value>0.1uF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 0.1UF 10V X5R 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0402KRX5R6BB104</field>
-        <field name="Digikey/Mouser">311-1336-1-ND</field>
+        <field name="Desc">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0402KRX5R6BB104</field>
+        <field name="Digikey#">311-1336-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -1000,10 +990,10 @@
       <value>0.1uF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 0.1UF 10V X5R 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0402KRX5R6BB104</field>
-        <field name="Digikey/Mouser">311-1336-1-ND</field>
+        <field name="Desc">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0402KRX5R6BB104</field>
+        <field name="Digikey#">311-1336-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -1013,10 +1003,10 @@
       <value>10uF 25V</value>
       <footprint>chip_rlc:c_0805</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 10UF 25V X5R 0805</field>
-        <field name="Fabricante">Taiyo Yuden</field>
-        <field name="Nro. parte">TMK212BBJ106KG-T</field>
-        <field name="Digikey/Mouser">587-2985-6-ND</field>
+        <field name="Desc">CAP CER 10UF 25V X5R 0805</field>
+        <field name="Manf">Taiyo Yuden</field>
+        <field name="Manf#">TMK212BBJ106KG-T</field>
+        <field name="Digikey#">587-2985-6-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -1026,10 +1016,10 @@
       <value>2N7002</value>
       <footprint>to-sod-sot:SOT-23</footprint>
       <fields>
-        <field name="Descripcion">MOSFET N-CH 60V 260MA SOT-23</field>
-        <field name="Fabricante">ON Semiconductor</field>
-        <field name="Nro. parte">2N7002ET1G</field>
-        <field name="Digikey/Mouser">2N7002ET1GOSCT-ND</field>
+        <field name="Desc">MOSFET N-CH 60V 260MA SOT-23</field>
+        <field name="Manf">ON Semiconductor</field>
+        <field name="Manf#">2N7002ET1G</field>
+        <field name="Digikey#">2N7002ET1GOSCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="MOS_N"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -1039,10 +1029,10 @@
       <value>6,49K</value>
       <footprint>chip_rlc:r_0805</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 6.49K OHM 1% 1/8W 0805</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0805FR-076K49L</field>
-        <field name="Digikey/Mouser">311-6.49KCRCT-ND</field>
+        <field name="Desc">RES SMD 6.49K OHM 1% 1/8W 0805</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0805FR-076K49L</field>
+        <field name="Digikey#">311-6.49KCRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -1052,10 +1042,10 @@
       <value>130</value>
       <footprint>chip_rlc:r_2512</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 130 OHM 1% 2W 2512</field>
-        <field name="Fabricante">TE Connectivity</field>
-        <field name="Nro. parte">3521130RFT</field>
-        <field name="Digikey/Mouser">A116011CT-ND</field>
+        <field name="Desc">RES SMD 130 OHM 1% 2W 2512</field>
+        <field name="Manf">TE Connectivity</field>
+        <field name="Manf#">3521130RFT</field>
+        <field name="Digikey#">A116011CT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -1065,10 +1055,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -1078,10 +1068,10 @@
       <value>150 pF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 150PF 50V C0G/NP0 0402</field>
-        <field name="Fabricante">Murata</field>
-        <field name="Nro. parte">GRM1555C1H151JA01D</field>
-        <field name="Digikey/Mouser">490-3229-1-ND</field>
+        <field name="Desc">CAP CER 150PF 50V C0G/NP0 0402</field>
+        <field name="Manf">Murata</field>
+        <field name="Manf#">GRM1555C1H151JA01D</field>
+        <field name="Digikey#">490-3229-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -1091,10 +1081,10 @@
       <value>1,5K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 1.5K OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402FR-071K5L</field>
-        <field name="Digikey/Mouser">311-1.50KLRCT-ND</field>
+        <field name="Desc">RES SMD 1.5K OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402FR-071K5L</field>
+        <field name="Digikey#">311-1.50KLRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/CAN_Transceiver/" tstamps="/582F23A6/"/>
@@ -1104,10 +1094,10 @@
       <value>240</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 240 OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402FR-07240RL</field>
-        <field name="Digikey/Mouser">311-240LRCT-ND</field>
+        <field name="Desc">RES SMD 240 OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402FR-07240RL</field>
+        <field name="Digikey#">311-240LRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1117,10 +1107,10 @@
       <value>866</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 866 OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yaego</field>
-        <field name="Nro. parte">RC0402FR-07866RL</field>
-        <field name="Digikey/Mouser">YAG3248CT-ND</field>
+        <field name="Desc">RES SMD 866 OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yaego</field>
+        <field name="Manf#">RC0402FR-07866RL</field>
+        <field name="Digikey#">YAG3248CT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1130,10 +1120,10 @@
       <value>374</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 374 OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402FR-07374RL</field>
-        <field name="Digikey/Mouser">YAG3137CT-ND</field>
+        <field name="Desc">RES SMD 374 OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402FR-07374RL</field>
+        <field name="Digikey#">YAG3137CT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1143,10 +1133,10 @@
       <value>2N7002</value>
       <footprint>to-sod-sot:SOT-23</footprint>
       <fields>
-        <field name="Descripcion">MOSFET N-CH 60V 260MA SOT-23</field>
-        <field name="Fabricante">ON Semiconductor</field>
-        <field name="Nro. parte">2N7002ET1G</field>
-        <field name="Digikey/Mouser">2N7002ET1GOSCT-ND</field>
+        <field name="Desc">MOSFET N-CH 60V 260MA SOT-23</field>
+        <field name="Manf">ON Semiconductor</field>
+        <field name="Manf#">2N7002ET1G</field>
+        <field name="Digikey#">2N7002ET1GOSCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="MOS_N"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1156,10 +1146,10 @@
       <value>0.1uF x 25V</value>
       <footprint>chip_rlc:c_0603</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 0.1UF 25V X7R 0603</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0603KRX7R8BB104</field>
-        <field name="Digikey/Mouser">311-1341-1-ND</field>
+        <field name="Desc">CAP CER 0.1UF 25V X7R 0603</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0603KRX7R8BB104</field>
+        <field name="Digikey#">311-1341-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1169,10 +1159,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1182,10 +1172,10 @@
       <value>BAT54SL</value>
       <footprint>to-sod-sot:SOT-23</footprint>
       <fields>
-        <field name="Descripcion">Diode Array 1 Pair Series Connection Schottky 30V 200mA (DC) Surface Mount TO-236-3, SC-59, SOT-23-3</field>
-        <field name="Fabricante">ON Semiconductor</field>
-        <field name="Nro. parte">BAT54SLT1G</field>
-        <field name="Digikey/Mouser">BAT54SLT1GOSCT-ND</field>
+        <field name="Desc">Diode Array 1 Pair Series Connection Schottky 30V 200mA (DC) Surface Mount TO-236-3, SC-59, SOT-23-3</field>
+        <field name="Manf">ON Semiconductor</field>
+        <field name="Manf#">BAT54SLT1G</field>
+        <field name="Digikey#">BAT54SLT1GOSCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="D_Schottky_BAT54SL"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1195,10 +1185,10 @@
       <value>0.1uF x 25V</value>
       <footprint>chip_rlc:c_0603</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 0.1UF 25V X7R 0603</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0603KRX7R8BB104</field>
-        <field name="Digikey/Mouser">311-1341-1-ND</field>
+        <field name="Desc">CAP CER 0.1UF 25V X7R 0603</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0603KRX7R8BB104</field>
+        <field name="Digikey#">311-1341-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1208,10 +1198,10 @@
       <value>BAT54SL</value>
       <footprint>to-sod-sot:SOT-23</footprint>
       <fields>
-        <field name="Descripcion">Diode Array 1 Pair Series Connection Schottky 30V 200mA (DC) Surface Mount TO-236-3, SC-59, SOT-23-3</field>
-        <field name="Fabricante">ON Semiconductor</field>
-        <field name="Nro. parte">BAT54SLT1G</field>
-        <field name="Digikey/Mouser">BAT54SLT1GOSCT-ND</field>
+        <field name="Desc">Diode Array 1 Pair Series Connection Schottky 30V 200mA (DC) Surface Mount TO-236-3, SC-59, SOT-23-3</field>
+        <field name="Manf">ON Semiconductor</field>
+        <field name="Manf#">BAT54SLT1G</field>
+        <field name="Digikey#">BAT54SLT1GOSCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="D_Schottky_BAT54SL"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1221,10 +1211,10 @@
       <value>0.1uF x 25V</value>
       <footprint>chip_rlc:c_0603</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 0.1UF 25V X7R 0603</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0603KRX7R8BB104</field>
-        <field name="Digikey/Mouser">311-1341-1-ND</field>
+        <field name="Desc">CAP CER 0.1UF 25V X7R 0603</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0603KRX7R8BB104</field>
+        <field name="Digikey#">311-1341-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1234,10 +1224,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1247,10 +1237,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1260,10 +1250,10 @@
       <value>2N7002</value>
       <footprint>to-sod-sot:SOT-23</footprint>
       <fields>
-        <field name="Descripcion">MOSFET N-CH 60V 260MA SOT-23</field>
-        <field name="Fabricante">ON Semiconductor</field>
-        <field name="Nro. parte">2N7002ET1G</field>
-        <field name="Digikey/Mouser">2N7002ET1GOSCT-ND</field>
+        <field name="Desc">MOSFET N-CH 60V 260MA SOT-23</field>
+        <field name="Manf">ON Semiconductor</field>
+        <field name="Manf#">2N7002ET1G</field>
+        <field name="Digikey#">2N7002ET1GOSCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="MOS_N"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1273,10 +1263,10 @@
       <value>BSS314PE</value>
       <footprint>to-sod-sot:SOT-23</footprint>
       <fields>
-        <field name="Descripcion">MOSFET P-CH 30V 1.5A SOT23</field>
-        <field name="Fabricante">Infineon</field>
-        <field name="Nro. parte">BSS314PE H6327</field>
-        <field name="Digikey/Mouser">BSS314PE H6327CT-ND</field>
+        <field name="Desc">MOSFET P-CH 30V 1.5A SOT23</field>
+        <field name="Manf">Infineon</field>
+        <field name="Manf#">BSS314PE H6327</field>
+        <field name="Digikey#">BSS314PE H6327CT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="MOS_P"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1286,10 +1276,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1299,10 +1289,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1312,10 +1302,10 @@
       <value>DB2J31000L</value>
       <footprint>to-sod-sot:SOD-323</footprint>
       <fields>
-        <field name="Descripcion">Diode Schottky 30V 200mA Surface Mount SMini2-F5-B</field>
-        <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Nro. parte">DB2J31000L</field>
-        <field name="Digikey/Mouser">DB2J31000LCT-ND</field>
+        <field name="Desc">Diode Schottky 30V 200mA Surface Mount SMini2-F5-B</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Manf#">DB2J31000L</field>
+        <field name="Digikey#">DB2J31000LCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="D_Schot"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1325,10 +1315,10 @@
       <value>DB2J31000L</value>
       <footprint>to-sod-sot:SOD-323</footprint>
       <fields>
-        <field name="Descripcion">Diode Schottky 30V 200mA Surface Mount SMini2-F5-B</field>
-        <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Nro. parte">DB2J31000L</field>
-        <field name="Digikey/Mouser">DB2J31000LCT-ND</field>
+        <field name="Desc">Diode Schottky 30V 200mA Surface Mount SMini2-F5-B</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Manf#">DB2J31000L</field>
+        <field name="Digikey#">DB2J31000LCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="D_Schot"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1338,10 +1328,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1351,10 +1341,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1364,10 +1354,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1377,10 +1367,10 @@
       <value>2,7K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 2.7K OHM 5% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402JR-072K7L</field>
-        <field name="Digikey/Mouser">311-2.7KJRCT-ND</field>
+        <field name="Desc">RES SMD 2.7K OHM 5% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402JR-072K7L</field>
+        <field name="Digikey#">311-2.7KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1390,10 +1380,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1403,10 +1393,10 @@
       <value>DB2J31000L</value>
       <footprint>to-sod-sot:SOD-323</footprint>
       <fields>
-        <field name="Descripcion">Diode Schottky 30V 200mA Surface Mount SMini2-F5-B</field>
-        <field name="Fabricante">Panasonic Electronic Components</field>
-        <field name="Nro. parte">DB2J31000L</field>
-        <field name="Digikey/Mouser">DB2J31000LCT-ND</field>
+        <field name="Desc">Diode Schottky 30V 200mA Surface Mount SMini2-F5-B</field>
+        <field name="Manf">Panasonic Electronic Components</field>
+        <field name="Manf#">DB2J31000L</field>
+        <field name="Digikey#">DB2J31000LCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="D_Schot"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1416,10 +1406,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1429,10 +1419,10 @@
       <value>2N7002</value>
       <footprint>to-sod-sot:SOT-23</footprint>
       <fields>
-        <field name="Descripcion">MOSFET N-CH 60V 260MA SOT-23</field>
-        <field name="Fabricante">ON Semiconductor</field>
-        <field name="Nro. parte">2N7002ET1G</field>
-        <field name="Digikey/Mouser">2N7002ET1GOSCT-ND</field>
+        <field name="Desc">MOSFET N-CH 60V 260MA SOT-23</field>
+        <field name="Manf">ON Semiconductor</field>
+        <field name="Manf#">2N7002ET1G</field>
+        <field name="Digikey#">2N7002ET1GOSCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="MOS_N"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1442,10 +1432,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1455,10 +1445,10 @@
       <value>LM317</value>
       <footprint>to-sod-sot:SOT-89-3</footprint>
       <fields>
-        <field name="Descripcion">IC REG LINEAR ADJ 0.1A SOT89-3</field>
-        <field name="Fabricante">Texas Instruments</field>
-        <field name="Nro. parte">LM317LCPK</field>
-        <field name="Digikey/Mouser">296-26093-1-ND</field>
+        <field name="Desc">IC REG LINEAR ADJ 0.1A SOT89-3</field>
+        <field name="Manf">Texas Instruments</field>
+        <field name="Manf#">LM317LCPK</field>
+        <field name="Digikey#">296-26093-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="LM317LD"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1468,10 +1458,10 @@
       <value>0.1uF x 25V</value>
       <footprint>chip_rlc:c_0603</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 0.1UF 25V X7R 0603</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0603KRX7R8BB104</field>
-        <field name="Digikey/Mouser">311-1341-1-ND</field>
+        <field name="Desc">CAP CER 0.1UF 25V X7R 0603</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0603KRX7R8BB104</field>
+        <field name="Digikey#">311-1341-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/J1850_Transceiver/" tstamps="/582F23CD/"/>
@@ -1481,9 +1471,9 @@
       <value>STN2120</value>
       <footprint>dfn-qfn:QFN-44-1EP_8x8mm_Pitch0.65mm</footprint>
       <fields>
-        <field name="Descripcion">OBD-II, SW-CAN, MS-CAN Interpreter IC</field>
-        <field name="Fabricante">OBD Solutions</field>
-        <field name="Nro. parte">STN2120</field>
+        <field name="Desc">OBD-II, SW-CAN, MS-CAN Interpreter IC</field>
+        <field name="Manf">OBD Solutions</field>
+        <field name="Manf#">STN2120</field>
       </fields>
       <libsource lib="STN2120" part="STN2120"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1493,10 +1483,10 @@
       <value>16M</value>
       <footprint>xtal-res-osc:XTAL_32x25</footprint>
       <fields>
-        <field name="Descripcion">CRYSTAL 16.0000MHZ 8PF SMD</field>
-        <field name="Fabricante">TXC</field>
-        <field name="Nro. parte">7M-16.000MAHV-T</field>
-        <field name="Digikey/Mouser">887-2555-1-ND</field>
+        <field name="Desc">CRYSTAL 16.0000MHZ 8PF SMD</field>
+        <field name="Manf">TXC</field>
+        <field name="Manf#">7M-16.000MAHV-T</field>
+        <field name="Digikey#">887-2555-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="XTAL-4"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1506,10 +1496,10 @@
       <value>16pF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 16PF 50V C0G/NP0 0402</field>
-        <field name="Fabricante">Murata</field>
-        <field name="Nro. parte">GRM1555C1H160JA01D</field>
-        <field name="Digikey/Mouser">490-5926-1-ND</field>
+        <field name="Desc">CAP CER 16PF 50V C0G/NP0 0402</field>
+        <field name="Manf">Murata</field>
+        <field name="Manf#">GRM1555C1H160JA01D</field>
+        <field name="Digikey#">490-5926-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1519,10 +1509,10 @@
       <value>16pF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 16PF 50V C0G/NP0 0402</field>
-        <field name="Fabricante">Murata</field>
-        <field name="Nro. parte">GRM1555C1H160JA01D</field>
-        <field name="Digikey/Mouser">490-5926-1-ND</field>
+        <field name="Desc">CAP CER 16PF 50V C0G/NP0 0402</field>
+        <field name="Manf">Murata</field>
+        <field name="Manf#">GRM1555C1H160JA01D</field>
+        <field name="Digikey#">490-5926-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1532,10 +1522,10 @@
       <value>10uF</value>
       <footprint>chip_rlc:c_0603</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 10UF 6.3V X5R 0603</field>
-        <field name="Fabricante">Taiyo Yuden</field>
-        <field name="Nro. parte">JMK107BJ106MA-T</field>
-        <field name="Digikey/Mouser">587-1256-1-ND</field>
+        <field name="Desc">CAP CER 10UF 6.3V X5R 0603</field>
+        <field name="Manf">Taiyo Yuden</field>
+        <field name="Manf#">JMK107BJ106MA-T</field>
+        <field name="Digikey#">587-1256-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1545,10 +1535,10 @@
       <value>10</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 10 OHM 5% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402JR-0710RL</field>
-        <field name="Digikey/Mouser">311-10JRCT-ND</field>
+        <field name="Desc">RES SMD 10 OHM 5% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402JR-0710RL</field>
+        <field name="Digikey#">311-10JRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1558,10 +1548,10 @@
       <value>1uF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 1UF 6.3V X5R 0402</field>
-        <field name="Fabricante">Taiyo Yuden</field>
-        <field name="Nro. parte">JMK105BJ105KV-F</field>
-        <field name="Digikey/Mouser">587-1231-1-ND</field>
+        <field name="Desc">CAP CER 1UF 6.3V X5R 0402</field>
+        <field name="Manf">Taiyo Yuden</field>
+        <field name="Manf#">JMK105BJ105KV-F</field>
+        <field name="Digikey#">587-1231-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1571,10 +1561,10 @@
       <value>1,5K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 1.5K OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402FR-071K5L</field>
-        <field name="Digikey/Mouser">311-1.50KLRCT-ND</field>
+        <field name="Desc">RES SMD 1.5K OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402FR-071K5L</field>
+        <field name="Digikey#">311-1.50KLRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1584,10 +1574,10 @@
       <value>100k</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 100K OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402FR-07100KL</field>
-        <field name="Digikey/Mouser">311-100KLRCT-ND</field>
+        <field name="Desc">RES SMD 100K OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402FR-07100KL</field>
+        <field name="Digikey#">311-100KLRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1597,10 +1587,10 @@
       <value>1K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 1K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-071KL</field>
-        <field name="Digikey/Mouser">311-1.0KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 1K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-071KL</field>
+        <field name="Digikey#">311-1.0KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1610,23 +1600,23 @@
       <value>100k</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 100K OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402FR-07100KL</field>
-        <field name="Digikey/Mouser">311-100KLRCT-ND</field>
+        <field name="Desc">RES SMD 100K OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402FR-07100KL</field>
+        <field name="Digikey#">311-100KLRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
       <tstamp>5904B9FE</tstamp>
     </comp>
     <comp ref="R42">
-      <value>1K</value>
+      <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 1K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-071KL</field>
-        <field name="Digikey/Mouser">311-1.0KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 1K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-071KL</field>
+        <field name="Digikey#">311-1.0KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1636,10 +1626,10 @@
       <value>100k</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 100K OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402FR-07100KL</field>
-        <field name="Digikey/Mouser">311-100KLRCT-ND</field>
+        <field name="Desc">RES SMD 100K OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402FR-07100KL</field>
+        <field name="Digikey#">311-100KLRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1649,10 +1639,10 @@
       <value>100k</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 100K OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402FR-07100KL</field>
-        <field name="Digikey/Mouser">311-100KLRCT-ND</field>
+        <field name="Desc">RES SMD 100K OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402FR-07100KL</field>
+        <field name="Digikey#">311-100KLRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1662,10 +1652,10 @@
       <value>100k</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 100K OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402FR-07100KL</field>
-        <field name="Digikey/Mouser">311-100KLRCT-ND</field>
+        <field name="Desc">RES SMD 100K OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402FR-07100KL</field>
+        <field name="Digikey#">311-100KLRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1675,10 +1665,10 @@
       <value>1,5K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Descripcion">RES SMD 1.5K OHM 1% 1/16W 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">RC0402FR-071K5L</field>
-        <field name="Digikey/Mouser">311-1.50KLRCT-ND</field>
+        <field name="Desc">RES SMD 1.5K OHM 1% 1/16W 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">RC0402FR-071K5L</field>
+        <field name="Digikey#">311-1.50KLRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1688,10 +1678,10 @@
       <value>1uF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 1UF 6.3V X5R 0402</field>
-        <field name="Fabricante">Taiyo Yuden</field>
-        <field name="Nro. parte">JMK105BJ105KV-F</field>
-        <field name="Digikey/Mouser">587-1231-1-ND</field>
+        <field name="Desc">CAP CER 1UF 6.3V X5R 0402</field>
+        <field name="Manf">Taiyo Yuden</field>
+        <field name="Manf#">JMK105BJ105KV-F</field>
+        <field name="Digikey#">587-1231-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1701,10 +1691,10 @@
       <value>1uF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 1UF 6.3V X5R 0402</field>
-        <field name="Fabricante">Taiyo Yuden</field>
-        <field name="Nro. parte">JMK105BJ105KV-F</field>
-        <field name="Digikey/Mouser">587-1231-1-ND</field>
+        <field name="Desc">CAP CER 1UF 6.3V X5R 0402</field>
+        <field name="Manf">Taiyo Yuden</field>
+        <field name="Manf#">JMK105BJ105KV-F</field>
+        <field name="Digikey#">587-1231-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1714,10 +1704,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1727,10 +1717,10 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/OBD_UART_Interface/" tstamps="/58340E0B/"/>
@@ -1753,10 +1743,10 @@
       <value>0.1uF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 0.1UF 10V X5R 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0402KRX5R6BB104</field>
-        <field name="Digikey/Mouser">311-1336-1-ND</field>
+        <field name="Desc">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0402KRX5R6BB104</field>
+        <field name="Digikey#">311-1336-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/MicroM4/" tstamps="/58A74A6E/"/>
@@ -1766,36 +1756,23 @@
       <value>0.1uF</value>
       <footprint>chip_rlc:c_0402</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 0.1UF 10V X5R 0402</field>
-        <field name="Fabricante">Yageo</field>
-        <field name="Nro. parte">CC0402KRX5R6BB104</field>
-        <field name="Digikey/Mouser">311-1336-1-ND</field>
+        <field name="Desc">CAP CER 0.1UF 10V X5R 0402</field>
+        <field name="Manf">Yageo</field>
+        <field name="Manf#">CC0402KRX5R6BB104</field>
+        <field name="Digikey#">311-1336-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/MicroM4/" tstamps="/58A74A6E/"/>
       <tstamp>5B8CBF7F</tstamp>
     </comp>
-    <comp ref="R53">
-      <value>1K</value>
-      <footprint>chip_rlc:r_0402</footprint>
-      <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 1K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-071KL</field>
-        <field name="Digikey/Mouser">311-1.0KJRCT-ND</field>
-      </fields>
-      <libsource lib="OBDII_IoT" part="R"/>
-      <sheetpath names="/MicroM4/" tstamps="/58A74A6E/"/>
-      <tstamp>5B8D142E</tstamp>
-    </comp>
     <comp ref="C36">
       <value>10uF</value>
       <footprint>chip_rlc:c_0603</footprint>
       <fields>
-        <field name="Descripcion">CAP CER 10UF 6.3V X5R 0603</field>
-        <field name="Fabricante">Taiyo Yuden</field>
-        <field name="Nro. parte">JMK107BJ106MA-T</field>
-        <field name="Digikey/Mouser">587-1256-1-ND</field>
+        <field name="Desc">CAP CER 10UF 6.3V X5R 0603</field>
+        <field name="Manf">Taiyo Yuden</field>
+        <field name="Manf#">JMK107BJ106MA-T</field>
+        <field name="Digikey#">587-1256-1-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="C"/>
       <sheetpath names="/MicroM4/" tstamps="/58A74A6E/"/>
@@ -1805,26 +1782,69 @@
       <value>10K</value>
       <footprint>chip_rlc:r_0402</footprint>
       <fields>
-        <field name="Fabricante">Yageo</field>
-        <field name="Descripcion">RES SMD 10K OHM 5% 1/16W 0402</field>
-        <field name="Nro. parte">RC0402JR-0710KL</field>
-        <field name="Digikey/Mouser">311-10KJRCT-ND</field>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
       </fields>
       <libsource lib="OBDII_IoT" part="R"/>
       <sheetpath names="/MicroM4/" tstamps="/58A74A6E/"/>
       <tstamp>5B8D4B64</tstamp>
     </comp>
+    <comp ref="R53">
+      <value>100K</value>
+      <footprint>chip_rlc:l_0402</footprint>
+      <fields>
+        <field name="Desc">RES SMD 100K OHM 1% 1/10W 0402</field>
+        <field name="Manf">Vishay Beyschlag</field>
+        <field name="Manf#">MCS04020C1003FE000</field>
+        <field name="Digikey#">MCS0402-100K-CFCT-ND</field>
+      </fields>
+      <libsource lib="OBDII_IoT" part="R"/>
+      <sheetpath names="/MicroM4/" tstamps="/58A74A6E/"/>
+      <tstamp>5B9C04A8</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_BOOT</value>
+      <footprint>misc:TACT_SMD_4.5X4.5</footprint>
+      <fields>
+        <field name="Desc">Tactile Switch SPST-NO Top Actuated Surface Mount</field>
+        <field name="Manf">E-Switch</field>
+        <field name="Manf#">TL3305AF160QG</field>
+        <field name="Digikey#">EG5350CT-ND</field>
+      </fields>
+      <libsource lib="OBDII_IoT" part="SW_SPST"/>
+      <sheetpath names="/MicroM4/" tstamps="/58A74A6E/"/>
+      <tstamp>5B9C003A</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_RESET</value>
+      <footprint>misc:TACT_SMD_4.5X4.5</footprint>
+      <fields>
+        <field name="Desc">Tactile Switch SPST-NO Top Actuated Surface Mount</field>
+        <field name="Manf">E-Switch</field>
+        <field name="Manf#">TL3305AF160QG</field>
+        <field name="Digikey#">EG5350CT-ND</field>
+      </fields>
+      <libsource lib="OBDII_IoT" part="SW_SPST"/>
+      <sheetpath names="/MicroM4/" tstamps="/58A74A6E/"/>
+      <tstamp>5B9C0668</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>10K</value>
+      <footprint>chip_rlc:r_0402</footprint>
+      <fields>
+        <field name="Manf">Yageo</field>
+        <field name="Desc">RES SMD 10K OHM 5% 1/16W 0402</field>
+        <field name="Manf#">RC0402JR-0710KL</field>
+        <field name="Digikey#">311-10KJRCT-ND</field>
+      </fields>
+      <libsource lib="OBDII_IoT" part="R"/>
+      <sheetpath names="/MicroM4/" tstamps="/58A74A6E/"/>
+      <tstamp>5BE20C64</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="OBDII_IoT" part="+5V_USB">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">+5V_USB</field>
-      </fields>
-      <pins>
-        <pin num="1" name="+5V_USB" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="OBDII_IoT" part="C">
       <footprints>
         <fp>C?</fp>
@@ -1893,21 +1913,21 @@
         <pin num="5" name="Pin_5" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="PF_apiner-rescue" part="D-RESCUE-PF_apiner">
+    <libpart lib="OBDII_IoT" part="D">
       <footprints>
-        <fp>TO-???*</fp>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
         <fp>*SingleDiode</fp>
-        <fp>*_Diode_*</fp>
         <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
+        <fp>*_Diode_*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">D-RESCUE-PF_apiner</field>
+        <field name="Value">D</field>
       </fields>
       <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="OBDII_IoT" part="D_Schot">
@@ -1996,20 +2016,18 @@
         <pin num="2" name="~" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="PF_apiner-rescue" part="L-RESCUE-PF_apiner">
+    <libpart lib="OBDII_IoT" part="L">
       <footprints>
-        <fp>Choke_*</fp>
-        <fp>*Coil*</fp>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
       </footprints>
       <fields>
         <field name="Reference">L</field>
-        <field name="Value">L-RESCUE-PF_apiner</field>
+        <field name="Value">L</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="OBDII_IoT" part="LM317LD">
@@ -2100,22 +2118,25 @@
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="PF_apiner-rescue" part="PESD1CAN-RESCUE-PF_apiner">
+    <libpart lib="OBDII_IoT" part="PCB_HOLE">
       <fields>
-        <field name="Reference">D</field>
-        <field name="Value">PESD1CAN-RESCUE-PF_apiner</field>
-        <field name="Footprint">SOT23-3</field>
-        <field name="Datasheet">NXP Semiconductors</field>
-        <field name="Field4">SOT-23 NXP Semiconductors</field>
-        <field name="Field5">None</field>
-        <field name="Field6">Unavailable</field>
-        <field name="Field7">PESD1CAN</field>
-        <field name="Field8">Sup/Pesd1can, Sot23</field>
+        <field name="Reference">H</field>
+        <field name="Value">PCB_HOLE</field>
+        <field name="Datasheet">PCB HOLE</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="BiDi"/>
-        <pin num="2" name="2" type="BiDi"/>
-        <pin num="3" name="3" type="BiDi"/>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OBDII_IoT" part="PESD1CAN">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PESD1CAN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="OBDII_IoT" part="R">
@@ -2183,6 +2204,18 @@
         <pin num="43" name="~ISO_K_TX~/GP6" type="output"/>
         <pin num="44" name="~ISO_L_TX~/GP7" type="output"/>
         <pin num="45" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OBDII_IoT" part="SW_SPST">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="OBDII_IoT" part="TH8056">
@@ -2258,666 +2291,654 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="STN2120">
-      <uri>C:\Users\bruno\OneDrive\Escritorio\PF\ProyectoFinalUTN\KiCad Proyecto\lib\STN2120.lib</uri>
-    </library>
     <library logical="ESP32-footprints-Shem-Lib">
-      <uri>C:\Users\bruno\OneDrive\Escritorio\PF\ProyectoFinalUTN\KiCad Proyecto\lib\ESP32-footprints-Shem-Lib.lib</uri>
+      <uri>/home/luis/gits/ProyectoFinalUTN/KiCad_Proyecto/lib/ESP32-footprints-Shem-Lib.lib</uri>
     </library>
     <library logical="Connector">
-      <uri>C:\Users\bruno\OneDrive\Escritorio\PF\ProyectoFinalUTN\KiCad Proyecto\lib\Connector.lib</uri>
-    </library>
-    <library logical="PF_apiner-rescue">
-      <uri>C:\Users\bruno\OneDrive\Escritorio\PF\ProyectoFinalUTN\KiCad Proyecto\PF_apiner-rescue.lib</uri>
+      <uri>/home/luis/gits/ProyectoFinalUTN/KiCad_Proyecto/lib/Connector.lib</uri>
     </library>
     <library logical="OBDII_IoT">
-      <uri>C:\Users\bruno\OneDrive\Escritorio\PF\ProyectoFinalUTN\KiCad Proyecto\lib\OBDII_IoT.lib</uri>
+      <uri>/home/luis/gits/ProyectoFinalUTN/KiCad_Proyecto/lib/OBDII_IoT.lib</uri>
+    </library>
+    <library logical="STN2120">
+      <uri>/home/luis/gits/ProyectoFinalUTN/KiCad_Proyecto/lib/STN2120.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/OBD_UART_Interface/ANALOG_IN">
-      <node ref="D3" pin="3"/>
-      <node ref="U10" pin="19"/>
-      <node ref="R6" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="C12" pin="1"/>
-    </net>
-    <net code="2" name="/CAN_Transceiver/SW_CAN_TX">
-      <node ref="U5" pin="1"/>
-      <node ref="R51" pin="1"/>
-      <node ref="U10" pin="41"/>
-    </net>
-    <net code="3" name="/CAN_Transceiver/SW_CAN_RX">
-      <node ref="U10" pin="42"/>
-      <node ref="U5" pin="4"/>
-      <node ref="R15" pin="1"/>
-    </net>
-    <net code="4" name="/CAN_Transceiver/SW_CAN_MODE0">
-      <node ref="U10" pin="35"/>
-      <node ref="R49" pin="1"/>
-      <node ref="U5" pin="2"/>
-    </net>
-    <net code="5" name="/CAN_Transceiver/SW_CAN_MODE1">
-      <node ref="U5" pin="3"/>
-      <node ref="R50" pin="1"/>
-      <node ref="U10" pin="36"/>
-    </net>
-    <net code="6" name="/CAN_Transceiver/SW_CAN_LOAD">
-      <node ref="R18" pin="2"/>
-      <node ref="Q6" pin="1"/>
-      <node ref="U10" pin="34"/>
-    </net>
-    <net code="7" name="/MicroM4/PWR_SAVE">
-      <node ref="U10" pin="32"/>
-      <node ref="U14" pin="8"/>
-      <node ref="R3" pin="2"/>
-      <node ref="Q1" pin="1"/>
-    </net>
-    <net code="8" name="/MicroM4/STN_RESET">
-      <node ref="U14" pin="10"/>
-      <node ref="U10" pin="18"/>
-    </net>
-    <net code="9" name="/MicroM4/STN_SLEEP">
-      <node ref="U10" pin="27"/>
-      <node ref="U14" pin="9"/>
-    </net>
-    <net code="10" name="/MicroM4/UART1_RX">
-      <node ref="R42" pin="1"/>
-      <node ref="U14" pin="17"/>
-      <node ref="U10" pin="4"/>
-    </net>
-    <net code="11" name="/MicroM4/UART1_TX">
-      <node ref="U14" pin="18"/>
-      <node ref="U10" pin="5"/>
-    </net>
-    <net code="12" name="Net-(J1-Pad8)">
-      <node ref="J1" pin="8"/>
-    </net>
-    <net code="13" name="/MicroM4/UART0_TX">
-      <node ref="R53" pin="1"/>
-      <node ref="J2" pin="2"/>
-      <node ref="U14" pin="35"/>
-    </net>
-    <net code="14" name="/MicroM4/UART0_RX">
-      <node ref="U14" pin="34"/>
-      <node ref="J2" pin="3"/>
-    </net>
-    <net code="15" name="/J1850_Transceiver/J1850_BUS+_VH">
-      <node ref="U10" pin="25"/>
+    <net code="1" name="/J1850_Transceiver/J1850_BUS+_VH">
       <node ref="Q7" pin="1"/>
+      <node ref="U10" pin="25"/>
     </net>
-    <net code="16" name="/J1850_Transceiver/PWM_RX">
+    <net code="2" name="/J1850_Transceiver/PWM_RX">
       <node ref="U3" pin="1"/>
       <node ref="R33" pin="1"/>
       <node ref="U10" pin="23"/>
     </net>
-    <net code="17" name="/J1850_Transceiver/VPW_RX">
+    <net code="3" name="/J1850_Transceiver/VPW_RX">
       <node ref="U10" pin="22"/>
-      <node ref="R39" pin="1"/>
       <node ref="U3" pin="13"/>
+      <node ref="R39" pin="1"/>
     </net>
-    <net code="18" name="/ISO_Transceiver/ISO_RX">
-      <node ref="U10" pin="21"/>
-      <node ref="U3" pin="2"/>
+    <net code="4" name="/ISO_Transceiver/ISO_RX">
       <node ref="R12" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U10" pin="21"/>
     </net>
-    <net code="19" name="/ISO_Transceiver/ISO_K_TX">
+    <net code="5" name="/ISO_Transceiver/ISO_K_TX">
       <node ref="U10" pin="43"/>
       <node ref="R7" pin="1"/>
     </net>
-    <net code="20" name="/ISO_Transceiver/ISO_L_TX">
+    <net code="6" name="/ISO_Transceiver/ISO_L_TX">
       <node ref="U10" pin="44"/>
       <node ref="R13" pin="1"/>
     </net>
-    <net code="21" name="/CAN_Transceiver/HS_CAN_TX">
+    <net code="7" name="/CAN_Transceiver/HS_CAN_TX">
+      <node ref="U10" pin="8"/>
+      <node ref="R40" pin="2"/>
       <node ref="R41" pin="1"/>
       <node ref="U4" pin="1"/>
-      <node ref="R40" pin="2"/>
-      <node ref="U10" pin="8"/>
     </net>
-    <net code="22" name="/CAN_Transceiver/HS_CAN_RX">
+    <net code="8" name="/CAN_Transceiver/HS_CAN_RX">
+      <node ref="R44" pin="1"/>
       <node ref="U4" pin="4"/>
       <node ref="R43" pin="2"/>
-      <node ref="R44" pin="1"/>
       <node ref="U10" pin="10"/>
     </net>
-    <net code="23" name="/CAN_Transceiver/MS_CAN_TX">
+    <net code="9" name="/CAN_Transceiver/MS_CAN_TX">
       <node ref="U4" pin="5"/>
       <node ref="R48" pin="2"/>
       <node ref="U10" pin="9"/>
     </net>
-    <net code="24" name="/CAN_Transceiver/MS_CAN_RX">
-      <node ref="U4" pin="8"/>
-      <node ref="R47" pin="2"/>
+    <net code="10" name="/CAN_Transceiver/MS_CAN_RX">
       <node ref="U10" pin="11"/>
+      <node ref="R47" pin="2"/>
+      <node ref="U4" pin="8"/>
     </net>
-    <net code="25" name="+3V3">
-      <node ref="R3" pin="1"/>
-      <node ref="R48" pin="1"/>
-      <node ref="R47" pin="1"/>
-      <node ref="R15" pin="2"/>
-      <node ref="R40" pin="1"/>
-      <node ref="R42" pin="2"/>
-      <node ref="R46" pin="1"/>
-      <node ref="R43" pin="1"/>
-      <node ref="R45" pin="1"/>
-      <node ref="U10" pin="40"/>
-      <node ref="D11" pin="2"/>
-      <node ref="D3" pin="2"/>
+    <net code="11" name="/J1850_Transceiver/J1850_BUS+_TX">
+      <node ref="U10" pin="24"/>
+      <node ref="R28" pin="2"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="12" name="/J1850_Transceiver/J1850_BUS-_TX">
+      <node ref="U10" pin="33"/>
+      <node ref="Q10" pin="1"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="13" name="/MicroM4/UART0_RX">
       <node ref="R53" pin="2"/>
-      <node ref="R39" pin="2"/>
-      <node ref="C36" pin="1"/>
-      <node ref="R52" pin="2"/>
-      <node ref="U14" pin="2"/>
-      <node ref="C30" pin="2"/>
-      <node ref="C37" pin="1"/>
-      <node ref="R33" pin="2"/>
-      <node ref="C31" pin="2"/>
-      <node ref="C5" pin="1"/>
-      <node ref="U10" pin="28"/>
-      <node ref="R12" pin="2"/>
-      <node ref="U2" pin="2"/>
+      <node ref="U14" pin="34"/>
+      <node ref="J2" pin="3"/>
     </net>
-    <net code="26" name="+5V_USB">
-      <node ref="U13" pin="1"/>
-      <node ref="U12" pin="1"/>
+    <net code="14" name="+5V_USB">
       <node ref="D12" pin="1"/>
       <node ref="J2" pin="1"/>
     </net>
-    <net code="27" name="Net-(C34-Pad1)">
-      <node ref="C34" pin="1"/>
-      <node ref="D11" pin="1"/>
-      <node ref="U11" pin="2"/>
-    </net>
-    <net code="28" name="GND">
-      <node ref="C23" pin="2"/>
-      <node ref="R27" pin="1"/>
-      <node ref="D6" pin="1"/>
-      <node ref="C20" pin="2"/>
-      <node ref="C25" pin="2"/>
-      <node ref="Q7" pin="2"/>
-      <node ref="C34" pin="2"/>
-      <node ref="C22" pin="2"/>
-      <node ref="C30" pin="1"/>
-      <node ref="D9" pin="2"/>
-      <node ref="C31" pin="1"/>
-      <node ref="C27" pin="2"/>
-      <node ref="R35" pin="1"/>
-      <node ref="Q10" pin="2"/>
-      <node ref="Q8" pin="2"/>
-      <node ref="R28" pin="1"/>
-      <node ref="C21" pin="2"/>
-      <node ref="U5" pin="8"/>
-      <node ref="C35" pin="2"/>
-      <node ref="Q6" pin="2"/>
-      <node ref="U11" pin="1"/>
-      <node ref="R18" pin="1"/>
-      <node ref="J2" pin="5"/>
-      <node ref="U4" pin="6"/>
-      <node ref="U4" pin="11"/>
-      <node ref="U4" pin="14"/>
-      <node ref="C24" pin="2"/>
-      <node ref="C16" pin="1"/>
-      <node ref="C17" pin="1"/>
-      <node ref="C18" pin="2"/>
-      <node ref="C19" pin="2"/>
-      <node ref="D7" pin="1"/>
-      <node ref="C26" pin="2"/>
-      <node ref="U4" pin="2"/>
-      <node ref="U1" pin="1"/>
-      <node ref="C29" pin="1"/>
-      <node ref="C28" pin="2"/>
-      <node ref="C32" pin="2"/>
-      <node ref="C33" pin="2"/>
-      <node ref="D3" pin="1"/>
-      <node ref="Y1" pin="4"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C37" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C38" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="U2" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="D1" pin="1"/>
-      <node ref="C12" pin="2"/>
-      <node ref="R6" pin="2"/>
-      <node ref="U14" pin="38"/>
-      <node ref="J1" pin="5"/>
-      <node ref="D5" pin="1"/>
-      <node ref="C14" pin="2"/>
-      <node ref="U10" pin="39"/>
-      <node ref="U10" pin="29"/>
-      <node ref="U10" pin="38"/>
-      <node ref="U10" pin="37"/>
-      <node ref="C13" pin="2"/>
-      <node ref="U10" pin="26"/>
-      <node ref="U10" pin="16"/>
-      <node ref="U10" pin="45"/>
-      <node ref="Y1" pin="2"/>
-      <node ref="U14" pin="39"/>
-      <node ref="C15" pin="2"/>
-      <node ref="R9" pin="1"/>
-      <node ref="U3" pin="12"/>
-      <node ref="J1" pin="4"/>
-      <node ref="Q4" pin="2"/>
-      <node ref="D4" pin="1"/>
-      <node ref="Q5" pin="2"/>
-      <node ref="U14" pin="15"/>
-      <node ref="U14" pin="1"/>
-      <node ref="U14" pin="25"/>
-      <node ref="U14" pin="14"/>
-      <node ref="U14" pin="23"/>
-      <node ref="U10" pin="15"/>
-      <node ref="C36" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="U10" pin="2"/>
-      <node ref="U10" pin="1"/>
-      <node ref="U10" pin="3"/>
-      <node ref="U10" pin="6"/>
-      <node ref="U10" pin="20"/>
-    </net>
-    <net code="29" name="/MicroM4/RESET">
-      <node ref="R52" pin="1"/>
-      <node ref="C38" pin="1"/>
-      <node ref="U14" pin="3"/>
-      <node ref="J2" pin="4"/>
-    </net>
-    <net code="30" name="+5V">
-      <node ref="U2" pin="3"/>
-      <node ref="C35" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="U11" pin="3"/>
+    <net code="15" name="+5V">
       <node ref="R51" pin="2"/>
       <node ref="C2" pin="1"/>
-      <node ref="C11" pin="1"/>
       <node ref="C8" pin="1"/>
-      <node ref="D12" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="C10" pin="1"/>
       <node ref="R1" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="C35" pin="1"/>
     </net>
-    <net code="31" name="/J1850_Transceiver/J1850_BUS+_TX">
-      <node ref="Q8" pin="1"/>
-      <node ref="R28" pin="2"/>
-      <node ref="U10" pin="24"/>
+    <net code="16" name="/MicroM4/UART0_TX">
+      <node ref="U14" pin="35"/>
+      <node ref="J2" pin="2"/>
     </net>
-    <net code="32" name="/SW_CAN">
-      <node ref="C21" pin="1"/>
+    <net code="17" name="/MicroM4/RESET">
+      <node ref="R52" pin="1"/>
+      <node ref="U14" pin="3"/>
+      <node ref="C38" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(H4-Pad1)">
+      <node ref="H4" pin="1"/>
+    </net>
+    <net code="19" name="Net-(H3-Pad1)">
+      <node ref="H3" pin="1"/>
+    </net>
+    <net code="20" name="Net-(H2-Pad1)">
+      <node ref="H2" pin="1"/>
+    </net>
+    <net code="21" name="Net-(H1-Pad1)">
+      <node ref="H1" pin="1"/>
+    </net>
+    <net code="22" name="/CAN_Transceiver/SW_CAN_TX">
+      <node ref="U10" pin="41"/>
+      <node ref="R51" pin="1"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="23" name="/CAN_Transceiver/SW_CAN_RX">
+      <node ref="U10" pin="42"/>
+      <node ref="U5" pin="4"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="24" name="/CAN_Transceiver/SW_CAN_MODE0">
+      <node ref="R49" pin="1"/>
+      <node ref="U10" pin="35"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="25" name="/CAN_Transceiver/SW_CAN_MODE1">
+      <node ref="R50" pin="1"/>
+      <node ref="U10" pin="36"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="26" name="/CAN_Transceiver/SW_CAN_LOAD">
+      <node ref="R18" pin="2"/>
+      <node ref="U10" pin="34"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="27" name="/OBD_UART_Interface/ANALOG_IN">
+      <node ref="R6" pin="1"/>
+      <node ref="D3" pin="3"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U10" pin="19"/>
+    </net>
+    <net code="28" name="/MicroM4/PWR_SAVE">
+      <node ref="U14" pin="8"/>
+      <node ref="U10" pin="32"/>
+      <node ref="R3" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="29" name="/MicroM4/STN_RESET">
+      <node ref="U14" pin="10"/>
+      <node ref="U10" pin="18"/>
+    </net>
+    <net code="30" name="/MicroM4/STN_SLEEP">
+      <node ref="U14" pin="9"/>
+      <node ref="U10" pin="27"/>
+    </net>
+    <net code="31" name="/MicroM4/UART1_RX">
+      <node ref="U10" pin="4"/>
+      <node ref="U14" pin="17"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="32" name="/MicroM4/UART1_TX">
+      <node ref="U10" pin="5"/>
+      <node ref="U14" pin="18"/>
+    </net>
+    <net code="33" name="/SW_CAN">
       <node ref="U5" pin="7"/>
+      <node ref="U7" pin="1"/>
       <node ref="R16" pin="2"/>
       <node ref="J1" pin="1"/>
       <node ref="R20" pin="2"/>
-    </net>
-    <net code="33" name="/J1850_BUS+">
-      <node ref="R37" pin="1"/>
-      <node ref="R30" pin="1"/>
-      <node ref="D6" pin="3"/>
-      <node ref="R32" pin="2"/>
-      <node ref="D8" pin="2"/>
-      <node ref="J1" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C21" pin="1"/>
     </net>
     <net code="34" name="/K-LINE">
       <node ref="R11" pin="1"/>
       <node ref="R10" pin="1"/>
       <node ref="D4" pin="3"/>
-      <node ref="J1" pin="7"/>
       <node ref="Q4" pin="3"/>
+      <node ref="J1" pin="7"/>
     </net>
-    <net code="35" name="/J1850_Transceiver/J1850_BUS-_TX">
-      <node ref="U10" pin="33"/>
-      <node ref="R36" pin="1"/>
-      <node ref="Q10" pin="1"/>
+    <net code="35" name="/L-LINE">
+      <node ref="Q5" pin="3"/>
+      <node ref="J1" pin="15"/>
+      <node ref="D5" pin="3"/>
+      <node ref="R14" pin="1"/>
     </net>
-    <net code="36" name="Net-(J1-Pad9)">
-      <node ref="J1" pin="9"/>
+    <net code="36" name="/J1850_BUS+">
+      <node ref="R30" pin="1"/>
+      <node ref="R37" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="D6" pin="3"/>
+      <node ref="R32" pin="2"/>
+      <node ref="D8" pin="2"/>
     </net>
     <net code="37" name="/J1850_BUS-">
       <node ref="D7" pin="3"/>
       <node ref="R31" pin="1"/>
-      <node ref="R38" pin="1"/>
       <node ref="Q10" pin="3"/>
       <node ref="J1" pin="10"/>
+      <node ref="R38" pin="1"/>
     </net>
-    <net code="38" name="Net-(J1-Pad12)">
+    <net code="38" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="39" name="/MS_CAN_P">
+      <node ref="R22" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U4" pin="10"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="40" name="GND">
+      <node ref="R35" pin="1"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="R28" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U14" pin="14"/>
+      <node ref="U14" pin="24"/>
+      <node ref="U14" pin="15"/>
+      <node ref="U4" pin="14"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="6"/>
+      <node ref="SW2" pin="4"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U8" pin="3"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="C20" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="U14" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="U14" pin="39"/>
+      <node ref="R27" pin="1"/>
+      <node ref="U14" pin="38"/>
+      <node ref="U10" pin="15"/>
+      <node ref="D6" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U10" pin="26"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U10" pin="29"/>
+      <node ref="U10" pin="39"/>
+      <node ref="U10" pin="37"/>
+      <node ref="U10" pin="16"/>
+      <node ref="U10" pin="20"/>
+      <node ref="U10" pin="45"/>
+      <node ref="C26" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="U10" pin="6"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U10" pin="1"/>
+      <node ref="U10" pin="38"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U3" pin="12"/>
+      <node ref="C1" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C21" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C35" pin="2"/>
+      <node ref="U6" pin="3"/>
+      <node ref="C19" pin="2"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="41" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="42" name="/MS_CAN_N">
+      <node ref="R23" pin="2"/>
+      <node ref="J1" pin="11"/>
+      <node ref="U8" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="43" name="Net-(J1-Pad12)">
       <node ref="J1" pin="12"/>
     </net>
-    <net code="39" name="Net-(J1-Pad13)">
+    <net code="44" name="Net-(J1-Pad13)">
       <node ref="J1" pin="13"/>
-    </net>
-    <net code="40" name="/L-LINE">
-      <node ref="Q5" pin="3"/>
-      <node ref="R14" pin="1"/>
-      <node ref="D5" pin="3"/>
-      <node ref="J1" pin="15"/>
-    </net>
-    <net code="41" name="/MS_CAN_N">
-      <node ref="R23" pin="2"/>
-      <node ref="U4" pin="9"/>
-      <node ref="R24" pin="2"/>
-      <node ref="J1" pin="11"/>
-    </net>
-    <net code="42" name="/HS_CAN_N">
-      <node ref="R21" pin="2"/>
-      <node ref="R19" pin="2"/>
-      <node ref="U4" pin="12"/>
-      <node ref="J1" pin="14"/>
-    </net>
-    <net code="43" name="/HS_CAN_P">
-      <node ref="U4" pin="13"/>
-      <node ref="J1" pin="6"/>
-      <node ref="R17" pin="2"/>
-      <node ref="R21" pin="1"/>
-    </net>
-    <net code="44" name="/MS_CAN_P">
-      <node ref="J1" pin="3"/>
-      <node ref="R23" pin="1"/>
-      <node ref="R22" pin="2"/>
-      <node ref="U4" pin="10"/>
     </net>
     <net code="45" name="VIN">
       <node ref="C1" pin="1"/>
-      <node ref="J1" pin="16"/>
       <node ref="F1" pin="1"/>
+      <node ref="J1" pin="16"/>
     </net>
-    <net code="46" name="DLC_RAW">
-      <node ref="F1" pin="2"/>
+    <net code="46" name="/HS_CAN_P">
+      <node ref="R21" pin="1"/>
+      <node ref="U4" pin="13"/>
+      <node ref="R17" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="47" name="/HS_CAN_N">
+      <node ref="R19" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="J1" pin="14"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="48" name="+3.3V">
+      <node ref="C31" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R52" pin="2"/>
+      <node ref="R54" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="U14" pin="2"/>
+      <node ref="C37" pin="1"/>
+      <node ref="R48" pin="1"/>
+      <node ref="U10" pin="40"/>
+      <node ref="R42" pin="2"/>
+      <node ref="R46" pin="1"/>
+      <node ref="R47" pin="1"/>
+      <node ref="U10" pin="28"/>
+      <node ref="R45" pin="1"/>
+      <node ref="R40" pin="1"/>
+      <node ref="R43" pin="1"/>
+      <node ref="R53" pin="1"/>
+      <node ref="R33" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R39" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="49" name="DLC_RAW">
       <node ref="R5" pin="2"/>
+      <node ref="F1" pin="2"/>
       <node ref="D1" pin="2"/>
-    </net>
-    <net code="47" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-    </net>
-    <net code="48" name="DLC">
-      <node ref="C13" pin="1"/>
-      <node ref="C18" pin="1"/>
-      <node ref="D6" pin="2"/>
-      <node ref="C24" pin="1"/>
-      <node ref="C4" pin="1"/>
       <node ref="D2" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="C26" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="D7" pin="2"/>
+    </net>
+    <net code="50" name="DLC">
       <node ref="U1" pin="3"/>
-      <node ref="U5" pin="5"/>
-      <node ref="D4" pin="2"/>
       <node ref="C14" pin="1"/>
+      <node ref="D6" pin="2"/>
       <node ref="C6" pin="1"/>
       <node ref="C7" pin="1"/>
+      <node ref="C24" pin="1"/>
       <node ref="D5" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="U5" pin="5"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="C13" pin="1"/>
     </net>
-    <net code="49" name="Net-(C3-Pad2)">
-      <node ref="C3" pin="2"/>
+    <net code="51" name="Net-(C3-Pad2)">
       <node ref="U1" pin="6"/>
+      <node ref="C3" pin="2"/>
     </net>
-    <net code="50" name="Net-(C3-Pad1)">
+    <net code="52" name="Net-(C3-Pad1)">
+      <node ref="L1" pin="1"/>
       <node ref="C3" pin="1"/>
       <node ref="U1" pin="2"/>
-      <node ref="L1" pin="1"/>
     </net>
-    <net code="51" name="Net-(C8-Pad2)">
-      <node ref="R2" pin="1"/>
+    <net code="53" name="Net-(C8-Pad2)">
       <node ref="R1" pin="2"/>
-      <node ref="C8" pin="2"/>
       <node ref="U1" pin="4"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C8" pin="2"/>
     </net>
-    <net code="52" name="Net-(L1-Pad2)">
-      <node ref="L1" pin="2"/>
-    </net>
-    <net code="53" name="Net-(U1-Pad5)">
+    <net code="54" name="Net-(U1-Pad5)">
       <node ref="U1" pin="5"/>
     </net>
-    <net code="54" name="+5V_SW">
-      <node ref="Q3" pin="3"/>
+    <net code="55" name="+5V_SW">
       <node ref="R41" pin="2"/>
       <node ref="R44" pin="2"/>
-      <node ref="C17" pin="2"/>
-      <node ref="R49" pin="2"/>
-      <node ref="C16" pin="2"/>
       <node ref="U4" pin="7"/>
-      <node ref="U4" pin="3"/>
-      <node ref="R50" pin="2"/>
-      <node ref="R36" pin="2"/>
-      <node ref="R34" pin="2"/>
       <node ref="D10" pin="1"/>
+      <node ref="R49" pin="2"/>
+      <node ref="R50" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="R36" pin="2"/>
     </net>
-    <net code="55" name="DLC_SW">
-      <node ref="C25" pin="1"/>
+    <net code="56" name="DLC_SW">
+      <node ref="C15" pin="1"/>
       <node ref="U9" pin="3"/>
+      <node ref="R14" pin="2"/>
       <node ref="U3" pin="3"/>
+      <node ref="Q2" pin="3"/>
       <node ref="R10" pin="2"/>
       <node ref="R8" pin="2"/>
-      <node ref="C15" pin="1"/>
-      <node ref="Q2" pin="3"/>
-      <node ref="R14" pin="2"/>
+      <node ref="C25" pin="1"/>
     </net>
-    <net code="56" name="Net-(Q1-Pad3)">
+    <net code="57" name="Net-(Q1-Pad3)">
       <node ref="Q2" pin="1"/>
+      <node ref="Q1" pin="3"/>
       <node ref="R4" pin="2"/>
       <node ref="Q3" pin="1"/>
-      <node ref="Q1" pin="3"/>
     </net>
-    <net code="57" name="Net-(R8-Pad1)">
+    <net code="58" name="Net-(R8-Pad1)">
       <node ref="U3" pin="5"/>
       <node ref="R8" pin="1"/>
       <node ref="R9" pin="2"/>
     </net>
-    <net code="58" name="Net-(R11-Pad2)">
+    <net code="59" name="Net-(R11-Pad2)">
       <node ref="U3" pin="4"/>
       <node ref="R11" pin="2"/>
     </net>
-    <net code="59" name="Net-(Q4-Pad1)">
+    <net code="60" name="Net-(Q4-Pad1)">
       <node ref="R7" pin="2"/>
       <node ref="Q4" pin="1"/>
     </net>
-    <net code="60" name="Net-(Q5-Pad1)">
+    <net code="61" name="Net-(Q5-Pad1)">
       <node ref="R13" pin="2"/>
       <node ref="Q5" pin="1"/>
     </net>
-    <net code="61" name="Net-(C23-Pad1)">
-      <node ref="C23" pin="1"/>
+    <net code="62" name="Net-(C23-Pad1)">
       <node ref="R24" pin="1"/>
+      <node ref="C23" pin="1"/>
     </net>
-    <net code="62" name="Net-(C19-Pad1)">
-      <node ref="C19" pin="1"/>
+    <net code="63" name="Net-(C19-Pad1)">
       <node ref="R17" pin="1"/>
+      <node ref="C19" pin="1"/>
     </net>
-    <net code="63" name="Net-(C20-Pad1)">
-      <node ref="R19" pin="1"/>
+    <net code="64" name="Net-(C20-Pad1)">
       <node ref="C20" pin="1"/>
+      <node ref="R19" pin="1"/>
     </net>
-    <net code="64" name="Net-(C22-Pad1)">
-      <node ref="R22" pin="1"/>
+    <net code="65" name="Net-(C22-Pad1)">
       <node ref="C22" pin="1"/>
+      <node ref="R22" pin="1"/>
     </net>
-    <net code="65" name="Net-(R16-Pad1)">
+    <net code="66" name="Net-(R16-Pad1)">
       <node ref="U5" pin="6"/>
       <node ref="R16" pin="1"/>
     </net>
-    <net code="66" name="Net-(Q6-Pad3)">
-      <node ref="R20" pin="1"/>
+    <net code="67" name="Net-(Q6-Pad3)">
       <node ref="Q6" pin="3"/>
+      <node ref="R20" pin="1"/>
     </net>
-    <net code="67" name="Net-(U7-Pad1)">
-      <node ref="U7" pin="1"/>
-    </net>
-    <net code="68" name="Net-(U7-Pad2)">
-      <node ref="U7" pin="2"/>
-    </net>
-    <net code="69" name="Net-(U7-Pad3)">
-      <node ref="U7" pin="3"/>
-    </net>
-    <net code="70" name="Net-(U6-Pad1)">
-      <node ref="U6" pin="1"/>
-    </net>
-    <net code="71" name="Net-(U6-Pad2)">
-      <node ref="U6" pin="2"/>
-    </net>
-    <net code="72" name="Net-(U6-Pad3)">
-      <node ref="U6" pin="3"/>
-    </net>
-    <net code="73" name="Net-(U8-Pad1)">
-      <node ref="U8" pin="1"/>
-    </net>
-    <net code="74" name="Net-(U8-Pad2)">
-      <node ref="U8" pin="2"/>
-    </net>
-    <net code="75" name="Net-(U8-Pad3)">
-      <node ref="U8" pin="3"/>
-    </net>
-    <net code="76" name="Net-(D8-Pad1)">
-      <node ref="D8" pin="1"/>
+    <net code="68" name="Net-(D8-Pad1)">
       <node ref="Q9" pin="3"/>
+      <node ref="D8" pin="1"/>
     </net>
-    <net code="77" name="V_J1850">
-      <node ref="Q9" pin="2"/>
-      <node ref="U9" pin="2"/>
+    <net code="69" name="V_J1850">
       <node ref="R25" pin="2"/>
+      <node ref="Q9" pin="2"/>
       <node ref="R29" pin="2"/>
+      <node ref="U9" pin="2"/>
       <node ref="C27" pin="1"/>
     </net>
-    <net code="78" name="Net-(Q8-Pad3)">
-      <node ref="Q9" pin="1"/>
+    <net code="70" name="Net-(Q8-Pad3)">
       <node ref="R29" pin="1"/>
+      <node ref="Q9" pin="1"/>
       <node ref="Q8" pin="3"/>
     </net>
-    <net code="79" name="Net-(D9-Pad1)">
-      <node ref="R32" pin="1"/>
+    <net code="71" name="Net-(D9-Pad1)">
       <node ref="D9" pin="1"/>
+      <node ref="R32" pin="1"/>
     </net>
-    <net code="80" name="Net-(D10-Pad2)">
+    <net code="72" name="Net-(D10-Pad2)">
       <node ref="R38" pin="2"/>
       <node ref="D10" pin="2"/>
     </net>
-    <net code="81" name="Net-(R37-Pad2)">
-      <node ref="U3" pin="11"/>
+    <net code="73" name="Net-(R37-Pad2)">
       <node ref="R37" pin="2"/>
+      <node ref="U3" pin="11"/>
     </net>
-    <net code="82" name="Net-(R34-Pad1)">
+    <net code="74" name="Net-(R34-Pad1)">
       <node ref="R34" pin="1"/>
       <node ref="R35" pin="2"/>
       <node ref="U3" pin="10"/>
     </net>
-    <net code="83" name="Net-(R25-Pad1)">
-      <node ref="R25" pin="1"/>
+    <net code="75" name="Net-(R25-Pad1)">
       <node ref="U9" pin="1"/>
       <node ref="R26" pin="2"/>
+      <node ref="R25" pin="1"/>
     </net>
-    <net code="84" name="Net-(Q7-Pad3)">
+    <net code="76" name="Net-(Q7-Pad3)">
       <node ref="Q7" pin="3"/>
       <node ref="R27" pin="2"/>
       <node ref="R26" pin="1"/>
     </net>
-    <net code="85" name="Net-(R30-Pad2)">
-      <node ref="R30" pin="2"/>
+    <net code="77" name="Net-(R30-Pad2)">
       <node ref="U3" pin="7"/>
+      <node ref="R30" pin="2"/>
     </net>
-    <net code="86" name="Net-(R31-Pad2)">
-      <node ref="R31" pin="2"/>
+    <net code="78" name="Net-(R31-Pad2)">
       <node ref="U3" pin="6"/>
+      <node ref="R31" pin="2"/>
     </net>
-    <net code="87" name="Net-(C29-Pad2)">
-      <node ref="U10" pin="7"/>
+    <net code="79" name="Net-(C29-Pad2)">
       <node ref="C29" pin="2"/>
+      <node ref="U10" pin="7"/>
     </net>
-    <net code="88" name="Net-(C28-Pad1)">
-      <node ref="U10" pin="17"/>
-      <node ref="C28" pin="1"/>
+    <net code="80" name="Net-(C28-Pad1)">
       <node ref="R45" pin="2"/>
+      <node ref="C28" pin="1"/>
+      <node ref="U10" pin="17"/>
     </net>
-    <net code="89" name="Net-(U10-Pad13)">
+    <net code="81" name="Net-(U10-Pad13)">
       <node ref="U10" pin="13"/>
     </net>
-    <net code="90" name="Net-(U10-Pad14)">
+    <net code="82" name="Net-(U10-Pad14)">
       <node ref="U10" pin="14"/>
     </net>
-    <net code="91" name="Net-(R46-Pad2)">
-      <node ref="U10" pin="12"/>
+    <net code="83" name="Net-(R46-Pad2)">
       <node ref="R46" pin="2"/>
+      <node ref="U10" pin="12"/>
     </net>
-    <net code="92" name="Net-(C33-Pad1)">
-      <node ref="C33" pin="1"/>
-      <node ref="Y1" pin="3"/>
+    <net code="84" name="Net-(C33-Pad1)">
       <node ref="U10" pin="30"/>
+      <node ref="Y1" pin="3"/>
+      <node ref="C33" pin="1"/>
     </net>
-    <net code="93" name="Net-(C32-Pad1)">
+    <net code="85" name="Net-(C32-Pad1)">
       <node ref="U10" pin="31"/>
       <node ref="Y1" pin="1"/>
       <node ref="C32" pin="1"/>
     </net>
-    <net code="96" name="Net-(U14-Pad29)">
-      <node ref="U14" pin="29"/>
-    </net>
-    <net code="97" name="Net-(U14-Pad13)">
-      <node ref="U14" pin="13"/>
-    </net>
-    <net code="98" name="Net-(U14-Pad16)">
-      <node ref="U14" pin="16"/>
-    </net>
-    <net code="99" name="Net-(U14-Pad19)">
-      <node ref="U14" pin="19"/>
-    </net>
-    <net code="100" name="Net-(U14-Pad20)">
-      <node ref="U14" pin="20"/>
-    </net>
-    <net code="101" name="Net-(U14-Pad21)">
-      <node ref="U14" pin="21"/>
-    </net>
-    <net code="102" name="Net-(U14-Pad22)">
-      <node ref="U14" pin="22"/>
-    </net>
-    <net code="103" name="Net-(U14-Pad24)">
-      <node ref="U14" pin="24"/>
-    </net>
-    <net code="104" name="Net-(U14-Pad26)">
-      <node ref="U14" pin="26"/>
-    </net>
-    <net code="105" name="Net-(U14-Pad12)">
-      <node ref="U14" pin="12"/>
-    </net>
-    <net code="106" name="Net-(U14-Pad30)">
-      <node ref="U14" pin="30"/>
-    </net>
-    <net code="107" name="Net-(U14-Pad31)">
-      <node ref="U14" pin="31"/>
-    </net>
-    <net code="108" name="Net-(U14-Pad33)">
-      <node ref="U14" pin="33"/>
-    </net>
-    <net code="109" name="Net-(U14-Pad36)">
-      <node ref="U14" pin="36"/>
-    </net>
-    <net code="110" name="Net-(U14-Pad37)">
-      <node ref="U14" pin="37"/>
-    </net>
-    <net code="111" name="Net-(U14-Pad28)">
-      <node ref="U14" pin="28"/>
-    </net>
-    <net code="112" name="Net-(U14-Pad27)">
+    <net code="86" name="Net-(U14-Pad27)">
       <node ref="U14" pin="27"/>
     </net>
-    <net code="113" name="Net-(U14-Pad11)">
-      <node ref="U14" pin="11"/>
+    <net code="87" name="Net-(U14-Pad28)">
+      <node ref="U14" pin="28"/>
     </net>
-    <net code="114" name="Net-(U14-Pad7)">
+    <net code="88" name="Net-(U14-Pad37)">
+      <node ref="U14" pin="37"/>
+    </net>
+    <net code="89" name="Net-(U14-Pad36)">
+      <node ref="U14" pin="36"/>
+    </net>
+    <net code="90" name="Net-(U14-Pad33)">
+      <node ref="U14" pin="33"/>
+    </net>
+    <net code="91" name="Net-(U14-Pad31)">
+      <node ref="U14" pin="31"/>
+    </net>
+    <net code="92" name="Net-(U14-Pad7)">
       <node ref="U14" pin="7"/>
     </net>
-    <net code="115" name="Net-(U14-Pad6)">
-      <node ref="U14" pin="6"/>
-    </net>
-    <net code="116" name="Net-(U14-Pad5)">
-      <node ref="U14" pin="5"/>
-    </net>
-    <net code="117" name="Net-(U14-Pad4)">
+    <net code="93" name="Net-(U14-Pad4)">
       <node ref="U14" pin="4"/>
     </net>
-    <net code="118" name="Net-(U14-Pad32)">
+    <net code="94" name="Net-(U14-Pad5)">
+      <node ref="U14" pin="5"/>
+    </net>
+    <net code="95" name="Net-(U14-Pad6)">
+      <node ref="U14" pin="6"/>
+    </net>
+    <net code="96" name="Net-(U14-Pad30)">
+      <node ref="U14" pin="30"/>
+    </net>
+    <net code="97" name="Net-(U14-Pad11)">
+      <node ref="U14" pin="11"/>
+    </net>
+    <net code="98" name="Net-(U14-Pad12)">
+      <node ref="U14" pin="12"/>
+    </net>
+    <net code="99" name="Net-(U14-Pad13)">
+      <node ref="U14" pin="13"/>
+    </net>
+    <net code="100" name="Net-(U14-Pad16)">
+      <node ref="U14" pin="16"/>
+    </net>
+    <net code="101" name="Net-(U14-Pad19)">
+      <node ref="U14" pin="19"/>
+    </net>
+    <net code="102" name="Net-(U14-Pad20)">
+      <node ref="U14" pin="20"/>
+    </net>
+    <net code="103" name="Net-(U14-Pad21)">
+      <node ref="U14" pin="21"/>
+    </net>
+    <net code="104" name="Net-(U14-Pad22)">
+      <node ref="U14" pin="22"/>
+    </net>
+    <net code="105" name="Net-(U14-Pad26)">
+      <node ref="U14" pin="26"/>
+    </net>
+    <net code="106" name="Net-(U14-Pad23)">
+      <node ref="U14" pin="23"/>
+    </net>
+    <net code="107" name="/MicroM4/BOOT">
+      <node ref="SW2" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="R54" pin="1"/>
+      <node ref="U14" pin="25"/>
+    </net>
+    <net code="108" name="Net-(U14-Pad29)">
+      <node ref="U14" pin="29"/>
+    </net>
+    <net code="109" name="Net-(U14-Pad32)">
       <node ref="U14" pin="32"/>
     </net>
   </nets>
