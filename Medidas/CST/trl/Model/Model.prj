@@ -3,15 +3,17 @@
 [Author]
 bruno
 [Mesh Cells]
-
+390,450
 [Mesh Type]
-Tetrahedral
+Hexahedral
 [Last Problem Type]
 High Frequency
 [Last Solver Type]
-HF Frequency Domain
+HF Time Domain
 [Last Solver Type Abb]
-f
+t
 [Results]
-Unavailable
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:trl.cst?dec4c11d8832825d1ea08460365fc1cc?304310:numberofparameters=0:port=1>mode=1>zre=0>zim=0?port=2>mode=1>zre=0>zim=0
 [Comment]

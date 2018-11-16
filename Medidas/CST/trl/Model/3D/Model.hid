@@ -2883,13 +2883,10 @@ End With
 163
 [end]block_index
 [start]command
-
 '@ activate global coordinates
-
 [end]command
 [start]content
 WCS.ActivateWCS "global"
-
 [end]content
 [start]recover_picks
 0
@@ -2903,13 +2900,10 @@ WCS.ActivateWCS "global"
 165
 [end]block_index
 [start]command
-
 '@ activate local coordinates
-
 [end]command
 [start]content
 WCS.ActivateWCS "local"
-
 [end]content
 [start]recover_picks
 0
@@ -3013,9 +3007,7 @@ WCS.ActivateWCS "local"
 178
 [end]block_index
 [start]command
-
 '@ transform: scale cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3030,7 +3022,6 @@ With Transform
      .MultipleSelection "True" 
      .Transform "Shape", "Scale" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3044,9 +3035,7 @@ End With
 179
 [end]block_index
 [start]command
-
 '@ transform: scale dielectric
-
 [end]command
 [start]content
 With Transform 
@@ -3061,7 +3050,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Scale" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3075,9 +3063,7 @@ End With
 180
 [end]block_index
 [start]command
-
 '@ transform: scale cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3092,7 +3078,6 @@ With Transform
      .MultipleSelection "True" 
      .Transform "Shape", "Scale" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3106,9 +3091,7 @@ End With
 181
 [end]block_index
 [start]command
-
 '@ transform: scale dielectric
-
 [end]command
 [start]content
 With Transform 
@@ -3123,7 +3106,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Scale" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3227,9 +3209,7 @@ End With
 199
 [end]block_index
 [start]command
-
 '@ transform: scale cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3244,7 +3224,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Scale" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3258,9 +3237,7 @@ End With
 200
 [end]block_index
 [start]command
-
 '@ transform: translate cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3275,7 +3252,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3304,9 +3280,7 @@ End With
 203
 [end]block_index
 [start]command
-
 '@ transform: scale dielectric
-
 [end]command
 [start]content
 With Transform 
@@ -3321,7 +3295,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Scale" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3335,9 +3308,7 @@ End With
 204
 [end]block_index
 [start]command
-
 '@ transform: translate cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3352,7 +3323,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3366,9 +3336,7 @@ End With
 205
 [end]block_index
 [start]command
-
 '@ transform: translate cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3383,7 +3351,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3397,9 +3364,7 @@ End With
 206
 [end]block_index
 [start]command
-
 '@ transform: translate cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3414,7 +3379,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3428,9 +3392,7 @@ End With
 207
 [end]block_index
 [start]command
-
 '@ transform: translate cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3445,7 +3407,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3459,9 +3420,7 @@ End With
 208
 [end]block_index
 [start]command
-
 '@ transform: translate cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3476,7 +3435,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3490,9 +3448,7 @@ End With
 209
 [end]block_index
 [start]command
-
 '@ transform: translate cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3507,7 +3463,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3521,9 +3476,7 @@ End With
 210
 [end]block_index
 [start]command
-
 '@ transform: translate cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3538,7 +3491,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3552,9 +3504,7 @@ End With
 211
 [end]block_index
 [start]command
-
 '@ transform: translate cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3569,7 +3519,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3583,9 +3532,7 @@ End With
 212
 [end]block_index
 [start]command
-
 '@ transform: translate cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3600,7 +3547,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3614,9 +3560,7 @@ End With
 213
 [end]block_index
 [start]command
-
 '@ transform: translate cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3631,7 +3575,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3645,9 +3588,7 @@ End With
 214
 [end]block_index
 [start]command
-
 '@ transform: translate cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3662,7 +3603,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3676,9 +3616,7 @@ End With
 215
 [end]block_index
 [start]command
-
 '@ transform: translate cobre
-
 [end]command
 [start]content
 With Transform 
@@ -3693,7 +3631,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3722,9 +3659,7 @@ End With
 221
 [end]block_index
 [start]command
-
 '@ transform: translate dielectric
-
 [end]command
 [start]content
 With Transform 
@@ -3739,7 +3674,6 @@ With Transform
      .MultipleSelection "False" 
      .Transform "Shape", "Translate" 
 End With 
-
 [end]content
 [start]recover_picks
 1
@@ -3785,6 +3719,528 @@ End With
 [start]command
 [end]command
 [start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+233
+[end]block_index
+[start]command
+'@ define port: 1
+ (undo)
+[end]command
+[start]content
+Port.Delete "1"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+235
+[end]block_index
+[start]command
+'@ define port: 1
+ (undo)
+[end]command
+[start]content
+Port.Delete "1"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+237
+[end]block_index
+[start]command
+'@ define port: 1
+ (undo)
+[end]command
+[start]content
+Port.Delete "1"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+239
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+240
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+241
+[end]block_index
+[start]command
+'@ define discrete face port: 1
+ (undo)
+[end]command
+[start]content
+Port.Delete "1"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+243
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+244
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+245
+[end]block_index
+[start]command
+'@ define discrete face port: 1
+ (undo)
+[end]command
+[start]content
+Port.Delete "1"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+246
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+247
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+248
+[end]block_index
+[start]command
+'@ define discrete face port: 2
+ (undo)
+[end]command
+[start]content
+Port.Delete "2"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+249
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+250
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+251
+[end]block_index
+[start]command
+'@ define discrete face port: 3
+ (undo)
+[end]command
+[start]content
+Port.Delete "3"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+252
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+253
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+254
+[end]block_index
+[start]command
+'@ define discrete face port: 4
+ (undo)
+[end]command
+[start]content
+Port.Delete "4"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+255
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+256
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+257
+[end]block_index
+[start]command
+'@ define discrete face port: 5
+ (undo)
+[end]command
+[start]content
+Port.Delete "5"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+258
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+259
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+260
+[end]block_index
+[start]command
+'@ define discrete face port: 6
+ (undo)
+[end]command
+[start]content
+Port.Delete "6"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+273
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+274
+[end]block_index
+[start]command
+'@ define port: 1
+ (undo)
+[end]command
+[start]content
+Port.Delete "1"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+275
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+276
+[end]block_index
+[start]command
+'@ define port: 2
+ (undo)
+[end]command
+[start]content
+Port.Delete "2"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+282
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+283
+[end]block_index
+[start]command
+'@ define port: 1
+ (undo)
+[end]command
+[start]content
+Port.Delete "1"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+284
+[end]block_index
+[start]command
+[end]command
+[start]content
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
+[start]undo_item
+[start]block_index
+285
+[end]block_index
+[start]command
+'@ define port: 2
+ (undo)
+[end]command
+[start]content
+Port.Delete "2"
 [end]content
 [start]recover_picks
 1
