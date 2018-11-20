@@ -147,16 +147,12 @@ Wire Wire Line
 	5400 4450 5400 4850
 Wire Wire Line
 	5500 4450 5500 4850
-Text HLabel 4350 3400 0    50   Input ~ 0
+Text HLabel 7050 3550 2    50   Input ~ 0
 PWR_SAVE
-Text HLabel 4350 3500 0    50   Output ~ 0
+Text HLabel 7000 3050 2    50   Output ~ 0
 STN_SLEEP
 Text HLabel 4350 3600 0    50   Output ~ 0
 STN_RESET
-Text Label 6650 3550 0    50   ~ 0
-UART2_TX
-Text Label 6650 3650 0    50   ~ 0
-UART2_RX
 Text Notes 8600 4000 0    50   ~ 0
 PAG 10\npull-up interno\nGPIO 0 -> 0: DOWNLOAD BOOT\nGPIO 0 -> 1: SPI BOOT
 Text Notes 6250 4800 0    50   ~ 0
@@ -239,8 +235,6 @@ F 7 "311-10KJRCT-ND" H 4500 2550 60  0001 C CNN "Digikey#"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4350 3400 4700 3400
-Wire Wire Line
 	4350 3600 4700 3600
 NoConn ~ 4700 3000
 NoConn ~ 4700 3100
@@ -257,13 +251,9 @@ NoConn ~ 5900 4450
 NoConn ~ 6550 3750
 NoConn ~ 6550 3350
 NoConn ~ 6550 3250
-NoConn ~ 6550 3050
 NoConn ~ 6550 2750
 NoConn ~ 6550 2650
-NoConn ~ 6550 3550
 NoConn ~ 6550 3650
-Wire Wire Line
-	4350 3500 4700 3500
 $Comp
 L GND #PWR0127
 U 1 1 5B9BDD0C
@@ -436,4 +426,10 @@ Text Label 8050 3750 2    50   ~ 0
 BOOT
 Connection ~ 8200 3750
 NoConn ~ 6550 3450
+Wire Wire Line
+	6550 3050 7000 3050
+NoConn ~ 4700 3400
+Wire Wire Line
+	6550 3550 7050 3550
+NoConn ~ 4700 3500
 $EndSCHEMATC
