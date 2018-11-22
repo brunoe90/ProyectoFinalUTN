@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CalibrationConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CalibrationType>TRL</CalibrationType>
+  <Ports>
+    <Port>1</Port>
+    <Port>2</Port>
+  </Ports>
+  <PortImpedances>
+    <PortZr>
+      <Real>
+        <Value>50</Value>
+      </Real>
+      <Imag>
+        <Value>0</Value>
+      </Imag>
+    </PortZr>
+    <PortZr>
+      <Real>
+        <Value>50</Value>
+      </Real>
+      <Imag>
+        <Value>0</Value>
+      </Imag>
+    </PortZr>
+  </PortImpedances>
+  <RootPath>..</RootPath>
+  <MeasurementJournalPath>rep2\rep2.vnalog</MeasurementJournalPath>
+  <CalibrationStandards>
+    <CalibrationStandard>
+      <Description>Transmission 1,2</Description>
+      <Measurement>rep2\L1\L1_02.sdatb</Measurement>
+      <Definition>UnknownLine50Ohm.calstd</Definition>
+    </CalibrationStandard>
+    <CalibrationStandard>
+      <Description>Line 1,2</Description>
+      <Measurement>rep2\L2\L2_06.sdatb</Measurement>
+      <Definition>UTN\L2.calstd</Definition>
+    </CalibrationStandard>
+    <CalibrationStandard>
+      <Description>Reflection 1</Description>
+      <Measurement>rep2\Short\Short_02.sdatb</Measurement>
+      <Definition>IdealShort50Ohm.calstd</Definition>
+    </CalibrationStandard>
+    <CalibrationStandard>
+      <Description>Reflection 2</Description>
+      <Measurement>rep2\Short\Short_02.sdatb</Measurement>
+      <Definition>IdealShort50Ohm.calstd</Definition>
+    </CalibrationStandard>
+    <CalibrationStandard>
+      <Description>SwitchTerm 1</Description>
+      <Measurement>rep2\Switch.sdatb</Measurement>
+      <Definition />
+    </CalibrationStandard>
+    <CalibrationStandard>
+      <Description>SwitchTerm 2</Description>
+      <Measurement>rep2\Switch.sdatb</Measurement>
+      <Definition />
+    </CalibrationStandard>
+  </CalibrationStandards>
+</CalibrationConfig>

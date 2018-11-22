@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Journal xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RootPath />
+  <RootPathDatabase />
+  <IdNumber>afc65b2e-6d24-4d7c-9616-c9711901a8b6</IdNumber>
+  <VnaDevice>R&amp;S_VNA</VnaDevice>
+  <LoggerDevice />
+  <CableConnectorTable>
+    <CableConnectorItem>
+      <Port>1</Port>
+      <Cable />
+      <Connector />
+    </CableConnectorItem>
+    <CableConnectorItem>
+      <Port>2</Port>
+      <Cable />
+      <Connector />
+    </CableConnectorItem>
+  </CableConnectorTable>
+  <VnaSettingsJournalItem>
+    <TimeStamp>2018-11-17T12:42:21.3603648-03:00</TimeStamp>
+    <VnaDevice>R&amp;S_VNA</VnaDevice>
+    <Settings>
+      <SweepMode>SegmentSweep</SweepMode>
+      <SweepTime>0.62127</SweepTime>
+      <DwellTime>0</DwellTime>
+      <IFAverageFactor>10</IFAverageFactor>
+      <StartFrequency>200000000</StartFrequency>
+      <StopFrequency>2000000000</StopFrequency>
+      <Points>6000</Points>
+      <IFBandwidth>10000</IFBandwidth>
+      <CenterFrequency>NaN</CenterFrequency>
+      <SpanFrequency>NaN</SpanFrequency>
+      <CWFrequency>1000000000</CWFrequency>
+      <SegmentTable>
+        <Segment>
+          <StartFrequency>1000000000</StartFrequency>
+          <StopFrequency>24000000000</StopFrequency>
+          <StepFrequency>10000000</StepFrequency>
+          <IFBandwidth>10000</IFBandwidth>
+        </Segment>
+      </SegmentTable>
+      <Z0>50</Z0>
+      <Sources>
+        <Source>
+          <Power>-20</Power>
+          <Slope>0</Slope>
+        </Source>
+        <Source>
+          <Power>NaN</Power>
+          <Slope>NaN</Slope>
+        </Source>
+      </Sources>
+      <Ports>
+        <Port>
+          <Attenuator>0</Attenuator>
+          <Extension>0</Extension>
+        </Port>
+        <Port>
+          <Attenuator>0</Attenuator>
+          <Extension>0</Extension>
+        </Port>
+      </Ports>
+    </Settings>
+  </VnaSettingsJournalItem>
+  <MeasurementJournalItem>
+    <TimeStamp>2018-11-17T12:52:21.3695655-03:00</TimeStamp>
+    <VnaDevice>R&amp;S_VNA</VnaDevice>
+    <MeasurementPath>Measure01\L201.sdatb</MeasurementPath>
+  </MeasurementJournalItem>
+  <MeasurementJournalItem>
+    <TimeStamp>2018-11-17T12:58:43.8035417-03:00</TimeStamp>
+    <VnaDevice>R&amp;S_VNA</VnaDevice>
+    <MeasurementPath>Measure01\L101.sdatb</MeasurementPath>
+  </MeasurementJournalItem>
+  <MeasurementJournalItem>
+    <TimeStamp>2018-11-17T13:11:37.3197947-03:00</TimeStamp>
+    <VnaDevice>R&amp;S_VNA</VnaDevice>
+    <MeasurementPath>Measure01\Dut01.sdatb</MeasurementPath>
+  </MeasurementJournalItem>
+  <MeasurementJournalItem>
+    <TimeStamp>2018-11-17T13:19:51.0758215-03:00</TimeStamp>
+    <VnaDevice>R&amp;S_VNA</VnaDevice>
+    <MeasurementPath>Measure01\Short.sdatb</MeasurementPath>
+  </MeasurementJournalItem>
+  <MeasurementJournalItem>
+    <TimeStamp>2018-11-20T15:00:13.7894771-03:00</TimeStamp>
+    <VnaDevice>R&amp;S_VNA</VnaDevice>
+    <MeasurementPath>Measure01\Switch01.sdatb</MeasurementPath>
+  </MeasurementJournalItem>
+</Journal>
