@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ErrorCorrectionConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RootPath>..</RootPath>
+  <MeasurementJournalPath>rep2\rep2.vnalog</MeasurementJournalPath>
+  <CalibrationPath>rep2\trl_02.calb</CalibrationPath>
+  <RawMeasurementsPath>rep2</RawMeasurementsPath>
+  <ErrorCorrMeasurementsPath>rep2\trl_02_out</ErrorCorrMeasurementsPath>
+  <WithoutUncertainties>false</WithoutUncertainties>
+  <Debug>false</Debug>
+</ErrorCorrectionConfig>
