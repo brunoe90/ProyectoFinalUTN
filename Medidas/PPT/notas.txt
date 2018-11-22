@@ -1,3 +1,0 @@
-+ Pablo -> Intro, TRL. Por que se elige TRL. PCB, como lo conseguimos, etc.
-+ Bruno -> Como diseñar un TRL (humno, contar todos los problemas). Diseño de nustro TRL. Nestro diseño.
-+ Luis -> Fabricacion y medicion.
