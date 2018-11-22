@@ -1,0 +1,19 @@
+[Version]
+2
+[Author]
+bruno
+[Mesh Cells]
+10,659
+[Mesh Type]
+Tetrahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Frequency Domain
+[Last Solver Type Abb]
+f-res-tet
+[Results]
+Frequency Domain: S-Parameter (MOR)
+[Modeler Unique ID]
+5:trl.cst?be0e2b1799ac67cbcee5267cac45aebf?52539:numberofparameters=0:port=1>mode=1>zre=50>zim=0?port=2>mode=1>zre=50>zim=0?port=3>mode=1>zre=50>zim=0?port=4>mode=1>zre=50>zim=0
+[Comment]

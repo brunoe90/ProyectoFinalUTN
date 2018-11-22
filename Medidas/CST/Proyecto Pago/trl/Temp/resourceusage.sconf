@@ -1,0 +1,19 @@
+FeatureKeywords:string:la:macromodel, meshloading:problem_class_only, mesh:workflow:boolean, mesh:workflow:boolean:advanced, mesh:lib:blsurf, mesh:lib:ghs3d, la:precond:pdss5, la:precond:pdss5:fallback2double, background:normal, boundary:electric:xmax, boundary:electric:xmin, boundary:electric:ymax, boundary:electric:ymin, boundary:electric:zmax, boundary:electric:zmin, lineqssolver:setting:acceleratedrestart, material:SI:generalized model, material:SI:lossy metal, material:disp:eps, material:disp:modelnth, material:rho, mesh:tet, mesh:tet:autocurvature, mesh:tet:curved, mesh:tet:curved:3, mesh:tet:matchingportmesh, monitor:power:1d, solver:hf:fd, solver:hf:fd:generalpurpose:tet, solver:hf:fd:order:2, solver:hf:fd:portloss, source:waveguide port:active, source:waveguide port:inhomogeneous, source:waveguide port:internal port, source:waveguide port:rom, units:Capacitance:F, units:Conductance:S, units:Current:A, units:Frequency:GHz, units:Inductance:H, units:Length:um, units:Resistance:Ohm, units:Temperature:Kelvin, units:Time:ns, units:Voltage:V, solver:pp:sparameter:sensitivityanalysis, acceleration:cpu, lineqssolver:setting:direct, lineqssolver:setting:treecotree, mesh:tet:adaptive, DELETERESULTS:M000, la:direct, la:parallel_excitation:block, solver:hf:fd:mor, FESystemAssembling:FETool, monitor:3D:freq, monitor:e-field, monitor:h-field, monitor:surface current density, solver:pp:sparameter:basicbranch, solver:pp:sparameter:renorm, solver:pp:sparameter:ffbalance, SMatrix:NCutoffs, solver:pp:sparameter:updatebalance, model:layerstacking:automatic, modeler:load:fastloading, RESULTMANAGER:RESULTFLAG:0, RESULTMANAGER:RESULTFLAG:1
+LastWorkflowState:string:tetmesh:success
+solver_hf_mor/InitialFreePhysicalInMB:int:1466
+solver_hf_mor/MaxResidentSizeInMB:int:477
+solver_hf_mor/MaxResidentSizeMiB:int:441
+solver_hf_mor/MinFreePhysicalInMB:int:1024
+solver_hf_tet_fd/InitialFreePhysicalInMB:int:1532
+solver_hf_tet_fd/MaxResidentSizeInMB:int:312
+solver_hf_tet_fd/MaxResidentSizeMiB:int:285
+solver_hf_tet_fd/MinFreePhysicalInMB:int:1048
+solver_pp/InitialFreePhysicalInMB:int:1429
+solver_pp/MaxResidentSizeInMB:int:60
+solver_pp/MaxResidentSizeMiB:int:42
+solver_pp/MinFreePhysicalInMB:int:1403
+tetmesh/InitialFreePhysicalInMB:int:1423
+tetmesh/MaxResidentSizeInMB:int:32
+tetmesh/MaxResidentSizeMiB:int:60
+tetmesh/MinFreePhysicalInMB:int:1407
+---

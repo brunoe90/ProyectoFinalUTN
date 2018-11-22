@@ -1,0 +1,492 @@
+=== BEGIN SESSION ==========================================================
+[14:51:42] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:51:42] ACIS version: 27.0.2
+[14:51:42] SPAresabs = 9.9999999999999995e-07
+[14:51:42] SPAresnor = 1.0000000000000000e-10
+[14:51:42] Reading entity list
+[14:51:42] Choosing Advanced Boolean Loop...
+[14:51:42] Volume Attributes enabled
+[14:51:42] Attaching Volume Attributes
+[14:51:42] Sorted out 4 special bodies.
+[14:51:42] Optimization for planar structures enabled
+[14:51:42] Optimizing meshing for 0 out of 5 bodies.
+[14:51:42] Processing 6 entities.
+[14:51:42] Queue Size: 1
+[14:51:42] Combining "component1/component1:copper_1" and "component1/component1:copper_2" (Pair #1 out of 3)
+[14:51:42] Combining (name not available) and "component2:dielectric" (Pair #2 out of 3)
+[14:51:42] Adding "component1/component1:copper" to "background material" (Pair #3 out of 3)
+[14:51:42] Processing 3 entities.
+[14:51:42] Queue Size: 1
+[14:51:42] Adding Compound Body to "component2:dielectric" (Pair #1 out of 1)
+[14:51:42] Processing 2 entities.
+[14:51:42] Queue Size: 1
+[14:51:42] Adding Compound Body to Compound Body (Pair #1 out of 1)
+[14:51:42] Exiting Boolean Unite Module.
+[14:51:42] Added Compound Body (ID: 53, 39, 46, 8, 1) to model
+[14:51:42] Added "waveguide port 1" (ID: 320) to model
+[14:51:42] Added "waveguide port 2" (ID: 325) to model
+[14:51:42] Added "waveguide port 3" (ID: 330) to model
+[14:51:42] Added "waveguide port 4" (ID: 335) to model
+[14:51:42] - Attribute database stats:
+ Vertex UIDs = 128(first = 1, last = 128)
+, Edge UIDs = 206(first = 129, last = 334)
+, Face UIDs = 89(first = 335, last = 423)
+, Cell UIDs = 9(first = 424, last = 432)
+
+[14:51:42] Using new attribute mapping scheme
+[14:51:42] WARNING: Equivalent EIDs 5, 57 resolved to 5
+[14:51:42] WARNING: Equivalent EIDs 6, 58 resolved to 6
+[14:51:42] WARNING: Equivalent EIDs 2, 48 resolved to 2
+[14:51:42] WARNING: Equivalent EIDs 2, 41 resolved to 2
+[14:51:42] WARNING: Equivalent EIDs 2, 22 resolved to 2
+[14:51:42] WARNING: Equivalent EIDs 2, 30 resolved to 2
+[14:51:42] WARNING: Equivalent EIDs 2, 36 resolved to 2
+[14:51:42] WARNING: Equivalent EIDs 3, 55 resolved to 3
+[14:51:42] WARNING: Equivalent EIDs 4, 56 resolved to 4
+[14:51:42] WARNING: Equivalent EIDs 7, 59 resolved to 7
+[14:51:42] Skipping wire containment calculation.
+[14:51:42] - Reading information
+[14:51:42] - Storing model cells
+[14:51:42] - OK
+[14:51:42] Creating ModelDatabase
+[14:51:42] Problem class: High Frequency
+[14:51:42] - Mesh sizes: global mesh size near to model = 1.3603200000000002e+03
+              min requested = 1.1459520894792045e+03
+              max requested = 3.6238186921833640e+03
+[14:51:42] - OK
+[14:51:42] -- Building object info
+[14:51:42] -- OK
+[14:51:42] Temporary directory: "C:\Users\bruno\AppData\Local\Temp\CSTDE1\Temp\DE\Untitled_0\Temp\1-temp.tet"
+[14:51:42] [CADSurf] Section started.
+[14:51:42] [CADSurf] MeshGems Version: MeshGems-Core 2.4-1
+[14:51:42] [CADSurf] === Begin: PreCAD-related parameters ===
+[14:51:42] [CADSurf] == CADSurf Parameters == 
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "use_precad",  "yes")
+[14:51:42] [CADSurf] Bounding box diagonal = 1.4573362688935709e+04
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "remove_nano_edges",  "0")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "discard_input_topology",  "0")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "process_3d_topology",  "0")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "discard_input_2d_topology",  "0")
+[14:51:42] [CADSurf] Default periodic tolerance (1e-5*diag) = 1.4573362688935709e-01
+[14:51:42] [CADSurf] Minimum periodic tolerance = 1.0000000000000001e-05
+[14:51:42] [CADSurf] Setting it to max( 1.0000000000000001e-05, 1.4573362688935709e-01 )
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "periodic_tolerance",  "0.14573362688935709")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "remove_duplicate_cad_faces",  "0")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "remove_tiny_uv_edges",  "0")
+[14:51:42] [CADSurf] === End: PreCAD-related parameters ===
+[14:51:42] [CADSurf] ==
+[14:51:42] [CADSurf] == CADSurf Parameters == 
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "verbose",  "3")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "geometric_size_mode",  "local")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "physical_size_mode",  "local")
+[14:51:42] [CADSurf] 	 Max user size    = 3.6238186921833640e+03
+[14:51:42] [CADSurf] 	 Global size near = 1.3603200000000002e+03
+[14:51:42] [CADSurf] 	 Global size far  = 3.6238186921833640e+03
+[14:51:42] [CADSurf] 	 Upper size bound = 3.6238186921833640e+03
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "max_size",  "3623.818692183364")
+[14:51:42] [CADSurf] 	Calculating min. mesh size for CADSurf...
+[14:51:42] [CADSurf] 	Diagonal of model + background box: 1.4573362688935709e+04
+[14:51:42] [CADSurf] 	Min. mesh size by diagonal (1e-3 x diagonal): 1.4573362688935710e+01
+[14:51:42] [CADSurf] 	Diagonal of model: 1.4573362688935709e+04
+[14:51:42] [CADSurf] 	Min. mesh size of model: 1.1459520894792045e+03
+[14:51:42] [CADSurf] 	Max. cell defined by user (near to model): 1.3603200000000002e+03
+[14:51:42] [CADSurf] 	Min. cell defined by user: 0.0000000000000000e+00
+[14:51:42] [CADSurf] 	Min. cell used for calculation: 1.3603200000000001e+01
+[14:51:42] [CADSurf] 	Note: min. mesh size by diagonal is too large, consider using (0.01 x max. cell = 1.3603200000000001e+01)
+[14:51:42] [CADSurf] Geometric refinement uses "min_size" setting.
+[14:51:42] [CADSurf] CADSurf "min_size" is set to min. cell: 1.3603200000000001e+01
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "min_size",  "13.603200000000001")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "max_number_of_points_per_patch",  "0")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "element_generation",  "local")
+[14:51:42] [CADSurf] Setting Triangle as default element type
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "gradation",  "1.5")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "volume_gradation",  "2")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "patch_independent",  "0")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "remove_tiny_edges",  "0")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "optimise_tiny_edges",  "0")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "tiny_edge_respect_geometry",  "1")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "CheckWellDefined",  "8")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "anisotropic",  "1")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "anisotropic_ratio",  "5")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "correct_surface_intersections",  "1")
+[14:51:42] [CADSurf] meshgems_cadsurf_set_param(css, "intersection_processing_max_cost",  "15")
+[14:51:42] [CADSurf] ==
+[14:51:42] [CADSurf] Status: OK
+[14:51:42] [CADSurf] Number of intersecting edges: 0, total edge count: 434
+[14:51:42] [CADSurf] Number of intersecting faces: 0
+[14:51:42] [CADSurf] - Mesh stats: N=420, E=434, T=1090, Q=0
+[14:51:42] [CADSurf] Testing watertightness
+[14:51:42] [CADSurf] - OK
+[14:51:42] [CADSurf] Section finished. Time (s): 0.306
+[14:51:42] Labeling mesh entities
+[14:51:42] Creating volume mesh from surface mesh - begin
+[14:51:42] - Submitting for meshing subdomain 1 of 2
+[14:51:42]      Name: "background material"
+[14:51:42]      File: sd_0
+[14:51:42] MeshGems:Loop:: Preparing worker for subdomain "background material"
+[14:51:42] MeshGems:Loop:: Added worker for subdomain "background material" to the workers list
+[14:51:42] - Submitting for meshing subdomain 2 of 2
+[14:51:42]      Name: "component2:dielectric"
+[14:51:42]      File: sd_1
+[14:51:42] MeshGems:Loop:: Preparing worker for subdomain "component2:dielectric"
+[14:51:42] MeshGems:Loop:: Added worker for subdomain "component2:dielectric" to the workers list
+[14:51:42] Volume meshing: 2 threads will be allocated to mesh 2 sub-domains.
+[14:51:42] Usable physical memory (bytes):    1559195648
+[14:51:42] Available physical memory (bytes): 1559195648
+[14:51:42] Number of cores: 2
+[14:51:42] MeshGems:Loop:: Entering the Run function with 2 threads.
+[14:51:42] MeshGems:Loop:: Created pool to process workers
+[14:51:42] MeshGems:Loop:: Added  worker (subdomain "background material") to the pool
+[14:51:42] MeshGems:Loop:: Added  worker (subdomain "component2:dielectric") to the pool
+[14:51:42] MeshGems:Launcher: Starting Command: C:\Program Files (x86)\CST STUDIO SUITE 2018\AMD64\AppRunner_AMD64.exe --interval 1000 --parent 26540 --command "C:\Program Files (x86)\CST STUDIO SUITE 2018\AMD64\mg-tetra_AMD64.exe --components outside_components --in sd_1 --key c0857585b1e6a3a25540be50a609ef685cb6904ddba7001ad9969ac5560f3f3057aab5089157abe5989e911f4f45f406c2f9a47f3d6e5ee918 --max_memory 2048 --out sd_1_out.meshb -Dcpropa=1.5 -H-1:1145.95:2 -b -t -v 0" --output "sd_1_out.txt"
+[14:51:42] MeshGems:Launcher: Starting Command: C:\Program Files (x86)\CST STUDIO SUITE 2018\AMD64\AppRunner_AMD64.exe --interval 1000 --parent 26540 --command "C:\Program Files (x86)\CST STUDIO SUITE 2018\AMD64\mg-tetra_AMD64.exe --components outside_components --in sd_0 --key c0857585b1e6a3a25540be50a609ef685cb6904ddba7001ad9969ac5560f3f3057aab5089157abe5989e911f4f45f406c2e7a41f3d705e8918 --max_memory 2048 --out sd_0_out.meshb -Dcpropa=1.5 -H-1:3623.82:2 -b -t -v 0" --output "sd_0_out.txt"
+[14:51:43] MeshGems:Loop:: All workers in the WorkerPool finished
+[14:51:43] MeshGems:Loop:: Calling forced shutdown, for safety (effective if abort was requested)
+[14:51:43] MeshGems:Loop:: Pool successfully shut down
+[14:51:43] - Number of elements for sd_0_out.meshb:687
+[14:51:43] - Number of elements for sd_1_out.meshb:1095
+[14:51:43] - Volume mesh stats: Nb nodes = 509, Nb edges = 434, Nb surface elements = 982, Nb tets = 1782
+[14:51:43] [DuplicateSurface] Section started.
+[14:51:43] [DuplicateSurface] Section finished. Time (s): 0.001
+[14:51:43] [DuplicateSurface] Section started.
+[14:51:43] [DuplicateSurface] Section finished. Time (s): 0.001
+[14:51:43] [DuplicateSurface] Section started.
+[14:51:43] [DuplicateSurface] Section finished. Time (s): 0.001
+[14:51:43] [DuplicateSurface] Section started.
+[14:51:43] [DuplicateSurface] Section finished. Time (s): 0.001
+[14:51:43] Creating volume mesh from surface mesh - done
+[14:51:43] Using generalized mesh output routines.
+[14:51:43] Writing Bc file
+[14:51:43] Writing gex file for volume mesh
+[14:51:43] Running model geometry simplification... 
+[14:51:43] Model geometry simplification: 0 seconds
+[14:51:43] Using generalized UID topology and model geometry output
+[14:51:43] Writing topot.tet...
+[14:51:43] Done (topot.tet)
+[14:51:43] Writing moegeom.tet ...
+[14:51:43] Done (moegeom.tet) 
+[14:51:43] Mesh curving:
+[14:51:43]     available cores:   2
+[14:51:43]     number of threads: 2 (NumberOfParallelThreads setting)
+[14:51:43] Curving elements
+[14:51:43] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:51:43] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:51:44] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:51:44] ACIS version: 27.0.2
+[14:51:44] SPAresabs = 9.9999999999999995e-07
+[14:51:44] SPAresnor = 1.0000000000000000e-10
+[14:51:44] Adaptive mesh refinement (pos.snap.)
+[14:51:44] - Refining mesh
+[14:51:44] Problem class: High Frequency
+[14:51:45] - OK
+[14:51:45] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:51:45] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:51:45] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:51:45] ACIS version: 27.0.2
+[14:51:45] SPAresabs = 9.9999999999999995e-07
+[14:51:45] SPAresnor = 1.0000000000000000e-10
+[14:51:45] Adaptive mesh refinement (pos.snap.)
+[14:51:45] - Refining mesh
+[14:51:45] Problem class: High Frequency
+[14:51:45] - OK
+[14:51:45] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:51:45] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:51:46] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:51:46] ACIS version: 27.0.2
+[14:51:46] SPAresabs = 9.9999999999999995e-07
+[14:51:46] SPAresnor = 1.0000000000000000e-10
+[14:51:46] Adaptive mesh refinement (pos.snap.)
+[14:51:46] - Refining mesh
+[14:51:46] Problem class: High Frequency
+[14:51:46] - OK
+[14:51:46] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:51:46] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:51:47] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:51:47] ACIS version: 27.0.2
+[14:51:47] SPAresabs = 9.9999999999999995e-07
+[14:51:47] SPAresnor = 1.0000000000000000e-10
+[14:51:47] Adaptive mesh refinement (pos.snap.)
+[14:51:47] - Refining mesh
+[14:51:47] Problem class: High Frequency
+[14:51:47] - OK
+[14:51:47] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:51:47] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:51:48] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:51:48] ACIS version: 27.0.2
+[14:51:48] SPAresabs = 9.9999999999999995e-07
+[14:51:48] SPAresnor = 1.0000000000000000e-10
+[14:51:48] Adaptive mesh refinement (pos.snap.)
+[14:51:48] - Refining mesh
+[14:51:48] Problem class: High Frequency
+[14:51:48] - OK
+[14:51:48] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:51:48] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:51:49] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:51:49] ACIS version: 27.0.2
+[14:51:49] SPAresabs = 9.9999999999999995e-07
+[14:51:49] SPAresnor = 1.0000000000000000e-10
+[14:51:49] Adaptive mesh refinement (pos.snap.)
+[14:51:49] - Refining mesh
+[14:51:49] Problem class: High Frequency
+[14:51:49] - OK
+[14:51:49] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:51:49] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:51:50] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:51:50] ACIS version: 27.0.2
+[14:51:50] SPAresabs = 9.9999999999999995e-07
+[14:51:50] SPAresnor = 1.0000000000000000e-10
+[14:51:50] Adaptive mesh refinement (pos.snap.)
+[14:51:50] - Refining mesh
+[14:51:50] Problem class: High Frequency
+[14:51:50] - OK
+[14:51:50] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:51:50] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:51:51] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:51:51] ACIS version: 27.0.2
+[14:51:51] SPAresabs = 9.9999999999999995e-07
+[14:51:51] SPAresnor = 1.0000000000000000e-10
+[14:51:51] Adaptive mesh refinement (pos.snap.)
+[14:51:51] - Refining mesh
+[14:51:51] Problem class: High Frequency
+[14:51:51] - OK
+[14:51:51] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:51:51] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:51:52] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:51:52] ACIS version: 27.0.2
+[14:51:52] SPAresabs = 9.9999999999999995e-07
+[14:51:52] SPAresnor = 1.0000000000000000e-10
+[14:51:52] Adaptive mesh refinement (pos.snap.)
+[14:51:52] - Refining mesh
+[14:51:52] Problem class: High Frequency
+[14:51:52] - OK
+[14:51:52] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:51:52] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:51:53] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:51:53] ACIS version: 27.0.2
+[14:51:53] SPAresabs = 9.9999999999999995e-07
+[14:51:53] SPAresnor = 1.0000000000000000e-10
+[14:51:53] Adaptive mesh refinement (pos.snap.)
+[14:51:53] - Refining mesh
+[14:51:53] Problem class: High Frequency
+[14:51:53] - OK
+[14:51:53] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:51:53] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:51:54] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:51:54] ACIS version: 27.0.2
+[14:51:54] SPAresabs = 9.9999999999999995e-07
+[14:51:54] SPAresnor = 1.0000000000000000e-10
+[14:51:54] Adaptive mesh refinement (pos.snap.)
+[14:51:54] - Refining mesh
+[14:51:54] Problem class: High Frequency
+[14:51:55] - OK
+[14:51:55] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:51:55] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:51:56] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:51:56] ACIS version: 27.0.2
+[14:51:56] SPAresabs = 9.9999999999999995e-07
+[14:51:56] SPAresnor = 1.0000000000000000e-10
+[14:51:56] Adaptive mesh refinement (pos.snap.)
+[14:51:56] - Refining mesh
+[14:51:56] Problem class: High Frequency
+[14:51:57] - OK
+[14:51:57] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:51:57] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:52:06] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:52:06] ACIS version: 27.0.2
+[14:52:06] SPAresabs = 9.9999999999999995e-07
+[14:52:06] SPAresnor = 1.0000000000000000e-10
+[14:52:06] Adaptive mesh refinement (pos.snap.)
+[14:52:06] - Refining mesh
+[14:52:06] Problem class: High Frequency
+[14:52:06] - OK
+[14:52:06] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:52:06] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:52:09] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:52:09] ACIS version: 27.0.2
+[14:52:09] SPAresabs = 9.9999999999999995e-07
+[14:52:09] SPAresnor = 1.0000000000000000e-10
+[14:52:09] Adaptive mesh refinement (pos.snap.)
+[14:52:09] - Refining mesh
+[14:52:09] Problem class: High Frequency
+[14:52:09] - OK
+[14:52:09] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:52:09] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:52:13] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:52:13] ACIS version: 27.0.2
+[14:52:13] SPAresabs = 9.9999999999999995e-07
+[14:52:13] SPAresnor = 1.0000000000000000e-10
+[14:52:13] Adaptive mesh refinement (pos.snap.)
+[14:52:13] - Refining mesh
+[14:52:13] Problem class: High Frequency
+[14:52:14] - OK
+[14:52:14] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:52:14] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:52:17] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:52:17] ACIS version: 27.0.2
+[14:52:17] SPAresabs = 9.9999999999999995e-07
+[14:52:17] SPAresnor = 1.0000000000000000e-10
+[14:52:18] Adaptive mesh refinement (pos.snap.)
+[14:52:18] - Refining mesh
+[14:52:18] Problem class: High Frequency
+[14:52:18] - OK
+[14:52:18] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:52:18] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:52:22] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:52:22] ACIS version: 27.0.2
+[14:52:22] SPAresabs = 9.9999999999999995e-07
+[14:52:22] SPAresnor = 1.0000000000000000e-10
+[14:52:22] Adaptive mesh refinement (pos.snap.)
+[14:52:22] - Refining mesh
+[14:52:22] Problem class: High Frequency
+[14:52:23] - OK
+[14:52:23] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:52:23] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:52:27] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:52:27] ACIS version: 27.0.2
+[14:52:27] SPAresabs = 9.9999999999999995e-07
+[14:52:27] SPAresnor = 1.0000000000000000e-10
+[14:52:27] Adaptive mesh refinement (pos.snap.)
+[14:52:27] - Refining mesh
+[14:52:27] Problem class: High Frequency
+[14:52:27] - OK
+[14:52:27] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:52:27] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:52:32] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:52:32] ACIS version: 27.0.2
+[14:52:32] SPAresabs = 9.9999999999999995e-07
+[14:52:32] SPAresnor = 1.0000000000000000e-10
+[14:52:32] Adaptive mesh refinement (pos.snap.)
+[14:52:32] - Refining mesh
+[14:52:32] Problem class: High Frequency
+[14:52:33] - OK
+[14:52:33] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:52:33] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:52:37] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:52:37] ACIS version: 27.0.2
+[14:52:37] SPAresabs = 9.9999999999999995e-07
+[14:52:37] SPAresnor = 1.0000000000000000e-10
+[14:52:37] Adaptive mesh refinement (pos.snap.)
+[14:52:37] - Refining mesh
+[14:52:37] Problem class: High Frequency
+[14:52:38] - OK
+[14:52:38] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:52:38] Done
+=== END SESSION ============================================================
+=== BEGIN SESSION ==========================================================
+[14:52:43] Build: 64bit; Number: 20171026; ID: 2018.0 Release from 2017-10-26 (change 556462); Date: 2017-10-26
+[14:52:43] ACIS version: 27.0.2
+[14:52:43] SPAresabs = 9.9999999999999995e-07
+[14:52:43] SPAresnor = 1.0000000000000000e-10
+[14:52:43] Adaptive mesh refinement (pos.snap.)
+[14:52:43] - Refining mesh
+[14:52:43] Problem class: High Frequency
+[14:52:44] - OK
+[14:52:44] 
+#### Feedback Report Begins ####
+#### Feedback Report Ends ####
+
+[14:52:44] Done
+=== END SESSION ============================================================
