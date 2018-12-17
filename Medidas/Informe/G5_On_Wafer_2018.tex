@@ -1,0 +1,213 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% UTN BA - Argentina
+% Medidas Electrónicas II
+% 16/12/18
+%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Copyright
+%
+% This template was downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original Authors:
+% Vel (vel@LaTeXTemplates.com)
+% Frits Wenneker
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+%!TeX spellcheck = es-ES
+
+% 10pt font size (11 and 12 also possible), A4 paper (letterpaper for US letter) and two column layout (remove for one column)
+\documentclass[10pt, a4paper, twocolumn]{article}
+
+% Specifies the document structure and loads requires packages
+\input{structure.tex}
+
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE INFORMATION
+%----------------------------------------------------------------------------------------
+
+% The article title
+\title{
+Parámetros S On-Wafer \large\newline\newline
+Medidas Electrónicas II
+	  }
+%Medidas Electrónicas II
+\author{
+	\authorstyle{Luis Pablo Seva\textsuperscript{1}, Bruno Giuliano Errasti\textsuperscript{1} y Pablo Andrés Di Sabato\textsuperscript{1}} % Authors
+	\newline\newline
+	\textsuperscript{1}\institution{Universidad Tecnológica Nacional, Ciudad Autónoma de Buenos Aires, Argentina}
+}
+
+% Example of a one line author/institution relationship
+%\author{\newauthor{John Marston} \newinstitution{Universidad Nacional Autónoma de México, Mexico City, Mexico}}
+
+% ## Date ##
+% Add a date here if you would like one to appear underneath the title block, use \today for the current date, leave empty for no date
+\date{30 de Noviembre de 2018}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+% Print the title
+\maketitle
+
+% Apply the page style for the first page (no headers and footers)
+\thispagestyle{firstpage}
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\lettrineabstract{Durante el presente proyecto se realizaron mediciones de parámetros S en un atenuador de 3dB. Esto permitió obtener sus características y gráficas, pudiendo así realizar comparaciones con las especificaciones del fabricante. El proyecto también abarcó realizar correcciones en las mediciones utilizando el software Metas VNA Tools.}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\section{Introducción}
+
+Para realizar las mediciones se utilizó el atenuador de Analog Devices HMC652LP2E \cite{attenuator}. El proyecto se segmentó en varios procesos, los cuales van a ser descriptas en detalle en secciones y sub-secciones siguientes:
+
+\begin{itemize}
+	\item Elección del DUT.
+	\item Elección de PCB (teniendo en cuenta características de RF).
+	\item Diseño de PCB y estándares de calibración.
+	\item Fabricación de PCB.
+	\item Mediciones.
+	\item Conclusiones.
+\end{itemize}
+
+Pueden distinguirse en el proyecto tres grandes etapas o conjuntos de tareas:
+\begin{description}
+	\item[Etapa diseño] Comprende la selección de componentes y diseño de PCB.
+	\item[Etapa Fabricación] Fabricación del PCB y montado del Kit.
+	\item[Etapa Medición y conclusiones] Adquisición de datos, mediciones y conclusiones.
+\end{description}
+
+%------------------------------------------------
+
+\subsection{Atenuador 3dB AD HMC652LP2E}
+
+El DUT seleccionado es un atenuador de 3dB. Sus principales características son
+un ancho de banda de 25Ghz y manejo de potencias de hasta +25dBm. Está preparado
+para trabajar en configuración CPW \cite{cpw}, que fue la elegida para realizar la placa de
+pruebas.
+
+\begin{figure}[hbt!]
+	\includegraphics[width=\linewidth]{Fotos/DUT.png}
+	\caption{Analog Devices HMC652LP2E.}
+\end{figure}
+
+%------------------------------------------------
+
+\subsection{Elección de PCB}
+
+Para la elección del PCB se necesitaban cumplir con ciertos requerimientos y
+consideraciones de diseño:
+\begin{itemize}
+	\item CPW (coplanar waveguide) \cite{cpw}.
+	\item Dieléctrico 10.2
+	\item Gap y Width limitados, por las características de las puntas de medición (probes): pitch desde 50 a 1250 um.
+	\item Conductor de cobre.
+\end{itemize}
+
+Teniendo en cuenta todas estas características se optó por elegir un producto de
+Rogers Corporation, \textbf{RO3210 Series}\cite{rogers}. Dicho producto cumplía con los requisitos necesarios para el diseño y adicionalmente aplicaba para ser enviado en forma gratuita (fines universitarios). El producto es confeccionado utilizando laminados de cerámica reforzados con fibra de vidrio tejida. Otras características destacadas del producto son
+un buen balance entre alta performance eléctrica y estabilidad mecánica (generalmente
+hay una relación de compromiso) y un \textbf{factor de disipación muy bajo} (0,0027). Dicha
+característica es muy apreciada en el ámbito de RF y particularmente en el presente proyecto
+(minimizando pérdidas y errores de medición).
+
+Para realizar los cálculos en base a los requerimientos se utilizó el Software
+TX Line \cite{txline}, desarrollado por National Instruments.
+
+\begin{figure}[hbt!]
+	\includegraphics[width=\linewidth]{Fotos/TXLine.png}
+	\caption{Validando parámetros con TX Line Software.}
+\end{figure}
+
+%------------------------------------------------
+\subsection{Diseño y fabricación}
+
+Se diseñó el PCB en base a los requerimientos y cálculos realizados previamente.
+Para realizar el layout utilizamos software de diseño CAD (AutoCAD).
+
+\begin{figure}[hbt!]
+	\includegraphics[width=\linewidth]{Fotos/pcb.png}
+	\caption{Vista del diseño.}
+\end{figure}
+
+%------------------------------------------------
+\section{TRL}
+\textbf{TRL (Thru, Reflect, Line)} es una familia de técnicas de calibración que
+miden dos patrones de transmisión y uno de reflexión para determinar los
+coeficientes de error (2 puertos – 12 términos). Incluyen: TRM (Thru, Reflect, Match), LRL (Line, Reflect, Line) y LRM (Line, Reflect, Match). Se utilizó este método por diversas
+características favorables:
+\begin{itemize}
+\item Excelente precisión.
+\item Muy utilizado cuando no se cuenta con patrones de calibración con los mismos tipos de conectores que el DUT (por ejemplo mediciones on-wafer).
+\item Utilizado generalmente para realizar mediciones con probe stations.
+\item Relativamente sencillo de fabricar e implementar.
+\item Los patrones no necesitan ser definidos con tanta precisión y exactitud, ya que son modelados (a diferencia de SOTL).
+\end{itemize}
+
+\subsection{Line}
+
+Idealmente, el largo de la pista patrón debe ser de 0.25 λ (90 grados eléctricos). Para realizar un barrido en frecuencia a lo largo de una gran porción del espectro, se vuelve impráctico e irrealizable. Lo más probable es que se requiera realizar mediciones en varias zonas del espectro, por lo que se necesita encontrar un método más apropiado. \newline
+
+\textbf{Criterio de ingeniería}: El largo el patrón Line funciona razonablemente bien entre 20 y 160 grados eléctricos. Dependiendo del ancho de banda que se necesite medir, se crean los patrones necesarios. Podemos pensar el ancho de banda a cubrir como un ratio entre la menor frecuencia y la mayor. Esto nos permite fácilmente saber cuantos patrones line vamos a necesitar
+para cubrir el ancho de banda deseado:
+\begin{itemize}
+\item 1 línea cubre un ratio 8:1
+\item 2 líneas cubren un ratio 64:1
+\item 3 líneas cubren un ratio 512:1
+\item 4 líneas cubren un ratio 4096:1
+\end{itemize}
+
+\subsection{Calculations}
+
+%------------------------------------------------
+\section{Mediciones}
+
+%------------------------------------------------
+\section{Conclusiones}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\medskip
+
+\begin{thebibliography}{9}
+
+\bibitem{attenuator}
+Analog Devices HMC652LP2E
+\\\texttt{https://www.analog.com/media/en/technical-documentation/data-sheets/hmc652lp2-hmc655lp2.pdf}
+
+\bibitem{cpw}
+Coplanar waveguide
+\\\texttt{https://en.wikipedia.org/wiki/Coplanar\_waveguide}
+
+\bibitem{rogers}
+Rogers RO3210
+\\\texttt{https://www.rogerscorp.com/documents/725/acs/RO3200-Laminate-Data-Sheet-RO3203-RO3206-RO3210.pdf}
+
+\bibitem{txline}
+TX Line Software
+\\\texttt{https://www.awrcorp.com/products/additional-products/tx-line-transmission-line-calculator}
+
+\end{thebibliography}
+%----------------------------------------------------------------------------------------
+
+\end{document}
