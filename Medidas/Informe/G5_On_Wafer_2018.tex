@@ -30,7 +30,8 @@
 
 % Specifies the document structure and loads requires packages
 \input{structure.tex}
-
+\usepackage{amsmath}
+\usepackage{empheq}
 
 %----------------------------------------------------------------------------------------
 %	ARTICLE INFORMATION
@@ -102,7 +103,7 @@ Pueden distinguirse en el proyecto tres grandes etapas o conjuntos de tareas:
 El DUT seleccionado es un atenuador de 3dB. Sus principales características son
 un ancho de banda de 25Ghz y manejo de potencias de hasta +25dBm. Está preparado
 para trabajar en configuración CPW \cite{cpw}, que fue la elegida para realizar la placa de
-pruebas.
+calibración.
 
 \begin{figure}[hbt!]
 	\includegraphics[width=\linewidth]{Fotos/DUT.png}
@@ -164,10 +165,18 @@ características favorables:
 
 \subsection{Line}
 
-Idealmente, el largo de la pista patrón debe ser de 0.25 λ (90 grados eléctricos). Para realizar un barrido en frecuencia a lo largo de una gran porción del espectro, se vuelve impráctico e irrealizable. Lo más probable es que se requiera realizar mediciones en varias zonas del espectro, por lo que se necesita encontrar un método más apropiado. \newline
+Idealmente, el largo de la pista patrón debe ser exactamente un cuarto de la longitud de onda (90 grados eléctricos). Para realizar un barrido en frecuencia a lo largo de una gran porción del espectro, se vuelve impráctico e irrealizable. Lo más probable es que se requiera realizar mediciones en varias zonas del espectro, por lo que se necesita encontrar un método más apropiado. \newline
 
-\textbf{Criterio de ingeniería}: El largo el patrón Line funciona razonablemente bien entre 20 y 160 grados eléctricos. Dependiendo del ancho de banda que se necesite medir, se crean los patrones necesarios. Podemos pensar el ancho de banda a cubrir como un ratio entre la menor frecuencia y la mayor. Esto nos permite fácilmente saber cuantos patrones line vamos a necesitar
-para cubrir el ancho de banda deseado:
+Como podemos apreciar, es necesario adoptar ciertos criterios para utilizar el método en
+forma práctica. Esto quiere decir que se debe adoptar algún \textbf{criterio de ingeniería}
+que permita aplicar el método en un escenario real. Hay varias técnicas y métodos para identificar y aplicar un criterio, pero no hay demasiada documentación formal al respecto.
+Dicho criterio se basa mas bien en la experiencia práctica y resultados obtenidos \cite{engcrit}.
+
+\subsubsection{Criterio de ingeniería}
+
+El largo el patrón Line funciona razonablemente bien entre 20 y 160 grados eléctricos. Dependiendo del ancho de banda que se necesite medir, se crean los patrones necesarios. Podemos pensar el ancho de banda a cubrir como un ratio entre la menor frecuencia y la mayor. Esto nos permite fácilmente saber cuantos patrones line vamos a necesitar
+para cubrir el ancho de banda a estudiar:
+
 \begin{itemize}
 \item 1 línea cubre un ratio 8:1
 \item 2 líneas cubren un ratio 64:1
@@ -175,10 +184,72 @@ para cubrir el ancho de banda deseado:
 \item 4 líneas cubren un ratio 4096:1
 \end{itemize}
 
-\subsection{Calculations}
+\subsubsection{Cálculos}
+
+Continuando con el criterio adoptado, los cálculos necesarios se basan en encontrar
+dentro del rango de frecuencias a medir, los mejores puntos de cruce. Esto quiere decir
+hallar la cantidad de líneas y sus largos óptimos para cubrir el ancho de banda
+requerido, de tal manera que se trabaje lo más lejos posible de los extremos (20 y 160 grados
+eléctricos). De esta manera se logra que cada línea cubra el espectro, cercano a 90 grados
+eléctricos. Para lograrlo se calcula segmentando las bandas en forma \textbf{geométrica}. \newline
+
+Presentamos a continuación los cálculos de la secuencia.
+
+\textbf{2 líneas} \newline
+
+\large
+\begin{equation}
+\boxed{ FT = \sqrt{\frac{FH}{FL}} }
+\end{equation}
+\normalsize
+
+\textbf{3 líneas} \newline
+
+\large
+\begin{equation}
+\boxed{ FT1 = \frac{FH}{FL}^\frac{1}{3} }
+\end{equation}
+\normalsize
+
+\large
+\begin{equation}
+\boxed{ FT2 = \frac{FH}{FL}^\frac{2}{3} }
+\end{equation}
+\normalsize
 
 %------------------------------------------------
 \section{Mediciones}
+
+Para las mediciones se utilizó un VNA Rohde \& Schwarz ZVA 24 \cite{vna} y puntas
+de prueba Picoprobe\textregistered Model 40A \cite{probe}. Para controlar el dispositivo
+y realizarlas mediciones se utilizo el Software Metas VNA Tools \cite{metas}. Presentamos a continuación
+toda la serie de mediciones realizadas. \newline
+
+\textbf{Line} \newline
+
+\begin{figure}[hbt!]
+	\includegraphics[width=\linewidth]{Fotos/Mediciones/L1_S11_No.PNG}
+	\caption{Line S11.}
+\end{figure}
+
+\begin{figure}[hbt!]
+	\includegraphics[width=\linewidth]{Fotos/Mediciones/L1_S11_Si.PNG}
+	\caption{Line S11 Corregido.}
+\end{figure}
+
+\begin{figure}[hbt!]
+	\includegraphics[width=\linewidth]{Fotos/Mediciones/L1_S21_No.PNG}
+	\caption{Line S21.}
+\end{figure}
+
+\begin{figure}[hbt!]
+	\includegraphics[width=\linewidth]{Fotos/Mediciones/L1_S21_Si.PNG}
+	\caption{Line S21 Corregido.}
+\end{figure}
+
+\textbf{Short} \newline
+
+\textbf{DUT} \newline
 
 %------------------------------------------------
 \section{Conclusiones}
@@ -206,6 +277,22 @@ Rogers RO3210
 \bibitem{txline}
 TX Line Software
 \\\texttt{https://www.awrcorp.com/products/additional-products/tx-line-transmission-line-calculator}
+
+\bibitem{engcrit}
+TRL Calibration Blog
+\\\texttt{https://www.microwaves101.com/encyclopedias/trl-calibration}
+
+\bibitem{vna}
+Rohde \& Schwarz ZVA 24
+\\\texttt{https://www.rohde-schwarz.com/us/product/zva-productstartpage\_63493-9660.html}
+
+\bibitem{probe}
+PICOPROBE Model 40A
+\\\texttt{http://www.ggb.com/40a.html}
+
+\bibitem{metas}
+Metas VNA Tools
+\\\texttt{https://www.metas.ch/metas/en/home/fabe/hochfrequenz/vna-tools.html}
 
 \end{thebibliography}
 %----------------------------------------------------------------------------------------
