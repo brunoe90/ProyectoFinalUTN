@@ -150,7 +150,7 @@ Para realizar el layout utilizamos software de diseño CAD (AutoCAD).
 \end{figure}
 
 Para la fabricación se realizaron dos versiones, una utilizando procesos de fotolitografía
-y otra utilizando CNC.
+y otra utilizando CNC. Ambas versiones fueron fabricadas en las instalaciones del INTI.
 
 %------------------------------------------------
 \section{TRL}
@@ -225,42 +225,83 @@ Presentamos a continuación los cálculos de la secuencia.
 
 Para las mediciones se utilizó un VNA Rohde \& Schwarz ZVA 24 \cite{vna} y puntas
 de prueba Picoprobe\textregistered Model 40A \cite{probe}. Para controlar el dispositivo
-y realizarlas mediciones se utilizo el Software Metas VNA Tools \cite{metas}. Presentamos a continuación
-toda la serie de mediciones realizadas. \newline
+y realizar las mediciones se utilizó el Software Metas VNA Tools \cite{metas}. Debido a diversos inconvenientes durante el proceso de fabricación, en una primera iteración el PCB contaba con varios problemas. Entre los principales podemos mencionar una soldadura deficiente del DUT, exceso de flux en los
+contactos y presencia de cobre en la parte inferior del PCB. Todos estos problemas fueron solucionados
+en la segunda versión de la placa. En las mediciones del DUT podemos contrastar ambos resultados. Presentamos a continuación toda la serie de mediciones realizadas. \newline
 
-\textbf{Line} \newline
+\subsection{Line, DUT y Short}
 
 \begin{figure}[hbt!]
-	\includegraphics[width=\linewidth]{Fotos/Mediciones/L1_S11_No.PNG}
-	\caption{Line S11.}
+	\includegraphics[width=\linewidth]{Fotos/Mediciones/L1_S11.PNG}
+	\caption{Short Line S11. Comparación entre los valores ideales (rojo) y medidos (negro).}
 \end{figure}
 
 \begin{figure}[hbt!]
-	\includegraphics[width=\linewidth]{Fotos/Mediciones/L1_S11_Si.PNG}
-	\caption{Line S11 Corregido.}
+	\includegraphics[width=\linewidth]{Fotos/Mediciones/L1_S21.PNG}
+	\caption{Short Line S21. Comparación entre los valores ideales (rojo) y medidos (negro).}
 \end{figure}
 
 \begin{figure}[hbt!]
-	\includegraphics[width=\linewidth]{Fotos/Mediciones/L1_S21_No.PNG}
-	\caption{Line S21.}
+	\includegraphics[width=\linewidth]{Fotos/Mediciones/L2_S11.PNG}
+	\caption{Long Line S11. Comparación entre los valores ideales (negro) y medidos (rojo).}
 \end{figure}
 
 \begin{figure}[hbt!]
-	\includegraphics[width=\linewidth]{Fotos/Mediciones/L1_S21_Si.PNG}
-	\caption{Line S21 Corregido.}
+	\includegraphics[width=\linewidth]{Fotos/Mediciones/L2_S21.PNG}
+	\caption{Long Line S21. Comparación entre los valores ideales (negro) y medidos (rojo).}
 \end{figure}
 
-\textbf{Short} \newline
+\begin{figure}[hbt!]
+	\includegraphics[width=\linewidth]{Fotos/Mediciones/DUT_S11.PNG}
+	\caption{DUT S11. Comparación entre los valores ideales (rojo), medido con placa con errores (marrón)
+	y finalmente medido y corregido con placa definitiva (negro).}
+\end{figure}
 
-\textbf{DUT} \newline
+\begin{figure}[hbt!]
+	\includegraphics[width=\linewidth]{Fotos/Mediciones/DUT_S21.PNG}
+	\caption{DUT S11. Comparación entre los valores ideales (rojo), medido con placa con errores (marrón)
+	y finalmente medido y corregido con placa definitiva (negro).}
+\end{figure}
 
+\begin{figure}[hbt!]
+	\includegraphics[width=\linewidth]{Fotos/Mediciones/Short_S11.jpeg}
+	\caption{Short S11. Comparación entre los valores ideales (negro) y medidos (rojo).}
+\end{figure}
+
+\clearpage
+
+\subsection{Otras capturas del proceso de medición}
+
+\begin{figure}[hbt!]
+	\includegraphics[width=\linewidth]{Fotos/Med_1.jpeg}
+	\caption{Rohde \& Schwarz ZVA 24.}
+\end{figure}
+
+\begin{figure}[hbt!]
+	\includegraphics[width=\linewidth]{Fotos/Med_2.jpeg}
+	\caption{Proceso de medición.}
+\end{figure}
+
+\begin{figure}[hbt!]
+	\includegraphics[width=\linewidth]{Fotos/Med_3b.jpg}
+	\caption{Estación de medición.}
+\end{figure}
+
+\begin{figure}[hbt!]
+	\includegraphics[width=\linewidth]{Fotos/Med_3.jpeg}
+	\caption{VNA Tools.}
+\end{figure}
+
+\begin{figure}[hbt!]
+	\includegraphics[width=\linewidth]{Fotos/Med_4.jpg}
+	\caption{Estación de medición y puntas de prueba.}
+\end{figure}
 
 %------------------------------------------------
 \section{Inconvenientes y consideraciones}
 
 Presentamos a continuación algunos inconvenientes que se fueron encontrando y
 superando a lo largo del proceso.
-
 \begin{itemize}
 \item Revisar todos los aspectos e imperfecciones del diseño antes de la impresión de la filmina. Revisar con diversos visores (pdf, imágenes, etc).
 \item Minimizar el tamaño de los contactos/pads (llamadas launchers) de cada uno de los patrones (para reducir imperfecciones y mediciones indeseadas).
@@ -273,6 +314,13 @@ componentes de algún proveedor del exterior.
 
 %------------------------------------------------
 \section{Conclusiones}
+
+Nos encontramos con diversas situaciones adversas a lo largo del proyecto, algunas de las cuales estaban
+relacionadas con aspectos técnicos y tecnológicos mientras que otras tenían que ver áreas de planifiación, proveedores, etc. La etapa de investigación y diseño pudo completarse sin mayores inconvenientes, teniendo
+a tiempo la elección de componentes y diseño de PCB. Los mayores inconvenientes surgieron en la etapa de
+fabricación, donde efectivamente nos encontramos con problemas del mundo real (proveedores que no cumplen
+con lo solicitado, demoras en entregas, etc). Una vez superados dichos inconvenientes fue un desafío familiarizarse con los instrumentos de medición (VNA y puntas de prueba). Finalmente pudimos verificar en
+forma satisfactoria y realizar mediciones sobre el DUT.
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
