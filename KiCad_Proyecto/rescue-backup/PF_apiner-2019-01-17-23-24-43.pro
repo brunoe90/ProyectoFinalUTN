@@ -1,6 +1,6 @@
 version=1
 last_client=kicad
-update=jue 17 ene 2019 23:24:47 -03
+update=jue 01 nov 2018 21:29:57 -03
 [general]
 version=1
 RootSch=
@@ -8,6 +8,15 @@ BoardNm=
 [cvpcb]
 version=1
 NetIExt=net
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=lib/Connector
+LibName2=lib/ESP32-footprints-Shem-Lib
+LibName3=lib/ftdi
+LibName4=lib/OBDII_IoT
+LibName5=lib/STN2120
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -27,7 +36,4 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
-[eeschema]
-version=1
-LibDir=
 

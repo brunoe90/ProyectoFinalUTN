@@ -1,6 +1,10 @@
-EESchema Schematic File Version 4
-LIBS:PF_apiner-cache
-EELAYER 29 0
+EESchema Schematic File Version 2
+LIBS:Connector
+LIBS:ESP32-footprints-Shem-Lib
+LIBS:ftdi
+LIBS:OBDII_IoT
+LIBS:STN2120
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -25,7 +29,7 @@ J1850_BUS+_TX
 Text HLabel 7800 4300 0    40   Input ~ 0
 J1850_BUS-_TX
 $Comp
-L PF_apiner-rescue:R-OBDII_IoT1 R25
+L R R25
 U 1 1 582FD8FC
 P 3900 1850
 F 0 "R25" V 3980 1850 50  0000 C CNN
@@ -40,7 +44,7 @@ F 7 "311-240LRCT-ND" H 3900 1850 60  0001 C CNN "Digikey#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L PF_apiner-rescue:R-OBDII_IoT1 R26
+L R R26
 U 1 1 582FDADA
 P 3900 2350
 F 0 "R26" V 3980 2350 50  0000 C CNN
@@ -55,7 +59,7 @@ F 7 "YAG3248CT-ND" H 3900 2350 60  0001 C CNN "Digikey#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L PF_apiner-rescue:R-OBDII_IoT1 R27
+L R R27
 U 1 1 5832E14E
 P 3900 2750
 F 0 "R27" V 3980 2750 50  0000 C CNN
@@ -70,7 +74,7 @@ F 7 "YAG3137CT-ND" H 3900 2750 60  0001 C CNN "Digikey#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L PF_apiner-rescue:LM339-OBDII_IoT1 U3
+L LM339 U3
 U 2 1 58FEE375
 P 5850 2100
 F 0 "U3" H 5900 2250 50  0000 L CNN
@@ -85,7 +89,7 @@ F 7 "296-6607-1-ND" H 5850 2100 60  0001 C CNN "Digikey#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:LM339-OBDII_IoT1 U3
+L LM339 U3
 U 3 1 58FEE380
 P 8550 1950
 F 0 "U3" H 8600 2100 50  0000 L CNN
@@ -100,7 +104,7 @@ F 7 "296-6607-1-ND" H 8550 1950 60  0001 C CNN "Digikey#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:MOS_N-OBDII_IoT1 Q7
+L MOS_N Q7
 U 1 1 58FF3421
 P 3550 2750
 F 0 "Q7" H 3500 2950 50  0000 R CNN
@@ -117,7 +121,7 @@ $EndComp
 Text HLabel 3300 2750 0    40   Input ~ 0
 J1850_BUS+_VH
 $Comp
-L PF_apiner-rescue:C-OBDII_IoT1 C25
+L C C25
 U 1 1 58FF9848
 P 2950 1950
 F 0 "C25" V 2850 1900 50  0000 L CNN
@@ -147,7 +151,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 1600 2950 1800
 $Comp
-L PF_apiner-rescue:DLC_SW-OBDII_IoT1 #PWR078
+L DLC_SW #PWR078
 U 1 1 58FFBF93
 P 2950 1600
 F 0 "#PWR078" H 2950 1690 20  0001 C CNN
@@ -159,7 +163,7 @@ F 3 "" H 2950 1600 60  0000 C CNN
 $EndComp
 Connection ~ 2950 1650
 $Comp
-L PF_apiner-rescue:V_J1850-OBDII_IoT1 #PWR079
+L V_J1850 #PWR079
 U 1 1 58FFC6C3
 P 3900 1600
 F 0 "#PWR079" H -450 890 20  0001 C CNN
@@ -171,7 +175,7 @@ F 3 "" H -450 800 60  0000 C CNN
 $EndComp
 Connection ~ 3900 1650
 $Comp
-L PF_apiner-rescue:GND-OBDII_IoT1 #PWR080
+L GND #PWR080
 U 1 1 58FFC795
 P 2950 2200
 F 0 "#PWR080" H 2950 1950 50  0001 C CNN
@@ -189,7 +193,7 @@ Wire Wire Line
 	3900 2550 3650 2550
 Connection ~ 3900 2550
 $Comp
-L PF_apiner-rescue:GND-OBDII_IoT1 #PWR081
+L GND #PWR081
 U 1 1 58FFC8CF
 P 3900 3000
 F 0 "#PWR081" H 3900 2750 50  0001 C CNN
@@ -207,7 +211,7 @@ Connection ~ 3900 2950
 Wire Wire Line
 	3300 2750 3350 2750
 $Comp
-L PF_apiner-rescue:R-OBDII_IoT1 R30
+L R R30
 U 1 1 58FFF46B
 P 5300 2000
 F 0 "R30" V 5380 2000 50  0000 C CNN
@@ -222,7 +226,7 @@ F 7 "311-10KJRCT-ND" H 5300 2000 60  0001 C CNN "Digikey#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PF_apiner-rescue:D_Schottky_BAT54SL-OBDII_IoT1 D6
+L D_Schottky_BAT54SL D6
 U 1 1 58FFFF10
 P 1950 4350
 F 0 "D6" H 2100 4250 50  0000 C CNN
@@ -237,7 +241,7 @@ F 7 "BAT54SLT1GOSCT-ND" H 1950 4350 60  0001 C CNN "Digikey#"
 	0    1    -1   0   
 $EndComp
 $Comp
-L PF_apiner-rescue:C-OBDII_IoT1 C24
+L C C24
 U 1 1 58FFFF1B
 P 2250 4350
 F 0 "C24" V 2150 4300 50  0000 L CNN
@@ -256,7 +260,7 @@ J1850_BUS+
 Text Label 2850 4350 2    40   ~ 0
 J1850_BUS-
 $Comp
-L PF_apiner-rescue:DLC-OBDII_IoT1 #PWR082
+L DLC #PWR082
 U 1 1 59002768
 P 2250 4000
 F 0 "#PWR082" H 2250 4090 20  0001 C CNN
@@ -267,7 +271,7 @@ F 3 "" H 2250 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:GND-OBDII_IoT1 #PWR083
+L GND #PWR083
 U 1 1 5900289A
 P 2250 4700
 F 0 "#PWR083" H 2250 4450 50  0001 C CNN
@@ -288,7 +292,7 @@ Wire Wire Line
 	2250 4000 2250 4200
 Connection ~ 2250 4050
 $Comp
-L PF_apiner-rescue:D_Schottky_BAT54SL-OBDII_IoT1 D7
+L D_Schottky_BAT54SL D7
 U 1 1 59002A9E
 P 3100 4350
 F 0 "D7" H 3250 4250 50  0000 C CNN
@@ -303,7 +307,7 @@ F 7 "BAT54SLT1GOSCT-ND" H 3100 4350 60  0001 C CNN "Digikey#"
 	0    1    -1   0   
 $EndComp
 $Comp
-L PF_apiner-rescue:C-OBDII_IoT1 C26
+L C C26
 U 1 1 59002AA8
 P 3400 4350
 F 0 "C26" V 3300 4300 50  0000 L CNN
@@ -318,7 +322,7 @@ F 7 "311-1341-1-ND" H 3400 4350 60  0001 C CNN "Digikey#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:DLC-OBDII_IoT1 #PWR084
+L DLC #PWR084
 U 1 1 59002AAE
 P 3400 4000
 F 0 "#PWR084" H 3400 4090 20  0001 C CNN
@@ -329,7 +333,7 @@ F 3 "" H 3400 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:GND-OBDII_IoT1 #PWR085
+L GND #PWR085
 U 1 1 59002AB4
 P 3400 4700
 F 0 "#PWR085" H 3400 4450 50  0001 C CNN
@@ -366,7 +370,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 2950 1750 2950
 $Comp
-L PF_apiner-rescue:R-OBDII_IoT1 R31
+L R R31
 U 1 1 5900554A
 P 5300 2200
 F 0 "R31" V 5380 2200 50  0000 C CNN
@@ -381,7 +385,7 @@ F 7 "311-10KJRCT-ND" H 5300 2200 60  0001 C CNN "Digikey#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PF_apiner-rescue:DLC_SW-OBDII_IoT1 #PWR086
+L DLC_SW #PWR086
 U 1 1 5900675A
 P 5750 1700
 F 0 "#PWR086" H 5750 1790 20  0001 C CNN
@@ -392,7 +396,7 @@ F 3 "" H 5750 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:GND-OBDII_IoT1 #PWR087
+L GND #PWR087
 U 1 1 5900679C
 P 5750 2450
 F 0 "#PWR087" H 5750 2200 50  0001 C CNN
@@ -415,7 +419,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 2400 5750 2450
 $Comp
-L PF_apiner-rescue:+3.3V-OBDII_IoT1 #PWR088
+L +3.3V #PWR088
 U 1 1 59006FD8
 P 6250 1700
 F 0 "#PWR088" H 6300 1750 20  0001 C CNN
@@ -426,7 +430,7 @@ F 3 "" H -500 -3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:R-OBDII_IoT1 R33
+L R R33
 U 1 1 59006FE2
 P 6250 1900
 F 0 "R33" V 6330 1900 50  0000 C CNN
@@ -450,7 +454,7 @@ Wire Wire Line
 	6250 2100 6250 2050
 Connection ~ 6250 2100
 $Comp
-L PF_apiner-rescue:MOS_N-OBDII_IoT1 Q8
+L MOS_N Q8
 U 1 1 59007FAD
 P 5150 4100
 F 0 "Q8" H 5100 4300 50  0000 R CNN
@@ -465,7 +469,7 @@ F 7 "2N7002ET1GOSCT-ND" H 5150 4100 60  0001 C CNN "Digikey#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:MOS_P-OBDII_IoT1 Q9
+L MOS_P Q9
 U 1 1 5900CF77
 P 5500 3550
 F 0 "Q9" V 5350 3700 50  0000 R CNN
@@ -480,7 +484,7 @@ F 7 "BSS314PE H6327CT-ND" H 5500 3550 60  0001 C CNN "Digikey#"
 	0    1    -1   0   
 $EndComp
 $Comp
-L PF_apiner-rescue:R-OBDII_IoT1 R28
+L R R28
 U 1 1 5900D39E
 P 4900 4300
 F 0 "R28" V 4980 4300 50  0000 C CNN
@@ -495,7 +499,7 @@ F 7 "311-10KJRCT-ND" H 4900 4300 60  0001 C CNN "Digikey#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L PF_apiner-rescue:GND-OBDII_IoT1 #PWR089
+L GND #PWR089
 U 1 1 5900D50B
 P 5250 4500
 F 0 "#PWR089" H 5250 4250 50  0001 C CNN
@@ -506,7 +510,7 @@ F 3 "" H 5250 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:R-OBDII_IoT1 R29
+L R R29
 U 1 1 5900D718
 P 5250 3650
 F 0 "R29" V 5330 3650 50  0000 C CNN
@@ -521,7 +525,7 @@ F 7 "311-10KJRCT-ND" H 5250 3650 60  0001 C CNN "Digikey#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L PF_apiner-rescue:D_Schot-OBDII_IoT1 D8
+L D_Schot D8
 U 1 1 5900E8B5
 P 5950 3450
 F 0 "D8" H 5900 3350 50  0000 L CNN
@@ -538,7 +542,7 @@ $EndComp
 Text Label 6250 3450 0    40   ~ 0
 J1850_BUS+
 $Comp
-L PF_apiner-rescue:D_Schot-OBDII_IoT1 D9
+L D_Schot D9
 U 1 1 5900EFC2
 P 6150 4250
 F 0 "D9" H 6100 4350 50  0000 L CNN
@@ -553,7 +557,7 @@ F 7 "DB2J31000LCT-ND" H 6150 4250 60  0001 C CNN "Digikey#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PF_apiner-rescue:R-OBDII_IoT1 R32
+L R R32
 U 1 1 5900F3D6
 P 6150 3850
 F 0 "R32" V 6230 3850 50  0000 C CNN
@@ -568,7 +572,7 @@ F 7 "311-10KJRCT-ND" H 6150 3850 60  0001 C CNN "Digikey#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L PF_apiner-rescue:GND-OBDII_IoT1 #PWR090
+L GND #PWR090
 U 1 1 5900F564
 P 6150 4500
 F 0 "#PWR090" H 6150 4250 50  0001 C CNN
@@ -600,7 +604,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 3400 5250 3500
 $Comp
-L PF_apiner-rescue:V_J1850-OBDII_IoT1 #PWR091
+L V_J1850 #PWR091
 U 1 1 5900FFB7
 P 5250 3400
 F 0 "#PWR091" H 900 2690 20  0001 C CNN
@@ -623,7 +627,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 4500 6150 4350
 $Comp
-L PF_apiner-rescue:+3.3V-OBDII_IoT1 #PWR092
+L +3.3V #PWR092
 U 1 1 59011723
 P 8950 1550
 F 0 "#PWR092" H 9000 1600 20  0001 C CNN
@@ -634,7 +638,7 @@ F 3 "" H 2200 -3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:R-OBDII_IoT1 R39
+L R R39
 U 1 1 5901172D
 P 8950 1750
 F 0 "R39" V 9030 1750 50  0000 C CNN
@@ -651,7 +655,7 @@ $EndComp
 Wire Wire Line
 	8950 1600 8950 1550
 $Comp
-L PF_apiner-rescue:DLC_SW-OBDII_IoT1 #PWR093
+L DLC_SW #PWR093
 U 1 1 5901176C
 P 8450 1550
 F 0 "#PWR093" H 8450 1640 20  0001 C CNN
@@ -664,7 +668,7 @@ $EndComp
 Wire Wire Line
 	8450 1550 8450 1650
 $Comp
-L PF_apiner-rescue:R-OBDII_IoT1 R35
+L R R35
 U 1 1 59011805
 P 7350 2250
 F 0 "R35" V 7430 2250 50  0000 C CNN
@@ -679,7 +683,7 @@ F 7 "311-10KJRCT-ND" H 7350 2250 60  0001 C CNN "Digikey#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L PF_apiner-rescue:R-OBDII_IoT1 R34
+L R R34
 U 1 1 590118B7
 P 7350 1850
 F 0 "R34" V 7430 1850 50  0000 C CNN
@@ -694,7 +698,7 @@ F 7 "311-2.7KJRCT-ND" H 7350 1850 60  0001 C CNN "Digikey#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L PF_apiner-rescue:R-OBDII_IoT1 R37
+L R R37
 U 1 1 590119B2
 P 8050 1850
 F 0 "R37" V 8130 1850 50  0000 C CNN
@@ -720,7 +724,7 @@ Wire Wire Line
 	7350 2050 8250 2050
 Connection ~ 7350 2050
 $Comp
-L PF_apiner-rescue:+5V_SW-OBDII_IoT1 #PWR094
+L +5V_SW #PWR094
 U 1 1 590137AA
 P 7350 1550
 F 0 "#PWR094" H 7350 1640 20  0001 C CNN
@@ -733,7 +737,7 @@ $EndComp
 Wire Wire Line
 	7350 1550 7350 1700
 $Comp
-L PF_apiner-rescue:GND-OBDII_IoT1 #PWR095
+L GND #PWR095
 U 1 1 5901397C
 P 7350 2450
 F 0 "#PWR095" H 7350 2200 50  0001 C CNN
@@ -746,7 +750,7 @@ $EndComp
 Wire Wire Line
 	7350 2450 7350 2400
 $Comp
-L PF_apiner-rescue:GND-OBDII_IoT1 #PWR096
+L GND #PWR096
 U 1 1 59013A21
 P 8450 2450
 F 0 "#PWR096" H 8450 2200 50  0001 C CNN
@@ -764,7 +768,7 @@ Wire Wire Line
 	8950 1950 8950 1900
 Connection ~ 8950 1950
 $Comp
-L PF_apiner-rescue:+5V_SW-OBDII_IoT1 #PWR097
+L +5V_SW #PWR097
 U 1 1 590144CF
 P 8200 3400
 F 0 "#PWR097" H 8200 3490 20  0001 C CNN
@@ -775,7 +779,7 @@ F 3 "" H 8200 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:D_Schot-OBDII_IoT1 D10
+L D_Schot D10
 U 1 1 590146A5
 P 8200 3550
 F 0 "D10" H 8150 3650 50  0000 L CNN
@@ -790,7 +794,7 @@ F 7 "DB2J31000LCT-ND" H 8200 3550 60  0001 C CNN "Digikey#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PF_apiner-rescue:R-OBDII_IoT1 R38
+L R R38
 U 1 1 590146AF
 P 8200 3850
 F 0 "R38" V 8280 3850 50  0000 C CNN
@@ -805,7 +809,7 @@ F 7 "311-10KJRCT-ND" H 8200 3850 60  0001 C CNN "Digikey#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L PF_apiner-rescue:MOS_N-OBDII_IoT1 Q10
+L MOS_N Q10
 U 1 1 590147AD
 P 8100 4300
 F 0 "Q10" H 8050 4500 50  0000 R CNN
@@ -820,7 +824,7 @@ F 7 "2N7002ET1GOSCT-ND" H 8100 4300 60  0001 C CNN "Digikey#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:R-OBDII_IoT1 R36
+L R R36
 U 1 1 59015277
 P 7850 3850
 F 0 "R36" V 7930 3850 50  0000 C CNN
@@ -837,7 +841,7 @@ $EndComp
 Wire Wire Line
 	7800 4300 7900 4300
 $Comp
-L PF_apiner-rescue:GND-OBDII_IoT1 #PWR098
+L GND #PWR098
 U 1 1 590155AC
 P 8200 4550
 F 0 "#PWR098" H 8200 4300 50  0001 C CNN
@@ -848,7 +852,7 @@ F 3 "" H 8200 4550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:+5V_SW-OBDII_IoT1 #PWR099
+L +5V_SW #PWR099
 U 1 1 59015925
 P 7850 3400
 F 0 "#PWR099" H 7850 3490 20  0001 C CNN
@@ -877,7 +881,7 @@ Connection ~ 8200 4050
 Wire Wire Line
 	8200 4550 8200 4500
 $Comp
-L PF_apiner-rescue:LM317LD-OBDII_IoT1 U9
+L LM317LD U9
 U 1 1 58F8CA15
 P 3400 1650
 F 0 "U9" H 3225 1875 50  0000 C CNN
@@ -892,7 +896,7 @@ F 7 "296-26093-1-ND" H 3400 1650 60  0001 C CNN "Digikey#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:C-OBDII_IoT1 C27
+L C C27
 U 1 1 58FD532B
 P 4150 1850
 F 0 "C27" V 4050 1800 50  0000 L CNN
@@ -907,7 +911,7 @@ F 7 "311-1341-1-ND" H 4150 1850 60  0001 C CNN "Digikey#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:GND-OBDII_IoT1 #PWR0100
+L GND #PWR0100
 U 1 1 58FD55BE
 P 4150 2150
 F 0 "#PWR0100" H 4150 1900 50  0001 C CNN
