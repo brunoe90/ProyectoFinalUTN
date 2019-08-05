@@ -1,6 +1,17 @@
+<<<<<<< HEAD
+EESchema Schematic File Version 2
+LIBS:Connector
+LIBS:ESP32-footprints-Shem-Lib
+LIBS:ftdi
+LIBS:OBDII_IoT
+LIBS:STN2120
+LIBS:PF_apiner-cache
+EELAYER 25 0
+=======
 EESchema Schematic File Version 4
 LIBS:PF_apiner-cache
 EELAYER 29 0
+>>>>>>> 25637c97d9b34f8e8d7fc5a44d99ab7ccbe67c5f
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -149,7 +160,7 @@ Text HLabel 7000 3050 2    50   Output ~ 0
 STN_SLEEP
 Text HLabel 4350 3600 0    50   Output ~ 0
 STN_RESET
-Text Notes 8600 4000 0    50   ~ 0
+Text Notes 8750 3650 0    50   ~ 0
 PAG 10\npull-up interno\nGPIO 0 -> 0: DOWNLOAD BOOT\nGPIO 0 -> 1: SPI BOOT
 Text Notes 6250 4800 0    50   ~ 0
 PAG 10\nGPIO15 -> MTDO-> 0 -> U0TXD Silent\ndejarlo sin soldar la resistencia y despues poner una de 0 ohm
@@ -238,7 +249,6 @@ NoConn ~ 4700 3200
 NoConn ~ 4700 3300
 NoConn ~ 4700 3700
 NoConn ~ 4700 3800
-NoConn ~ 4700 3900
 NoConn ~ 5300 4450
 NoConn ~ 5600 4450
 NoConn ~ 5700 4450
@@ -340,7 +350,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 4350 8200 4400
 Wire Wire Line
-	8200 4400 8300 4400
+	8200 4400 8650 4400
 Wire Wire Line
 	8300 4400 8300 4350
 Wire Wire Line
@@ -414,7 +424,7 @@ BOOT
 Wire Wire Line
 	6550 3850 6650 3850
 Wire Wire Line
-	8050 3750 8300 3750
+	8050 3750 8650 3750
 Wire Wire Line
 	8200 3750 8200 3850
 Connection ~ 8300 3750
@@ -428,4 +438,76 @@ NoConn ~ 4700 3400
 Wire Wire Line
 	6550 3550 7050 3550
 NoConn ~ 4700 3500
+$Comp
+L C C34
+U 1 1 5D48B20D
+P 8650 4100
+F 0 "C34" V 8550 4050 50  0000 L CNN
+F 1 "0.1uF" V 8750 4000 50  0000 L CNN
+F 2 "chip_rlc:c_0402" H 8688 3950 50  0001 C CNN
+F 3 "" H 8650 4100 50  0000 C CNN
+F 4 "CAP CER 0.1UF 10V X5R 0402" H 8650 4100 60  0001 C CNN "Desc"
+F 5 "Yageo" H 8650 4100 60  0001 C CNN "Manf"
+F 6 "CC0402KRX5R6BB104" H 8650 4100 60  0001 C CNN "Manf#"
+F 7 "311-1336-1-ND" H 8650 4100 60  0001 C CNN "Digikey#"
+	1    8650 4100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 3750 8650 3950
+Wire Wire Line
+	8650 4400 8650 4250
+Connection ~ 8300 4400
+$Comp
+L R R55
+U 1 1 5D491F3F
+P 3950 4900
+F 0 "R55" V 4030 4900 50  0000 C CNN
+F 1 "100" V 3950 4900 50  0000 C CNN
+F 2 "chip_rlc:r_0402" V 3880 4900 50  0001 C CNN
+F 3 "" H 3950 4900 50  0000 C CNN
+F 4 "RES SMD 100 OHM 5% 1/16W 0402" H 3950 4900 60  0001 C CNN "Desc"
+F 5 "Yageo" H 3950 4900 60  0001 C CNN "Manf"
+F 6 "RC0402JR-07100RL" H 3950 4900 60  0001 C CNN "Manf#"
+F 7 "311-100JRCT-ND" H 3950 4900 60  0001 C CNN "Digikey#"
+	1    3950 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED DS1
+U 1 1 5D491FC2
+P 3950 5250
+F 0 "DS1" H 3900 5375 50  0000 L CNN
+F 1 "LED" H 3900 5150 50  0000 L CNN
+F 2 "misc:LED-0603" V 3950 5250 50  0001 C CNN
+F 3 "" V 3950 5250 50  0000 C CNN
+F 4 "Rohm Semiconductor" H 3950 5250 60  0001 C CNN "Manf"
+F 5 "SML-D12U1WT86" H 3950 5250 60  0001 C CNN "Manf#"
+F 6 "SML-D12U1WT86CT-ND" H 3950 5250 60  0001 C CNN "Digikey#"
+	1    3950 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR0132
+U 1 1 5D492137
+P 3950 5450
+F 0 "#PWR0132" H 3950 5200 50  0001 C CNN
+F 1 "GND" H 3955 5277 50  0001 C CNN
+F 2 "" H 3950 5450 50  0000 C CNN
+F 3 "" H 3950 5450 50  0000 C CNN
+	1    3950 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5450 3950 5350
+Wire Wire Line
+	3950 5150 3950 5050
+Wire Wire Line
+	3950 4650 3950 4750
+Text Label 4500 3900 2    60   ~ 0
+Led_Status
+Wire Wire Line
+	4500 3900 4700 3900
+Text Label 3950 4650 0    60   ~ 0
+Led_Status
 $EndSCHEMATC

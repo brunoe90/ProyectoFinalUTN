@@ -1,6 +1,17 @@
+<<<<<<< HEAD
+EESchema Schematic File Version 2
+LIBS:Connector
+LIBS:ESP32-footprints-Shem-Lib
+LIBS:ftdi
+LIBS:OBDII_IoT
+LIBS:STN2120
+LIBS:PF_apiner-cache
+EELAYER 25 0
+=======
 EESchema Schematic File Version 4
 LIBS:PF_apiner-cache
 EELAYER 29 0
+>>>>>>> 25637c97d9b34f8e8d7fc5a44d99ab7ccbe67c5f
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
