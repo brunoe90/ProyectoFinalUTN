@@ -1,3 +1,3 @@
 clean:
-	rm ./*.bak
+	rm ./*bak
 	rm ./*cache*
