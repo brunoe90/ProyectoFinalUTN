@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:PF_apiner-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -50,7 +50,7 @@ POWER\nSUPPLY
 Entry Wire Line
 	12150 9650 12250 9750
 $Comp
-L PF_apiner-rescue:GND-OBDII_IoT1 #PWR01
+L OBDII_IoT:GND #PWR01
 U 1 1 58F8F97A
 P 1550 4150
 F 0 "#PWR01" H 1550 3900 50  0001 C CNN
@@ -61,7 +61,7 @@ F 3 "" H 1550 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:CONN_2X16_OBDII-OBDII_IoT1 J1
+L OBDII_IoT:CONN_2X16_OBDII J1
 U 1 1 58F8F983
 P 1250 3350
 F 0 "J1" H 1350 2500 50  0000 C CNN
@@ -160,7 +160,7 @@ F23 "SW_CAN_MODE1" O L 5100 4150 40
 F24 "SW_CAN_LOAD" O L 5100 4250 40 
 $EndSheet
 $Comp
-L PF_apiner-rescue:VIN-OBDII_IoT1 #PWR02
+L OBDII_IoT:VIN #PWR02
 U 1 1 58F9B79D
 P 1550 2550
 F 0 "#PWR02" H -4850 540 20  0001 C CNN
@@ -188,7 +188,7 @@ $EndSheet
 Text Notes 6700 2250 0    50   ~ 0
 El UART0 va al USB, el resto hay que configurarlos
 $Comp
-L PF_apiner-rescue:C-OBDII_IoT1 C?
+L OBDII_IoT:C C?
 U 1 1 5B8838EA
 P 10000 4600
 AR Path="/582F2211/5B8838EA" Ref="C?"  Part="1" 
@@ -205,7 +205,7 @@ F 7 "311-1336-1-ND" H 10000 4600 60  0001 C CNN "Digikey#"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:GND-OBDII_IoT1 #PWR?
+L OBDII_IoT:GND #PWR?
 U 1 1 5B883919
 P 10000 4850
 AR Path="/582F2211/5B883919" Ref="#PWR?"  Part="1" 
@@ -218,7 +218,7 @@ F 3 "" H 10000 4850 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:+5V_USB-OBDII_IoT1 #U04
+L OBDII_IoT:+5V_USB #U04
 U 1 1 5B88F65F
 P 9250 2300
 F 0 "#U04" H 9250 2450 50  0001 C CNN
@@ -229,7 +229,7 @@ F 3 "" H 9250 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:+5V-OBDII_IoT1 #PWR?
+L OBDII_IoT:+5V #PWR?
 U 1 1 5B8A5F5E
 P 10000 4250
 AR Path="/5B89C1C4/5B8A5F5E" Ref="#PWR?"  Part="1" 
@@ -242,7 +242,7 @@ F 3 "" H 10000 4250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:+5V_USB-OBDII_IoT1 U?
+L OBDII_IoT:+5V_USB U?
 U 1 1 5B8A5F68
 P 10650 4250
 AR Path="/5B89C1C4/5B8A5F68" Ref="U?"  Part="1" 
@@ -255,7 +255,7 @@ F 3 "" H 10650 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:GND-OBDII_IoT1 #PWR?
+L OBDII_IoT:GND #PWR?
 U 1 1 5B8BA0D1
 P 8900 3050
 AR Path="/582F2211/5B8BA0D1" Ref="#PWR?"  Part="1" 
@@ -268,7 +268,7 @@ F 3 "" H 8900 3050 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:D_Schot-OBDII_IoT1 D?
+L OBDII_IoT:D_Schot D?
 U 1 1 5B8CB262
 P 10350 4350
 AR Path="/5B89C1C4/5B8CB262" Ref="D?"  Part="1" 
@@ -285,7 +285,7 @@ F 7 "MBR0520LT1GOSCT-ND" H 10350 4350 50  0001 C CNN "Digikey#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:PWR_FLAG-OBDII_IoT1 #FLG08
+L OBDII_IoT:PWR_FLAG #FLG08
 U 1 1 5BA598FF
 P 9350 2200
 F 0 "#FLG08" H 9350 2295 50  0001 C CNN
@@ -509,7 +509,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 2200 9350 2400
 $Comp
-L PF_apiner-rescue:Conn_01x05-Connector1 J2
+L Connector:Conn_01x05 J2
 U 1 1 5BCA1F49
 P 9550 2700
 F 0 "J2" H 9550 3000 50  0000 C CNN
@@ -529,7 +529,7 @@ agrandar d1
 Wire Wire Line
 	10000 4350 10250 4350
 $Comp
-L PF_apiner-rescue:PCB_HOLE-OBDII_IoT1 H4
+L OBDII_IoT:PCB_HOLE H4
 U 1 1 5BDBC2D4
 P 10050 3650
 F 0 "H4" H 9900 3650 60  0000 C CNN
@@ -540,7 +540,7 @@ F 3 "PCB HOLE" H 10000 3800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:PCB_HOLE-OBDII_IoT1 H3
+L OBDII_IoT:PCB_HOLE H3
 U 1 1 5BDBD6A0
 P 10050 3500
 F 0 "H3" H 9900 3500 60  0000 C CNN
@@ -551,7 +551,7 @@ F 3 "PCB HOLE" H 10000 3650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:PCB_HOLE-OBDII_IoT1 H2
+L OBDII_IoT:PCB_HOLE H2
 U 1 1 5BDBD82A
 P 10050 3350
 F 0 "H2" H 9900 3350 60  0000 C CNN
@@ -562,7 +562,7 @@ F 3 "PCB HOLE" H 10000 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PF_apiner-rescue:PCB_HOLE-OBDII_IoT1 H1
+L OBDII_IoT:PCB_HOLE H1
 U 1 1 5BDBD9BA
 P 10050 3200
 F 0 "H1" H 9900 3200 60  0000 C CNN
