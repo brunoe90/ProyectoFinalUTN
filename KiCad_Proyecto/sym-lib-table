@@ -1,7 +1,7 @@
 (sym_lib_table
-  (lib (name Connector)(type Legacy)(uri ${LIBS}/Connector.lib)(options "")(descr ""))
-  (lib (name ESP32-footprints-Shem-Lib)(type Legacy)(uri ${LIBS}/ESP32-footprints-Shem-Lib.lib)(options "")(descr ""))
-  (lib (name ftdi)(type Legacy)(uri ${LIBS}/ftdi.lib)(options "")(descr ""))
-  (lib (name OBDII_IoT)(type Legacy)(uri ${LIBS}/OBDII_IoT.lib)(options "")(descr ""))
-  (lib (name STN2120)(type Legacy)(uri ${LIBS}/STN2120.lib)(options "")(descr ""))
+  (lib (name Connector)(type Legacy)(uri ${OBDII}/Connector.lib)(options "")(descr ""))
+  (lib (name ESP32-footprints-Shem-Lib)(type Legacy)(uri ${OBDII}/ESP32-footprints-Shem-Lib.lib)(options "")(descr ""))
+  (lib (name ftdi)(type Legacy)(uri ${OBDII}/ftdi.lib)(options "")(descr ""))
+  (lib (name OBDII_IoT)(type Legacy)(uri ${OBDII}/OBDII_IoT.lib)(options "")(descr ""))
+  (lib (name STN2120)(type Legacy)(uri ${OBDII}/STN2120.lib)(options "")(descr ""))
 )
